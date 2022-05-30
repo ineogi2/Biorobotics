@@ -1,0 +1,21 @@
+[0.029s] Invoking command in '/home/ineogi2/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/micro_ros_msgs -- -j12 -l12
+[0.086s] [  2%] Built target micro_ros_msgs__cpp
+[0.087s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[0.111s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.111s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.111s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.111s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.114s] [ 57%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.207s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.235s] [ 68%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[0.329s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.351s] [ 76%] Built target micro_ros_msgs
+[0.372s] [ 78%] Built target micro_ros_msgs__py
+[0.402s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__python.so[0m
+[0.461s] [ 87%] Built target micro_ros_msgs__python
+[0.489s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.490s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.490s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.527s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[0.527s] [ 97%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[0.561s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext

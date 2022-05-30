@@ -1,0 +1,30 @@
+running develop
+Removing /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros-teensy.egg-link (link to .)
+running egg_info
+writing ../../build/ros_teensy/ros_teensy.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_teensy/ros_teensy.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_teensy/ros_teensy.egg-info/entry_points.txt
+writing requirements to ../../build/ros_teensy/ros_teensy.egg-info/requires.txt
+writing top-level names to ../../build/ros_teensy/ros_teensy.egg-info/top_level.txt
+reading manifest file '../../build/ros_teensy/ros_teensy.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_teensy/ros_teensy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ineogi2/ros2_ws/build/ros_teensy/build
+creating /home/ineogi2/ros2_ws/build/ros_teensy/build/lib
+creating /home/ineogi2/ros2_ws/build/ros_teensy/build/lib/ros_teensy
+copying ros_teensy/ros_teensy_publisher.py -> /home/ineogi2/ros2_ws/build/ros_teensy/build/lib/ros_teensy
+copying ros_teensy/__init__.py -> /home/ineogi2/ros2_ws/build/ros_teensy/build/lib/ros_teensy
+running install
+running install_lib
+creating /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros_teensy
+copying /home/ineogi2/ros2_ws/build/ros_teensy/build/lib/ros_teensy/ros_teensy_publisher.py -> /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros_teensy
+copying /home/ineogi2/ros2_ws/build/ros_teensy/build/lib/ros_teensy/__init__.py -> /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros_teensy
+byte-compiling /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros_teensy/ros_teensy_publisher.py to ros_teensy_publisher.cpython-38.pyc
+byte-compiling /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros_teensy/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/ros_teensy/ros_teensy.egg-info to /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros_teensy-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ros_teensy_publisher script to /home/ineogi2/ros2_ws/install/ros_teensy/lib/ros_teensy
+writing list of installed files to '/home/ineogi2/ros2_ws/build/ros_teensy/install.log'

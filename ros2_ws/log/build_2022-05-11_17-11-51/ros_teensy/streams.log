@@ -1,0 +1,17 @@
+[0.630s] Invoking command in '/home/ineogi2/ros2_ws/build/ros_teensy': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/ros2_ws/install/ros_teensy --editable --build-directory /home/ineogi2/ros2_ws/build/ros_teensy/build --no-deps install_data --install-dir /home/ineogi2/ros2_ws/install/ros_teensy
+[0.805s] running develop
+[0.910s] running egg_info
+[0.910s] writing ros_teensy.egg-info/PKG-INFO
+[0.910s] writing dependency_links to ros_teensy.egg-info/dependency_links.txt
+[0.910s] writing entry points to ros_teensy.egg-info/entry_points.txt
+[0.911s] writing requirements to ros_teensy.egg-info/requires.txt
+[0.911s] writing top-level names to ros_teensy.egg-info/top_level.txt
+[0.935s] reading manifest file 'ros_teensy.egg-info/SOURCES.txt'
+[0.935s] writing manifest file 'ros_teensy.egg-info/SOURCES.txt'
+[0.960s] running build_ext
+[0.960s] Creating /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros-teensy.egg-link (link to .)
+[0.961s] Installing ros_teensy_publisher script to /home/ineogi2/ros2_ws/install/ros_teensy/lib/ros_teensy
+[0.961s] 
+[0.961s] Installed /home/ineogi2/ros2_ws/build/ros_teensy
+[0.962s] running install_data
+[0.990s] Invoked command in '/home/ineogi2/ros2_ws/build/ros_teensy' returned '0': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/ros2_ws/install/ros_teensy --editable --build-directory /home/ineogi2/ros2_ws/build/ros_teensy/build --no-deps install_data --install-dir /home/ineogi2/ros2_ws/install/ros_teensy

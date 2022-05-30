@@ -1,0 +1,24 @@
+[1.041s] Invoking command in '/home/ineogi2/ros2_ws/build/ros_image': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/ros2_ws/install/ros_image --editable --build-directory /home/ineogi2/ros2_ws/build/ros_image/build --no-deps install_data --install-dir /home/ineogi2/ros2_ws/install/ros_image
+[1.314s] running develop
+[1.474s] running egg_info
+[1.475s] creating ros_image.egg-info
+[1.475s] writing ros_image.egg-info/PKG-INFO
+[1.475s] writing dependency_links to ros_image.egg-info/dependency_links.txt
+[1.475s] writing entry points to ros_image.egg-info/entry_points.txt
+[1.475s] writing requirements to ros_image.egg-info/requires.txt
+[1.475s] writing top-level names to ros_image.egg-info/top_level.txt
+[1.476s] writing manifest file 'ros_image.egg-info/SOURCES.txt'
+[1.514s] reading manifest file 'ros_image.egg-info/SOURCES.txt'
+[1.515s] writing manifest file 'ros_image.egg-info/SOURCES.txt'
+[1.555s] running build_ext
+[1.555s] Creating /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/site.py
+[1.557s] Creating /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros-image.egg-link (link to .)
+[1.558s] 
+[1.558s] Installed /home/ineogi2/ros2_ws/build/ros_image
+[1.559s] running install_data
+[1.559s] creating /home/ineogi2/ros2_ws/install/ros_image/share/ament_index
+[1.559s] creating /home/ineogi2/ros2_ws/install/ros_image/share/ament_index/resource_index
+[1.559s] creating /home/ineogi2/ros2_ws/install/ros_image/share/ament_index/resource_index/packages
+[1.559s] copying resource/ros_image -> /home/ineogi2/ros2_ws/install/ros_image/share/ament_index/resource_index/packages
+[1.559s] copying package.xml -> /home/ineogi2/ros2_ws/install/ros_image/share/ros_image
+[1.586s] Invoked command in '/home/ineogi2/ros2_ws/build/ros_image' returned '0': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/ros2_ws/install/ros_image --editable --build-directory /home/ineogi2/ros2_ws/build/ros_image/build --no-deps install_data --install-dir /home/ineogi2/ros2_ws/install/ros_image

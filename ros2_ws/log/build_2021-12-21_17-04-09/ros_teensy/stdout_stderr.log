@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating ros_teensy.egg-info
+writing ros_teensy.egg-info/PKG-INFO
+writing dependency_links to ros_teensy.egg-info/dependency_links.txt
+writing entry points to ros_teensy.egg-info/entry_points.txt
+writing requirements to ros_teensy.egg-info/requires.txt
+writing top-level names to ros_teensy.egg-info/top_level.txt
+writing manifest file 'ros_teensy.egg-info/SOURCES.txt'
+reading manifest file 'ros_teensy.egg-info/SOURCES.txt'
+writing manifest file 'ros_teensy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/site.py
+Creating /home/ineogi2/ros2_ws/install/ros_teensy/lib/python3.8/site-packages/ros-teensy.egg-link (link to .)
+Installing ros_teensy_publisher script to /home/ineogi2/ros2_ws/install/ros_teensy/lib/ros_teensy
+
+Installed /home/ineogi2/ros2_ws/build/ros_teensy
+running install_data
+creating /home/ineogi2/ros2_ws/install/ros_teensy/share/ament_index
+creating /home/ineogi2/ros2_ws/install/ros_teensy/share/ament_index/resource_index
+creating /home/ineogi2/ros2_ws/install/ros_teensy/share/ament_index/resource_index/packages
+copying resource/ros_teensy -> /home/ineogi2/ros2_ws/install/ros_teensy/share/ament_index/resource_index/packages
+copying package.xml -> /home/ineogi2/ros2_ws/install/ros_teensy/share/ros_teensy

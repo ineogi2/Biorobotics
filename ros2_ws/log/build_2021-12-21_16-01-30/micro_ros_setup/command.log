@@ -1,0 +1,1 @@
+Invoking command in '/home/ineogi2/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/micro_ros_setup -- -j12 -l12

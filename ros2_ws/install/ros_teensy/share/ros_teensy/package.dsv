@@ -1,0 +1,9 @@
+source;share/ros_teensy/hook/pythonpath.ps1
+source;share/ros_teensy/hook/pythonpath.dsv
+source;share/ros_teensy/hook/pythonpath.sh
+source;share/ros_teensy/hook/ament_prefix_path.ps1
+source;share/ros_teensy/hook/ament_prefix_path.dsv
+source;share/ros_teensy/hook/ament_prefix_path.sh
+source;../../build/ros_teensy/share/ros_teensy/hook/pythonpath_develop.ps1
+source;../../build/ros_teensy/share/ros_teensy/hook/pythonpath_develop.dsv
+source;../../build/ros_teensy/share/ros_teensy/hook/pythonpath_develop.sh

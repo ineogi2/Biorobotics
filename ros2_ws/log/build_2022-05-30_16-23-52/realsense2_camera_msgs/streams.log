@@ -1,0 +1,5 @@
+[0.024s] Invoking command in '/home/ineogi2/ros2_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ros2_ws/install/ros_teensy:/home/ineogi2/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/realsense2_camera_msgs -- -j12 -l12
+[0.194s] CMake Error: The source directory "/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera_msgs" does not exist.
+[0.194s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.194s] make: *** [Makefile:1468: cmake_check_build_system] 오류 1
+[0.362s] Invoked command in '/home/ineogi2/ros2_ws/build/realsense2_camera_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ros2_ws/install/ros_teensy:/home/ineogi2/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/realsense2_camera_msgs -- -j12 -l12

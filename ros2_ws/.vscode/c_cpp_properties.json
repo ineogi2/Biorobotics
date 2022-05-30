@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ineogi2/microros_ws/install/micro_ros_agent/include/**",
+        "/home/ineogi2/microros_ws/install/micro_ros_msgs/include/**",
+        "/home/ineogi2/microros_ws/install/drive_base_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/ineogi2/librealsense/include/**",
+        "/home/ineogi2/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/**",
+        "/home/ineogi2/src/eProsima/Micro-CDR/include/**",
+        "/home/ineogi2/src/eProsima/Micro-XRCE-DDS-Client/include/**",
+        "/home/ineogi2/src/ros2/common_interfaces/sensor_msgs/include/**",
+        "/home/ineogi2/src/ros2/rcl_interfaces/test_msgs/include/**",
+        "/home/ineogi2/src/uros/rclc/rclc/include/**",
+        "/home/ineogi2/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/include/**",
+        "/home/ineogi2/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c/include/**",
+        "/home/ineogi2/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

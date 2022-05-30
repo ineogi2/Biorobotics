@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing ros_image.egg-info/PKG-INFO
+writing dependency_links to ros_image.egg-info/dependency_links.txt
+writing entry points to ros_image.egg-info/entry_points.txt
+writing requirements to ros_image.egg-info/requires.txt
+writing top-level names to ros_image.egg-info/top_level.txt
+reading manifest file 'ros_image.egg-info/SOURCES.txt'
+writing manifest file 'ros_image.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros-image.egg-link (link to .)
+Installing ros_image script to /home/ineogi2/ros2_ws/install/ros_image/lib/ros_image
+
+Installed /home/ineogi2/ros2_ws/build/ros_image
+running install_data
+copying package.xml -> /home/ineogi2/ros2_ws/install/ros_image/share/ros_image

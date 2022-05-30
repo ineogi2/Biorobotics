@@ -1,0 +1,37 @@
+[0.706s] Invoking command in '/home/ineogi2/ros2_ws/build/ros_image': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/ros2_ws/install/ros_image --uninstall --editable --build-directory /home/ineogi2/ros2_ws/build/ros_image/build
+[0.905s] running develop
+[1.017s] Removing /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros-image.egg-link (link to .)
+[1.039s] Invoked command in '/home/ineogi2/ros2_ws/build/ros_image' returned '0': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/ros2_ws/install/ros_image --uninstall --editable --build-directory /home/ineogi2/ros2_ws/build/ros_image/build
+[1.041s] Invoking command in '/home/ineogi2/ros2_ws/src/ros_image': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_image build --build-base /home/ineogi2/ros2_ws/build/ros_image/build install --prefix /home/ineogi2/ros2_ws/install/ros_image --record /home/ineogi2/ros2_ws/build/ros_image/install.log --single-version-externally-managed
+[1.221s] running egg_info
+[1.221s] writing ../../build/ros_image/ros_image.egg-info/PKG-INFO
+[1.221s] writing dependency_links to ../../build/ros_image/ros_image.egg-info/dependency_links.txt
+[1.221s] writing entry points to ../../build/ros_image/ros_image.egg-info/entry_points.txt
+[1.222s] writing requirements to ../../build/ros_image/ros_image.egg-info/requires.txt
+[1.222s] writing top-level names to ../../build/ros_image/ros_image.egg-info/top_level.txt
+[1.248s] reading manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+[1.249s] writing manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+[1.249s] running build
+[1.249s] running build_py
+[1.249s] creating /home/ineogi2/ros2_ws/build/ros_image/build
+[1.249s] creating /home/ineogi2/ros2_ws/build/ros_image/build/lib
+[1.249s] creating /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image
+[1.249s] copying ros_image/ros_image_publisher_0120.py -> /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image
+[1.250s] copying ros_image/ros_image_publisher.py -> /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image
+[1.250s] copying ros_image/__init__.py -> /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image
+[1.250s] running install
+[1.250s] running install_lib
+[1.251s] creating /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.251s] copying /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image/ros_image_publisher_0120.py -> /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.251s] copying /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image/ros_image_publisher.py -> /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.251s] copying /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image/__init__.py -> /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.252s] byte-compiling /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/ros_image_publisher_0120.py to ros_image_publisher_0120.cpython-38.pyc
+[1.253s] byte-compiling /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/ros_image_publisher.py to ros_image_publisher.cpython-38.pyc
+[1.254s] byte-compiling /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/__init__.py to __init__.cpython-38.pyc
+[1.254s] running install_data
+[1.255s] running install_egg_info
+[1.256s] Copying ../../build/ros_image/ros_image.egg-info to /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image-0.0.1-py3.8.egg-info
+[1.257s] running install_scripts
+[1.269s] Installing ros_image script to /home/ineogi2/ros2_ws/install/ros_image/lib/ros_image
+[1.270s] writing list of installed files to '/home/ineogi2/ros2_ws/build/ros_image/install.log'
+[1.285s] Invoked command in '/home/ineogi2/ros2_ws/src/ros_image' returned '0': PYTHONPATH=/home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_image build --build-base /home/ineogi2/ros2_ws/build/ros_image/build install --prefix /home/ineogi2/ros2_ws/install/ros_image --record /home/ineogi2/ros2_ws/build/ros_image/install.log --single-version-externally-managed
