@@ -1,2 +1,2 @@
 # Biorobotics
-Biorobotics Lab 2021.08 ~
+Biorobotics Lab Intern 2021.08 ~
