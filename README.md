@@ -1,4 +1,5 @@
 # Biorobotics
+<<<<<<< HEAD
 Biorobotics Lab Intern 2021.08 ~
 
 ##Git 명령어
@@ -16,3 +17,11 @@ ros2 topic info <> : 토픽의 Publisher + subscriber
 ros2 interface show <sensors.msg/msg/Image> : 토픽 형식
 ros2 topic pub <topic name> <msg_type> "args" : 토픽 publishing
 ros2 topic hz <> : 토픽 publish rate
+=======
+## Biorobotics Lab Intern 2021.08 ~
+### 2021.08 ~ 2021.11
+
+### 2021.12 ~ 2022.02
+
+### 2022.03 ~ 
+>>>>>>> 4601851937d2c5414f966193666b55f25605b9ff
