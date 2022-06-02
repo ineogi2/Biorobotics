@@ -1,6 +1,0 @@
-Invoking command in '/home/ineogi2/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ros2_ws/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ros2_ws/install/micro_ros_setup
-Invoked command in '/home/ineogi2/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ros2_ws/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ros2_ws/install/micro_ros_setup
-Invoking command in '/home/ineogi2/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/micro_ros_setup -- -j12 -l12
-Invoked command in '/home/ineogi2/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/micro_ros_setup -- -j12 -l12
-Invoking command in '/home/ineogi2/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ros2_ws/build/micro_ros_setup
-Invoked command in '/home/ineogi2/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ros2_ws/build/micro_ros_setup

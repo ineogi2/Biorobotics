@@ -1,6 +1,0 @@
-Invoking command in '/home/ineogi2/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ros2_ws/microros_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ros2_ws/install/drive_base_msgs
-Invoked command in '/home/ineogi2/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ros2_ws/microros_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ros2_ws/install/drive_base_msgs
-Invoking command in '/home/ineogi2/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/drive_base_msgs -- -j12 -l12
-Invoked command in '/home/ineogi2/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ros2_ws/build/drive_base_msgs -- -j12 -l12
-Invoking command in '/home/ineogi2/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ros2_ws/build/drive_base_msgs
-Invoked command in '/home/ineogi2/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ros2_ws/build/drive_base_msgs

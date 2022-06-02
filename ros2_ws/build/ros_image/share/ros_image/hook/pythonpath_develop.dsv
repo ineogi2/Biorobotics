@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/ineogi2/ros2_ws/build/ros_image
+prepend-non-duplicate;PYTHONPATH;/home/ineogi2/ws/Biorobotics/ros2_ws/build/ros_image

@@ -1,1 +1,0 @@
-Invoking command in '/home/ineogi2/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ros2_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ros2_ws/install/micro_ros_msgs

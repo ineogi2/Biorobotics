@@ -1,3 +1,0 @@
-[console_scripts]
-ros_teensy_publisher = ros_teensy.ros_teensy_publisher:main
-

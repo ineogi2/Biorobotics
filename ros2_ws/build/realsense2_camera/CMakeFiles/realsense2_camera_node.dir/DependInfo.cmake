@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ineogi2/ros2_ws/build/realsense2_camera/rclcpp_components/node_main_realsense2_camera_node.cpp" "/home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o"
+  "/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/rclcpp_components/node_main_realsense2_camera_node.cpp" "/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/include"
+  "/home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/include"
   "/opt/ros/foxy/include"
-  "/home/ineogi2/microros_ws/install/micro_ros_agent/include"
   )
 
 # Targets to which this target links.

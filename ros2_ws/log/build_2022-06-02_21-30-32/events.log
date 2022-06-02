@@ -1,0 +1,506 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000174] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs')])}
+[0.000531] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs')])}
+[0.000549] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.007135] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.008048] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'build'}
+[0.008174] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs', '--', '-j12', '-l12'], 'cwd': '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ineogi2'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '49580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ineogi2'), ('OLDPWD', '/home/ineogi2/ws/Biorobotics/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '49401'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ineogi2/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ineogi2'), ('JOURNAL_STREAM', '8:314691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ineogi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ineogi2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ineogi2:@/tmp/.ICE-unix/53906,unix/ineogi2:/tmp/.ICE-unix/53906'), ('INVOCATION_ID', '1da2df040ba44b4db1d97d59feb0e89c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/feb3a02a_df99_4663_a7a0_2c5d62be4f7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.044221] (realsense2_camera_msgs) StdoutLine: {'line': b'[  1%] Built target realsense2_camera_msgs__cpp\n'}
+[0.045317] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target realsense2_camera_msgs__rosidl_generator_c\n'}
+[0.060627] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 54%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp\n'}
+[0.060810] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 54%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.060876] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[0.060930] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_c\n'}
+[0.062836] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.080461] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.092831] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs\n'}
+[0.099381] (-) TimerEvent: {}
+[0.105535] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target realsense2_camera_msgs__py\n'}
+[0.123648] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] Built target realsense2_camera_msgs__python\n'}
+[0.141284] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.141449] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.141511] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[0.149437] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[0.195010] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'install'}
+[0.199481] (-) TimerEvent: {}
+[0.202040] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs'], 'cwd': '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ineogi2'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '49580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ineogi2'), ('OLDPWD', '/home/ineogi2/ws/Biorobotics/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '49401'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ineogi2/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ineogi2'), ('JOURNAL_STREAM', '8:314691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ineogi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ineogi2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ineogi2:@/tmp/.ICE-unix/53906,unix/ineogi2:/tmp/.ICE-unix/53906'), ('INVOCATION_ID', '1da2df040ba44b4db1d97d59feb0e89c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/feb3a02a_df99_4663_a7a0_2c5d62be4f7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.208328] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.208785] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.208972] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs\n'}
+[0.209377] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[0.209495] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[0.209608] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[0.209720] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__functions.h\n'}
+[0.209833] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.h\n'}
+[0.209945] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__type_support.h\n'}
+[0.210079] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__functions.h\n'}
+[0.210331] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.h\n'}
+[0.210458] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[0.210582] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.h\n'}
+[0.210720] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.h\n'}
+[0.210807] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.h\n'}
+[0.210859] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.210927] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__functions.h\n'}
+[0.210990] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.h\n'}
+[0.211092] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__type_support.h\n'}
+[0.211203] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.h\n'}
+[0.211393] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh\n'}
+[0.211576] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv\n'}
+[0.212038] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[0.212156] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.212269] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[0.212380] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.212491] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.212785] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.213284] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.213402] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.213516] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.213631] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.213743] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.214030] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.214455] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[0.214571] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[0.214684] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[0.214795] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.214906] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[0.215330] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[0.215446] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[0.215560] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[0.215672] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp\n'}
+[0.215784] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp\n'}
+[0.215895] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp\n'}
+[0.216005] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[0.216116] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[0.216226] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[0.216334] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.hpp\n'}
+[0.216441] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.hpp\n'}
+[0.216548] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.hpp\n'}
+[0.216660] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__builder.hpp\n'}
+[0.216770] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.hpp\n'}
+[0.216879] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__traits.hpp\n'}
+[0.216987] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.hpp\n'}
+[0.217352] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.217468] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.217581] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.217692] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.217881] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh\n'}
+[0.218064] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv\n'}
+[0.218333] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/__init__.py\n'}
+[0.218634] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/__init__.py\n'}
+[0.218750] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_extrinsics.py\n'}
+[0.218864] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_imu_info.py\n'}
+[0.218976] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_metadata.py\n'}
+[0.219300] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/srv/__init__.py\n'}
+[0.219416] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/srv/_device_info.py\n'}
+[0.219710] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.220001] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.220293] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.220574] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__python.so\n'}
+[0.220768] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl\n'}
+[0.220955] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl\n'}
+[0.221142] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl\n'}
+[0.221328] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl\n'}
+[0.221513] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg\n'}
+[0.221695] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg\n'}
+[0.221878] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg\n'}
+[0.222060] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv\n'}
+[0.222298] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg\n'}
+[0.222478] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg\n'}
+[0.222670] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs\n'}
+[0.222860] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs\n'}
+[0.223044] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh\n'}
+[0.223225] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[0.223407] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh\n'}
+[0.223587] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv\n'}
+[0.223765] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash\n'}
+[0.223944] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh\n'}
+[0.224121] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh\n'}
+[0.224297] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv\n'}
+[0.224448] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv\n'}
+[0.230712] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs\n'}
+[0.230889] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.231075] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.231260] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.231445] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.231629] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.231812] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.231995] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.232181] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake\n'}
+[0.232294] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake\n'}
+[0.232475] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml\n'}
+[0.232651] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so\n'}
+[0.232886] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.233137] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so\n'}
+[0.233371] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.233602] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[0.255481] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[0.255707] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.255787] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.255838] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.256047] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.256216] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.256297] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.256449] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.256521] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.256582] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.256630] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.257995] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[0.299571] (-) TimerEvent: {}
+[0.324582] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 0}
+[0.325292] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[0.328078] (realsense2_description) JobStarted: {'identifier': 'realsense2_description'}
+[0.333305] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[0.333821] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera'], 'cwd': '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ineogi2'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '49580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ineogi2'), ('OLDPWD', '/home/ineogi2/ws/Biorobotics/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '49401'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ineogi2/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ineogi2'), ('JOURNAL_STREAM', '8:314691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ineogi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ineogi2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ineogi2:@/tmp/.ICE-unix/53906,unix/ineogi2:/tmp/.ICE-unix/53906'), ('INVOCATION_ID', '1da2df040ba44b4db1d97d59feb0e89c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/feb3a02a_df99_4663_a7a0_2c5d62be4f7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.336569] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'cmake'}
+[0.336986] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'build'}
+[0.337246] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_description', '--', '-j12', '-l12'], 'cwd': '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_description', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ineogi2'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '49580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ineogi2'), ('OLDPWD', '/home/ineogi2/ws/Biorobotics/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '49401'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ineogi2/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ineogi2'), ('JOURNAL_STREAM', '8:314691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ineogi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ineogi2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ineogi2:@/tmp/.ICE-unix/53906,unix/ineogi2:/tmp/.ICE-unix/53906'), ('INVOCATION_ID', '1da2df040ba44b4db1d97d59feb0e89c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/feb3a02a_df99_4663_a7a0_2c5d62be4f7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.344759] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[0.344907] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.360937] (realsense2_camera) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.364207] (realsense2_description) CommandEnded: {'returncode': 0}
+[0.376469] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'install'}
+[0.376654] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_description'], 'cwd': '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_description', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ineogi2'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '49580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ineogi2'), ('OLDPWD', '/home/ineogi2/ws/Biorobotics/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '49401'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ineogi2/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ineogi2'), ('JOURNAL_STREAM', '8:314691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ineogi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ineogi2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ineogi2:@/tmp/.ICE-unix/53906,unix/ineogi2:/tmp/.ICE-unix/53906'), ('INVOCATION_ID', '1da2df040ba44b4db1d97d59feb0e89c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/feb3a02a_df99_4663_a7a0_2c5d62be4f7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.383681] (realsense2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.384005] (realsense2_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.384366] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/launch/launch_utils.py\n'}
+[0.384522] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py\n'}
+[0.384699] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl\n'}
+[0.384783] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae\n'}
+[0.384878] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d455.stl\n'}
+[0.384986] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae\n'}
+[0.385092] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl\n'}
+[0.385200] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl\n'}
+[0.385431] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz\n'}
+[0.385748] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro\n'}
+[0.385859] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro\n'}
+[0.385966] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro\n'}
+[0.386097] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro\n'}
+[0.386326] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro\n'}
+[0.386479] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_l515.urdf.xacro\n'}
+[0.386574] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro\n'}
+[0.386641] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro\n'}
+[0.386754] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro\n'}
+[0.386859] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro\n'}
+[0.386965] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro\n'}
+[0.387071] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro\n'}
+[0.387182] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro\n'}
+[0.387285] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro\n'}
+[0.387390] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro\n'}
+[0.387495] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_l515_camera.urdf.xacro\n'}
+[0.387600] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro\n'}
+[0.387705] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro\n'}
+[0.387908] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description\n'}
+[0.388100] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description\n'}
+[0.388288] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh\n'}
+[0.388472] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv\n'}
+[0.388655] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/environment/path.sh\n'}
+[0.388842] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/environment/path.dsv\n'}
+[0.389022] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.bash\n'}
+[0.389201] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.sh\n'}
+[0.389379] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.zsh\n'}
+[0.389558] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.dsv\n'}
+[0.389705] (realsense2_description) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/package.dsv\n'}
+[0.395964] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description\n'}
+[0.396186] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake\n'}
+[0.396276] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake\n'}
+[0.396445] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description/share/realsense2_description/package.xml\n'}
+[0.397594] (realsense2_description) CommandEnded: {'returncode': 0}
+[0.399624] (-) TimerEvent: {}
+[0.422523] (realsense2_description) JobEnded: {'identifier': 'realsense2_description', 'rc': 0}
+[0.488635] (realsense2_camera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.493727] (realsense2_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.499696] (-) TimerEvent: {}
+[0.507212] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.509606] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.588195] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599764] (-) TimerEvent: {}
+[0.605287] (realsense2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[0.615785] (realsense2_camera) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[0.646406] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.647419] (realsense2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.699831] (-) TimerEvent: {}
+[0.799976] (-) TimerEvent: {}
+[0.852831] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.887591] (realsense2_camera) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 3.2.3 (/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)\n'}
+[0.900048] (-) TimerEvent: {}
+[0.912608] (realsense2_camera) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[0.918964] (realsense2_camera) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.968985] (realsense2_camera) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.000114] (-) TimerEvent: {}
+[1.100252] (-) TimerEvent: {}
+[1.158360] (realsense2_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)\n'}
+[1.198251] (realsense2_camera) StdoutLine: {'line': b'-- Build for ROS2 Foxy\n'}
+[1.200315] (-) TimerEvent: {}
+[1.240764] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.244642] (realsense2_camera) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[1.300402] (-) TimerEvent: {}
+[1.302440] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.303876] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.304157] (realsense2_camera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/include\n'}
+[1.304226] (realsense2_camera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.305436] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.305505] (realsense2_camera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.305894] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.306527] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.307017] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.308301] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.308370] (realsense2_camera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.308757] (realsense2_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.312640] (realsense2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.338016] (realsense2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[1.339217] (realsense2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera\n'}
+[1.344568] (realsense2_camera) CommandEnded: {'returncode': 0}
+[1.345077] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'build'}
+[1.346358] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera', '--', '-j12', '-l12'], 'cwd': '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ineogi2'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '49580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ineogi2'), ('OLDPWD', '/home/ineogi2/ws/Biorobotics/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '49401'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ineogi2/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ineogi2'), ('JOURNAL_STREAM', '8:314691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ineogi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ineogi2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ineogi2:@/tmp/.ICE-unix/53906,unix/ineogi2:/tmp/.ICE-unix/53906'), ('INVOCATION_ID', '1da2df040ba44b4db1d97d59feb0e89c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/feb3a02a_df99_4663_a7a0_2c5d62be4f7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[1.372957] (realsense2_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target realsense2_camera_node\x1b[0m\n'}
+[1.373274] (realsense2_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target realsense2_camera\x1b[0m\n'}
+[1.395771] (realsense2_camera) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o\x1b[0m\n'}
+[1.400476] (-) TimerEvent: {}
+[1.433184] (realsense2_camera) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o\x1b[0m\n'}
+[1.433374] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[1.434439] (realsense2_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o\x1b[0m\n'}
+[1.434738] (realsense2_camera) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o\x1b[0m\n'}
+[1.435534] (realsense2_camera) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o\x1b[0m\n'}
+[1.500589] (-) TimerEvent: {}
+[1.601135] (-) TimerEvent: {}
+[1.702081] (-) TimerEvent: {}
+[1.802440] (-) TimerEvent: {}
+[1.902793] (-) TimerEvent: {}
+[2.003123] (-) TimerEvent: {}
+[2.103456] (-) TimerEvent: {}
+[2.203775] (-) TimerEvent: {}
+[2.304162] (-) TimerEvent: {}
+[2.404544] (-) TimerEvent: {}
+[2.504884] (-) TimerEvent: {}
+[2.605245] (-) TimerEvent: {}
+[2.705580] (-) TimerEvent: {}
+[2.805945] (-) TimerEvent: {}
+[2.906342] (-) TimerEvent: {}
+[3.006643] (-) TimerEvent: {}
+[3.106948] (-) TimerEvent: {}
+[3.207366] (-) TimerEvent: {}
+[3.307707] (-) TimerEvent: {}
+[3.334079] (realsense2_camera) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable realsense2_camera_node\x1b[0m\n'}
+[3.407816] (-) TimerEvent: {}
+[3.429554] (realsense2_camera) StdoutLine: {'line': b'[ 87%] Built target realsense2_camera_node\n'}
+[3.507910] (-) TimerEvent: {}
+[3.608172] (-) TimerEvent: {}
+[3.708434] (-) TimerEvent: {}
+[3.808717] (-) TimerEvent: {}
+[3.909007] (-) TimerEvent: {}
+[4.009271] (-) TimerEvent: {}
+[4.109517] (-) TimerEvent: {}
+[4.209781] (-) TimerEvent: {}
+[4.310066] (-) TimerEvent: {}
+[4.410395] (-) TimerEvent: {}
+[4.510673] (-) TimerEvent: {}
+[4.610946] (-) TimerEvent: {}
+[4.711243] (-) TimerEvent: {}
+[4.811552] (-) TimerEvent: {}
+[4.911840] (-) TimerEvent: {}
+[5.012120] (-) TimerEvent: {}
+[5.112409] (-) TimerEvent: {}
+[5.212705] (-) TimerEvent: {}
+[5.312994] (-) TimerEvent: {}
+[5.413287] (-) TimerEvent: {}
+[5.513572] (-) TimerEvent: {}
+[5.613882] (-) TimerEvent: {}
+[5.714200] (-) TimerEvent: {}
+[5.814491] (-) TimerEvent: {}
+[5.914752] (-) TimerEvent: {}
+[6.015040] (-) TimerEvent: {}
+[6.115318] (-) TimerEvent: {}
+[6.215594] (-) TimerEvent: {}
+[6.315874] (-) TimerEvent: {}
+[6.416142] (-) TimerEvent: {}
+[6.516455] (-) TimerEvent: {}
+[6.616696] (-) TimerEvent: {}
+[6.716950] (-) TimerEvent: {}
+[6.817226] (-) TimerEvent: {}
+[6.917474] (-) TimerEvent: {}
+[7.017741] (-) TimerEvent: {}
+[7.117989] (-) TimerEvent: {}
+[7.218240] (-) TimerEvent: {}
+[7.318505] (-) TimerEvent: {}
+[7.418777] (-) TimerEvent: {}
+[7.519047] (-) TimerEvent: {}
+[7.619317] (-) TimerEvent: {}
+[7.719576] (-) TimerEvent: {}
+[7.819840] (-) TimerEvent: {}
+[7.920096] (-) TimerEvent: {}
+[8.020349] (-) TimerEvent: {}
+[8.120655] (-) TimerEvent: {}
+[8.220901] (-) TimerEvent: {}
+[8.321152] (-) TimerEvent: {}
+[8.421417] (-) TimerEvent: {}
+[8.521661] (-) TimerEvent: {}
+[8.621924] (-) TimerEvent: {}
+[8.722196] (-) TimerEvent: {}
+[8.822455] (-) TimerEvent: {}
+[8.922729] (-) TimerEvent: {}
+[9.022991] (-) TimerEvent: {}
+[9.123237] (-) TimerEvent: {}
+[9.223481] (-) TimerEvent: {}
+[9.323720] (-) TimerEvent: {}
+[9.423982] (-) TimerEvent: {}
+[9.524232] (-) TimerEvent: {}
+[9.624479] (-) TimerEvent: {}
+[9.724734] (-) TimerEvent: {}
+[9.825036] (-) TimerEvent: {}
+[9.925283] (-) TimerEvent: {}
+[10.025520] (-) TimerEvent: {}
+[10.125766] (-) TimerEvent: {}
+[10.226019] (-) TimerEvent: {}
+[10.326273] (-) TimerEvent: {}
+[10.426544] (-) TimerEvent: {}
+[10.526775] (-) TimerEvent: {}
+[10.627006] (-) TimerEvent: {}
+[10.727250] (-) TimerEvent: {}
+[10.827483] (-) TimerEvent: {}
+[10.927715] (-) TimerEvent: {}
+[11.027965] (-) TimerEvent: {}
+[11.128183] (-) TimerEvent: {}
+[11.228429] (-) TimerEvent: {}
+[11.328660] (-) TimerEvent: {}
+[11.428912] (-) TimerEvent: {}
+[11.529213] (-) TimerEvent: {}
+[11.629449] (-) TimerEvent: {}
+[11.729684] (-) TimerEvent: {}
+[11.829921] (-) TimerEvent: {}
+[11.930161] (-) TimerEvent: {}
+[12.030388] (-) TimerEvent: {}
+[12.130622] (-) TimerEvent: {}
+[12.230865] (-) TimerEvent: {}
+[12.331097] (-) TimerEvent: {}
+[12.431329] (-) TimerEvent: {}
+[12.531564] (-) TimerEvent: {}
+[12.631842] (-) TimerEvent: {}
+[12.732057] (-) TimerEvent: {}
+[12.832275] (-) TimerEvent: {}
+[12.932483] (-) TimerEvent: {}
+[13.032739] (-) TimerEvent: {}
+[13.132965] (-) TimerEvent: {}
+[13.233225] (-) TimerEvent: {}
+[13.333556] (-) TimerEvent: {}
+[13.433852] (-) TimerEvent: {}
+[13.534065] (-) TimerEvent: {}
+[13.634304] (-) TimerEvent: {}
+[13.734536] (-) TimerEvent: {}
+[13.834805] (-) TimerEvent: {}
+[13.935018] (-) TimerEvent: {}
+[14.035234] (-) TimerEvent: {}
+[14.135446] (-) TimerEvent: {}
+[14.235687] (-) TimerEvent: {}
+[14.335945] (-) TimerEvent: {}
+[14.436180] (-) TimerEvent: {}
+[14.536419] (-) TimerEvent: {}
+[14.636664] (-) TimerEvent: {}
+[14.736897] (-) TimerEvent: {}
+[14.837139] (-) TimerEvent: {}
+[14.937405] (-) TimerEvent: {}
+[15.037625] (-) TimerEvent: {}
+[15.137851] (-) TimerEvent: {}
+[15.238150] (-) TimerEvent: {}
+[15.338429] (-) TimerEvent: {}
+[15.438711] (-) TimerEvent: {}
+[15.539022] (-) TimerEvent: {}
+[15.639252] (-) TimerEvent: {}
+[15.739468] (-) TimerEvent: {}
+[15.839715] (-) TimerEvent: {}
+[15.939962] (-) TimerEvent: {}
+[16.040213] (-) TimerEvent: {}
+[16.140436] (-) TimerEvent: {}
+[16.240688] (-) TimerEvent: {}
+[16.340943] (-) TimerEvent: {}
+[16.441160] (-) TimerEvent: {}
+[16.541415] (-) TimerEvent: {}
+[16.641667] (-) TimerEvent: {}
+[16.741911] (-) TimerEvent: {}
+[16.842130] (-) TimerEvent: {}
+[16.942329] (-) TimerEvent: {}
+[17.042595] (-) TimerEvent: {}
+[17.142919] (-) TimerEvent: {}
+[17.243156] (-) TimerEvent: {}
+[17.343477] (-) TimerEvent: {}
+[17.443837] (-) TimerEvent: {}
+[17.544056] (-) TimerEvent: {}
+[17.644326] (-) TimerEvent: {}
+[17.744576] (-) TimerEvent: {}
+[17.844794] (-) TimerEvent: {}
+[17.945061] (-) TimerEvent: {}
+[18.045274] (-) TimerEvent: {}
+[18.145487] (-) TimerEvent: {}
+[18.245719] (-) TimerEvent: {}
+[18.345986] (-) TimerEvent: {}
+[18.446230] (-) TimerEvent: {}
+[18.546499] (-) TimerEvent: {}
+[18.646745] (-) TimerEvent: {}
+[18.746955] (-) TimerEvent: {}
+[18.847209] (-) TimerEvent: {}
+[18.947468] (-) TimerEvent: {}
+[19.047733] (-) TimerEvent: {}
+[19.147990] (-) TimerEvent: {}
+[19.248244] (-) TimerEvent: {}
+[19.348498] (-) TimerEvent: {}
+[19.448754] (-) TimerEvent: {}
+[19.549005] (-) TimerEvent: {}
+[19.649266] (-) TimerEvent: {}
+[19.749523] (-) TimerEvent: {}
+[19.849814] (-) TimerEvent: {}
+[19.946288] (realsense2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera.so\x1b[0m\n'}
+[19.949875] (-) TimerEvent: {}
+[20.050165] (-) TimerEvent: {}
+[20.150440] (-) TimerEvent: {}
+[20.250756] (-) TimerEvent: {}
+[20.328258] (realsense2_camera) StdoutLine: {'line': b'[100%] Built target realsense2_camera\n'}
+[20.335191] (realsense2_camera) CommandEnded: {'returncode': 0}
+[20.350838] (-) TimerEvent: {}
+[20.353532] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'install'}
+[20.353888] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera'], 'cwd': '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ineogi2'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '49580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ineogi2'), ('OLDPWD', '/home/ineogi2/ws/Biorobotics/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '49401'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ineogi2/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ineogi2'), ('JOURNAL_STREAM', '8:314691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ineogi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ineogi2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ineogi2:@/tmp/.ICE-unix/53906,unix/ineogi2:/tmp/.ICE-unix/53906'), ('INVOCATION_ID', '1da2df040ba44b4db1d97d59feb0e89c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/feb3a02a_df99_4663_a7a0_2c5d62be4f7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[20.360273] (realsense2_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[20.360690] (realsense2_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.361049] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node\n'}
+[20.366868] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so\n'}
+[20.372358] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/include/base_realsense_node.h\n'}
+[20.377677] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/include/constants.h\n'}
+[20.383586] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/include/dynamic_params.h\n'}
+[20.389230] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h\n'}
+[20.394843] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/include/ros_param_backend.h\n'}
+[20.400407] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/include/t265_realsense_node.h\n'}
+[20.406236] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz\n'}
+[20.411876] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_pointcloud_launch.py\n'}
+[20.417018] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_t265_launch.py\n'}
+[20.422288] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py\n'}
+[20.427436] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py\n'}
+[20.432782] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py\n'}
+[20.438110] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_t265_launch.py\n'}
+[20.443437] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/config/d435i.yaml\n'}
+[20.448788] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/rviz/pointcloud.rviz\n'}
+[20.450893] (-) TimerEvent: {}
+[20.453979] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/rviz/t265.rviz\n'}
+[20.459296] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh\n'}
+[20.464637] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv\n'}
+[20.469938] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera\n'}
+[20.475341] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera\n'}
+[20.480836] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh\n'}
+[20.486287] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv\n'}
+[20.491650] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh\n'}
+[20.496964] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv\n'}
+[20.502327] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash\n'}
+[20.507683] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh\n'}
+[20.512994] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh\n'}
+[20.518596] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv\n'}
+[20.523859] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv\n'}
+[20.529204] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera\n'}
+[20.534548] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera\n'}
+[20.539847] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.545131] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.550384] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.550954] (-) TimerEvent: {}
+[20.555726] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake\n'}
+[20.560797] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake\n'}
+[20.566261] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml\n'}
+[20.572485] (realsense2_camera) CommandEnded: {'returncode': 0}
+[20.603605] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 0}
+[20.604456] (-) EventReactorShutdown: {}

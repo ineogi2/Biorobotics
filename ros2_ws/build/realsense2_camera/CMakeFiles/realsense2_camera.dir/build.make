@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera
+CMAKE_SOURCE_DIR = /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ineogi2/ros2_ws/build/realsense2_camera
+CMAKE_BINARY_DIR = /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera
 
 # Include any dependencies generated for this target.
 include CMakeFiles/realsense2_camera.dir/depend.make
@@ -58,69 +58,69 @@ include CMakeFiles/realsense2_camera.dir/progress.make
 include CMakeFiles/realsense2_camera.dir/flags.make
 
 CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o: CMakeFiles/realsense2_camera.dir/flags.make
-CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o: /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o -c /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp
+CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o: /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o -c /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp
 
 CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp > CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp > CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.i
 
 CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp -o CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp -o CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.s
 
 CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o: CMakeFiles/realsense2_camera.dir/flags.make
-CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o: /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o -c /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp
+CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o: /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o -c /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp
 
 CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp > CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp > CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.i
 
 CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp -o CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp -o CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.s
 
 CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o: CMakeFiles/realsense2_camera.dir/flags.make
-CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o: /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o -c /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp
+CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o: /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o -c /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp
 
 CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp > CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp > CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.i
 
 CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp -o CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp -o CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.s
 
 CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o: CMakeFiles/realsense2_camera.dir/flags.make
-CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o: /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o -c /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp
+CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o: /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o -c /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp
 
 CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp > CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp > CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.i
 
 CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp -o CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/dynamic_params.cpp -o CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.s
 
 CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o: CMakeFiles/realsense2_camera.dir/flags.make
-CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o: /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o -c /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp
+CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o: /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o -c /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp
 
 CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp > CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp > CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.i
 
 CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp -o CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/src/ros_param_backend_foxy.cpp -o CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.s
 
 # Object files for target realsense2_camera
 realsense2_camera_OBJECTS = \
@@ -140,10 +140,10 @@ librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp
 librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o
 librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/build.make
 librealsense2_camera.so: /opt/ros/foxy/lib/x86_64-linux-gnu/librealsense2.so.2.50.0
-librealsense2_camera.so: /home/ineogi2/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
-librealsense2_camera.so: /home/ineogi2/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
-librealsense2_camera.so: /home/ineogi2/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
-librealsense2_camera.so: /home/ineogi2/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+librealsense2_camera.so: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+librealsense2_camera.so: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+librealsense2_camera.so: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+librealsense2_camera.so: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
@@ -157,38 +157,35 @@ librealsense2_camera.so: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstatic_transform_broadcaster_node.so
-librealsense2_camera.so: /usr/local/lib/libopencv_stitching.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_alphamat.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_aruco.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_bgsegm.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_bioinspired.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_ccalib.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_dnn_objdetect.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_dnn_superres.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_dpm.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_face.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_freetype.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_fuzzy.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_hdf.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_hfs.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_img_hash.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_intensity_transform.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_line_descriptor.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_quality.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_rapid.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_reg.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_rgbd.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_saliency.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_stereo.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_structured_light.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_superres.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_surface_matching.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_tracking.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_videostab.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_viz.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_xfeatures2d.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_xobjdetect.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_xphoto.so.4.4.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
 librealsense2_camera.so: /opt/ros/foxy/lib/libcv_bridge.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libimage_transport.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libmessage_filters.so
@@ -242,7 +239,7 @@ librealsense2_camera.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_intro
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-librealsense2_camera.so: /home/ineogi2/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+librealsense2_camera.so: /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_generator_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libcomponent_manager.so
@@ -287,7 +284,7 @@ librealsense2_camera.so: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport
 librealsense2_camera.so: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/librmw_implementation.so
 librealsense2_camera.so: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-librealsense2_camera.so: /home/ineogi2/microros_ws/install/micro_ros_agent/lib/libspdlog.a
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
 librealsense2_camera.so: /opt/ros/foxy/lib/librmw.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libtf2_msgs__rosidl_generator_c.so
@@ -309,26 +306,25 @@ librealsense2_camera.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_gen
 librealsense2_camera.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
-librealsense2_camera.so: /usr/local/lib/libopencv_shape.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_highgui.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_datasets.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_plot.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_text.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_dnn.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_ml.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_phase_unwrapping.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_optflow.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_ximgproc.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_video.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_videoio.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_imgcodecs.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_objdetect.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_calib3d.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_features2d.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_flann.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_photo.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_imgproc.so.4.4.0
-librealsense2_camera.so: /usr/local/lib/libopencv_core.so.4.4.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
@@ -347,7 +343,7 @@ librealsense2_camera.so: /opt/ros/foxy/lib/librcpputils.so
 librealsense2_camera.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/librcutils.so
 librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library librealsense2_camera.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library librealsense2_camera.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/realsense2_camera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -360,6 +356,6 @@ CMakeFiles/realsense2_camera.dir/clean:
 .PHONY : CMakeFiles/realsense2_camera.dir/clean
 
 CMakeFiles/realsense2_camera.dir/depend:
-	cd /home/ineogi2/ros2_ws/build/realsense2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/ros2_ws/build/realsense2_camera /home/ineogi2/ros2_ws/build/realsense2_camera /home/ineogi2/ros2_ws/build/realsense2_camera/CMakeFiles/realsense2_camera.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/realsense2_camera.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/realsense2_camera.dir/depend
 

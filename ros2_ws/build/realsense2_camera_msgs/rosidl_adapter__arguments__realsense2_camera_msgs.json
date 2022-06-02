@@ -1,9 +1,9 @@
 {
   "package_name": "realsense2_camera_msgs",
   "non_idl_tuples": [
-    "/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera_msgs:msg/IMUInfo.msg",
-    "/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera_msgs:msg/Extrinsics.msg",
-    "/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera_msgs:msg/Metadata.msg",
-    "/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera_msgs:srv/DeviceInfo.srv"
+    "/home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera_msgs:msg/IMUInfo.msg",
+    "/home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera_msgs:msg/Extrinsics.msg",
+    "/home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera_msgs:msg/Metadata.msg",
+    "/home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera_msgs:srv/DeviceInfo.srv"
   ]
 }

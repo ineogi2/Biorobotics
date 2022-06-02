@@ -4,6 +4,7 @@
 MEAN OF THE COORDINATE
 """
 
+import cv2 as cv
 from cv_bridge.core import CvBridgeError
 import rclpy
 from rclpy.node import Node
@@ -12,7 +13,6 @@ from rclpy.qos import QoSHistoryPolicy
 from sensor_msgs.msg import Image
 from std_msgs.msg import Int32
 from cv_bridge import CvBridge, CvBridgeError
-import cv2 as cv
 import numpy as np
 import os
 
@@ -32,12 +32,10 @@ class Imagenode(Node):
         self.tension_subscriber = self.create_subscription(Int32, '/tension', self.subscribe_tension, qos_profile)
 
         """realsense 통신 subscriber"""
-        self.image_subscriber = self.create_subscription(Image, '/carmea/color/image_raw', self.subscribe_pic, qos_profile)
-        # self.image_subscriber = self.create_subscription(Image, '/infra1/image_rect_raw', self.subscribe_pic, qos_profile)
-
+        self.image_subscriber = self.create_subscription(Image, '/color/image_raw', self.subscribe_pic, qos_profile)
         self.cv_bridge = CvBridge()
 
-        self.depth_subscriber = self.create_subscription(Image, '/camera/depth/image_rect_raw', self.subscribe_depth, qos_profile)
+        self.depth_subscriber = self.create_subscription(Image, '/depth/image_rect_raw', self.subscribe_depth, qos_profile)
         self.depth_bridge = CvBridge()
 
         """색깔 영역 boundary 설정"""
@@ -104,7 +102,8 @@ class Imagenode(Node):
                     center = self.moment(contour)
                     self.center.append(center)
                     if center != [0,0]:
-                        cv.circle(black, [x//2 for x in center], 5, self.col[i], -1, cv.LINE_4)
+                        center = (center[0]//2, center[1]//2)
+                        cv.circle(black, center, 5, self.col[i], -1, cv.LINE_4)
 
                 cv.imshow("Image", black)
                 cv.waitKey(10)

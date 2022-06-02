@@ -8,6 +8,7 @@ Biorobotics Lab Intern 2021.08 ~
 ### 2021.12 ~ 2022.02
 
 ### 2022.03 ~ 
+* Ubuntu 초기화 후 재설치 (06/02)
 
 ## Command 모음
 ### Git  

@@ -1,0 +1,51 @@
+[0.011s] Invoking command in '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera
+[0.020s] -- Create Release Build.
+[0.021s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.168s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.297s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.326s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.541s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.576s] -- Found realsense2_camera_msgs: 3.2.3 (/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[0.602s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.609s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.660s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.855s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[0.903s] CMake Warning at CMakeLists.txt:102 (find_package):
+[0.903s]   By not providing "Findrealsense2.cmake" in CMAKE_MODULE_PATH this project
+[0.903s]   has asked CMake to find a package configuration file provided by
+[0.903s]   "realsense2", but CMake did not find one.
+[0.904s] 
+[0.904s]   Could not find a package configuration file provided by "realsense2"
+[0.904s]   (requested version 2.50.0) with any of the following names:
+[0.904s] 
+[0.904s]     realsense2Config.cmake
+[0.904s]     realsense2-config.cmake
+[0.904s] 
+[0.904s]   Add the installation prefix of "realsense2" to CMAKE_PREFIX_PATH or set
+[0.904s]   "realsense2_DIR" to a directory containing one of the above files.  If
+[0.904s]   "realsense2" provides a separate development package or SDK, be sure it has
+[0.904s]   been installed.
+[0.904s] 
+[0.904s] 
+[0.904s] CMake Error at CMakeLists.txt:104 (message):
+[0.904s]   
+[0.904s] 
+[0.904s]   
+[0.904s] 
+[0.904s]    Intel RealSense SDK 2.0 is missing, please install it from https://github.com/IntelRealSense/librealsense/releases
+[0.904s] 
+[0.904s]   
+[0.904s] 
+[0.905s] 
+[0.905s] 
+[0.905s] -- Configuring incomplete, errors occurred!
+[0.905s] See also "/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/CMakeOutput.log".
+[0.905s] See also "/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/CMakeError.log".
+[0.909s] Invoked command in '/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera' returned '1': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera

@@ -1,1 +1,1 @@
-/home/ineogi2/ros2_ws/build/realsense2_description/ament_cmake_environment_hooks/local_setup.zsh
+/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_description/ament_cmake_environment_hooks/local_setup.zsh

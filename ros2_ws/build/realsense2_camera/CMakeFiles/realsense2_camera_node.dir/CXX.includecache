@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ineogi2/ros2_ws/build/realsense2_camera/rclcpp_components/node_main_realsense2_camera_node.cpp
+/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/rclcpp_components/node_main_realsense2_camera_node.cpp
 memory
 -
 string
@@ -14,13 +14,13 @@ string
 vector
 -
 class_loader/class_loader.hpp
-/home/ineogi2/ros2_ws/build/realsense2_camera/rclcpp_components/class_loader/class_loader.hpp
+/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/rclcpp_components/class_loader/class_loader.hpp
 rclcpp/rclcpp.hpp
-/home/ineogi2/ros2_ws/build/realsense2_camera/rclcpp_components/rclcpp/rclcpp.hpp
+/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/rclcpp_components/rclcpp/rclcpp.hpp
 rclcpp_components/node_factory.hpp
-/home/ineogi2/ros2_ws/build/realsense2_camera/rclcpp_components/rclcpp_components/node_factory.hpp
+/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/rclcpp_components/rclcpp_components/node_factory.hpp
 rclcpp_components/node_factory_template.hpp
-/home/ineogi2/ros2_ws/build/realsense2_camera/rclcpp_components/rclcpp_components/node_factory_template.hpp
+/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/rclcpp_components/rclcpp_components/node_factory_template.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
