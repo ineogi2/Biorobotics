@@ -3,6 +3,7 @@
 
 CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o
  /home/ineogi2/ros2_ws/build/realsense2_camera_msgs/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+ /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.hpp
  /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
  /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
  /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
@@ -16,6 +17,7 @@ CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosi
  /opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/message_introspection.hpp
  /opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
  /opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/visibility_control.h
+ /opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp
  rosidl_generator_cpp/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
 CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o
  /home/ineogi2/ros2_ws/build/realsense2_camera_msgs/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp

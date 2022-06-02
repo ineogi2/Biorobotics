@@ -19,6 +19,10 @@
 #include "rosidl_runtime_c/primitives_sequence.h"
 #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool realsense2_camera_msgs__msg__extrinsics__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -53,6 +57,17 @@ bool realsense2_camera_msgs__msg__extrinsics__convert_from_py(PyObject * _pymsg,
     assert(strncmp("realsense2_camera_msgs.msg._extrinsics.Extrinsics", full_classname_dest, 49) == 0);
   }
   realsense2_camera_msgs__msg__Extrinsics * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
   {  // rotation
     PyObject * field = PyObject_GetAttrString(_pymsg, "rotation");
     if (!field) {
@@ -123,6 +138,20 @@ PyObject * realsense2_camera_msgs__msg__extrinsics__convert_to_py(void * raw_ros
     }
   }
   realsense2_camera_msgs__msg__Extrinsics * ros_message = (realsense2_camera_msgs__msg__Extrinsics *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // rotation
     PyObject * field = NULL;
     field = PyObject_GetAttrString(_pymessage, "rotation");

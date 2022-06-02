@@ -16,6 +16,29 @@
 
 
 // forward declaration of message dependencies and their conversion functions
+namespace std_msgs
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const std_msgs::msg::Header &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  std_msgs::msg::Header &);
+size_t get_serialized_size(
+  const std_msgs::msg::Header &,
+  size_t current_alignment);
+size_t
+max_serialized_size_Header(
+  bool & full_bounded,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace std_msgs
+
 
 namespace realsense2_camera_msgs
 {
@@ -32,6 +55,10 @@ cdr_serialize(
   const realsense2_camera_msgs::msg::Extrinsics & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Member: header
+  std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.header,
+    cdr);
   // Member: rotation
   {
     cdr << ros_message.rotation;
@@ -49,6 +76,10 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   realsense2_camera_msgs::msg::Extrinsics & ros_message)
 {
+  // Member: header
+  std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.header);
+
   // Member: rotation
   {
     cdr >> ros_message.rotation;
@@ -75,6 +106,11 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
+  // Member: header
+
+  current_alignment +=
+    std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.header, current_alignment);
   // Member: rotation
   {
     size_t array_size = 9;
@@ -107,6 +143,18 @@ max_serialized_size_Extrinsics(
   (void)wchar_size;
   (void)full_bounded;
 
+
+  // Member: header
+  {
+    size_t array_size = 1;
+
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Header(
+        full_bounded, current_alignment);
+    }
+  }
 
   // Member: rotation
   {

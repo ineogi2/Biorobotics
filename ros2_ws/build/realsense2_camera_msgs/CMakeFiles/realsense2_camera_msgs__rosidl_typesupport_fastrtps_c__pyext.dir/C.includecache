@@ -627,6 +627,8 @@ stddef.h
 -
 stdint.h
 -
+std_msgs/msg/detail/header__struct.h
+rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__struct.h
 
 rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
 rosidl_typesupport_interface/macros.h

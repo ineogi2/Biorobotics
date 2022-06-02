@@ -34,8 +34,22 @@ extern "C"
 {
 #endif
 
+#include "std_msgs/msg/detail/header__functions.h"  // header
 
 // forward declare type support functions
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_realsense2_camera_msgs
+size_t get_serialized_size_std_msgs__msg__Header(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_realsense2_camera_msgs
+size_t max_serialized_size_std_msgs__msg__Header(
+  bool & full_bounded,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_realsense2_camera_msgs
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, std_msgs, msg, Header)();
 
 
 using _Extrinsics__ros_msg_type = realsense2_camera_msgs__msg__Extrinsics;
@@ -49,6 +63,20 @@ static bool _Extrinsics__cdr_serialize(
     return false;
   }
   const _Extrinsics__ros_msg_type * ros_message = static_cast<const _Extrinsics__ros_msg_type *>(untyped_ros_message);
+  // Field name: header
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->header, cdr))
+    {
+      return false;
+    }
+  }
+
   // Field name: rotation
   {
     size_t size = 9;
@@ -75,6 +103,20 @@ static bool _Extrinsics__cdr_deserialize(
     return false;
   }
   _Extrinsics__ros_msg_type * ros_message = static_cast<_Extrinsics__ros_msg_type *>(untyped_ros_message);
+  // Field name: header
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->header))
+    {
+      return false;
+    }
+  }
+
   // Field name: rotation
   {
     size_t size = 9;
@@ -106,6 +148,10 @@ size_t get_serialized_size_realsense2_camera_msgs__msg__Extrinsics(
   (void)padding;
   (void)wchar_size;
 
+  // field.name header
+
+  current_alignment += get_serialized_size_std_msgs__msg__Header(
+    &(ros_message->header), current_alignment);
   // field.name rotation
   {
     size_t array_size = 9;
@@ -148,6 +194,17 @@ size_t max_serialized_size_realsense2_camera_msgs__msg__Extrinsics(
   (void)wchar_size;
   (void)full_bounded;
 
+  // member: header
+  {
+    size_t array_size = 1;
+
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        max_serialized_size_std_msgs__msg__Header(
+        full_bounded, current_alignment);
+    }
+  }
   // member: rotation
   {
     size_t array_size = 9;

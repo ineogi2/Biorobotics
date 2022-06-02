@@ -319,8 +319,8 @@ include("/home/ineogi2/ros2_ws/build/realsense2_camera/ament_cmake_symlink_insta
 # install(DIRECTORY "include/" "DESTINATION" "include")
 ament_cmake_symlink_install_directory("/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera" DIRECTORY "include/" "DESTINATION" "include")
 
-# install(DIRECTORY "launch" "DESTINATION" "share/realsense2_camera")
-ament_cmake_symlink_install_directory("/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera" DIRECTORY "launch" "DESTINATION" "share/realsense2_camera")
+# install(DIRECTORY "launch" "config" "rviz" "DESTINATION" "share/realsense2_camera")
+ament_cmake_symlink_install_directory("/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera" DIRECTORY "launch" "config" "rviz" "DESTINATION" "share/realsense2_camera")
 
 # install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/realsense2_camera/environment")
 ament_cmake_symlink_install_files("/home/ineogi2/ros2_ws/src/realsense-ros/realsense2_camera" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/realsense2_camera/environment")

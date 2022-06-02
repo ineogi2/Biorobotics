@@ -9,10 +9,19 @@
 #include <string.h>
 
 
+// Include directives for member types
+// Member `header`
+#include "std_msgs/msg/detail/header__functions.h"
+
 bool
 realsense2_camera_msgs__msg__Extrinsics__init(realsense2_camera_msgs__msg__Extrinsics * msg)
 {
   if (!msg) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__init(&msg->header)) {
+    realsense2_camera_msgs__msg__Extrinsics__fini(msg);
     return false;
   }
   // rotation
@@ -26,6 +35,8 @@ realsense2_camera_msgs__msg__Extrinsics__fini(realsense2_camera_msgs__msg__Extri
   if (!msg) {
     return;
   }
+  // header
+  std_msgs__msg__Header__fini(&msg->header);
   // rotation
   // translation
 }

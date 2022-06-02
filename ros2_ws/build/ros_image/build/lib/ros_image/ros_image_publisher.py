@@ -23,7 +23,7 @@ class Imagenode(Node):
 
     def __init__(self):
         super().__init__('image_node')           ### 노드 이름
-        qos_profile = QoSProfile(history=QoSHistoryPolicy.KEEP_LAST, depth=10)       ### 버퍼 설정
+        qos_profile = QoSProfile(depth=1)       ### 버퍼 설정
 
         text_path = '/home/ineogi2/Documents/ros_data'
         os.chdir(text_path)
@@ -32,10 +32,12 @@ class Imagenode(Node):
         self.tension_subscriber = self.create_subscription(Int32, '/tension', self.subscribe_tension, qos_profile)
 
         """realsense 통신 subscriber"""
-        self.image_subscriber = self.create_subscription(Image, '/color/image_raw', self.subscribe_pic, qos_profile)
+        self.image_subscriber = self.create_subscription(Image, '/carmea/color/image_raw', self.subscribe_pic, qos_profile)
+        # self.image_subscriber = self.create_subscription(Image, '/infra1/image_rect_raw', self.subscribe_pic, qos_profile)
+
         self.cv_bridge = CvBridge()
 
-        self.depth_subscriber = self.create_subscription(Image, '/depth/image_rect_raw', self.subscribe_depth, qos_profile)
+        self.depth_subscriber = self.create_subscription(Image, '/camera/depth/image_rect_raw', self.subscribe_depth, qos_profile)
         self.depth_bridge = CvBridge()
 
         """색깔 영역 boundary 설정"""
@@ -80,12 +82,12 @@ class Imagenode(Node):
 
 
     def subscribe_pic(self, img):
-        if len(self.data) == self.buffer_length:
-            data_list = np.reshape(np.array(self.data), (self.buffer_length,4))
-            self.get_logger().info('{0} file saved.'.format(self.count))
-            np.savetxt('data {0}.csv'.format(self.count), data_list, fmt='%f', delimiter=',')
-            self.data = []
-            self.count += 1
+        # if len(self.data) == self.buffer_length:
+        #     data_list = np.reshape(np.array(self.data), (self.buffer_length,4))
+        #     self.get_logger().info('{0} file saved.'.format(self.count))
+        #     np.savetxt('data {0}.csv'.format(self.count), data_list, fmt='%f', delimiter=',')
+        #     self.data = []
+        #     self.count += 1
             
         if self.signal == 2:
             self.center = []
@@ -131,8 +133,8 @@ class Imagenode(Node):
                 self.get_logger().info('Error')
                 rclpy.shutdown()
             
-            # self.signal = 2
-            self.signal -= 1
+            self.signal = 2
+            # self.signal -= 1
 
 
 # --------------------------------------------------------------------------------

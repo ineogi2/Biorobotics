@@ -1,0 +1,28 @@
+running develop
+Removing /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros-image.egg-link (link to .)
+running egg_info
+writing ../../build/ros_image/ros_image.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_image/ros_image.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_image/ros_image.egg-info/entry_points.txt
+writing requirements to ../../build/ros_image/ros_image.egg-info/requires.txt
+writing top-level names to ../../build/ros_image/ros_image.egg-info/top_level.txt
+reading manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros_image/ros_image_publisher.py -> /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image
+running install
+running install_lib
+creating /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+copying /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image/ros_image_publisher_0120.py -> /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+copying /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image/ros_image_publisher.py -> /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+copying /home/ineogi2/ros2_ws/build/ros_image/build/lib/ros_image/__init__.py -> /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+byte-compiling /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/ros_image_publisher_0120.py to ros_image_publisher_0120.cpython-38.pyc
+byte-compiling /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/ros_image_publisher.py to ros_image_publisher.cpython-38.pyc
+byte-compiling /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/ros_image/ros_image.egg-info to /home/ineogi2/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image-0.0.1-py3.8.egg-info
+running install_scripts
+Installing ros_image script to /home/ineogi2/ros2_ws/install/ros_image/lib/ros_image
+writing list of installed files to '/home/ineogi2/ros2_ws/build/ros_image/install.log'
