@@ -11,13 +11,15 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile
 from rclpy.qos import QoSHistoryPolicy
 from sensor_msgs.msg import Image
-from std_msgs.msg import Int32
+from std_msgs.msg import Float32
 from cv_bridge import CvBridge, CvBridgeError
 import numpy as np
 import os
 
 # --------------------------------------------------------------------------------
 # Node
+
+header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
 
 class Imagenode(Node):
 
@@ -29,7 +31,7 @@ class Imagenode(Node):
         os.chdir(text_path)
 
         """teensy 통신 subscriber"""
-        self.tension_subscriber = self.create_subscription(Int32, '/tension', self.subscribe_tension, qos_profile)
+        self.tension_subscriber = self.create_subscription(Float32, '/tension', self.subscribe_tension, qos_profile)
 
         """realsense 통신 subscriber"""
         self.image_subscriber = self.create_subscription(Image, '/color/image_raw', self.subscribe_pic, qos_profile)
@@ -47,9 +49,12 @@ class Imagenode(Node):
         self.lower_blue = np.array([100, 50, 70])
         self.upper_blue = np.array([128, 255, 255])
 
-        self.lower_green = np.array([25, 52, 50])
-        self.upper_green = np.array([95, 255, 255])
+        self.lower_green = np.array([35, 70, 60])
+        self.upper_green = np.array([75, 255, 255])
 
+        # original
+        # self.lower_green = np.array([25, 52, 50])
+        # self.upper_green = np.array([95, 255, 255])
 
         self.lower_red = np.array([155, 70, 70])
         self.upper_red = np.array([190, 255, 255])
@@ -60,7 +65,7 @@ class Imagenode(Node):
         self.order = ['b','g','r']
         
         """Global 변수 설정"""
-        self.buffer_length = 10000     # buffer 크기
+        self.buffer_length = 100     # buffer 크기
         self.center = []    # marker center points
         self.count = 1      # 저장 주기
         self.signal = 2     # 통신 변수
@@ -74,16 +79,27 @@ class Imagenode(Node):
 
     def subscribe_tension(self, tension):
         if self.signal == 0:
-            self.data[-1].append(round(tension.data,2))
+            self.center = np.array(self.center).flatten().tolist()
+            # self.get_logger().info('{0}'.format(self.center))
+            # self.data[-1].append([round(tension.data,2)])
+            self.center.append(round(tension.data, 2))
+            self.data.append(self.center)
             self.signal = 2
 
 
 
     def subscribe_pic(self, img):
         if len(self.data) == self.buffer_length:
-            data_list = np.reshape(np.array(self.data), (self.buffer_length,4))
+            data_list = np.reshape(np.array(self.data), (self.buffer_length,10))
+            # self.get_logger().info('{0}'.format(np.shape(data_list)))
+            # self.get_logger().info('{0}'.format(data_list))
             self.get_logger().info('{0} file saved.'.format(self.count))
-            np.savetxt('data {0}.csv'.format(self.count), data_list, fmt='%f', delimiter=',')
+            while True:
+                try:
+                    np.savetxt('data {0}.csv'.format(self.count), data_list, header=header_,fmt='%f', delimiter=',')
+                    break
+                except:
+                    self.count+=1
             self.data = []
             self.count += 1
             
@@ -92,9 +108,10 @@ class Imagenode(Node):
 
             try:
                 cv_image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
-                cv.imshow("Original", cv_image)
+                # cv.imshow("Original", cv_image)
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
+                # cv.imshow("HSV", img_)
                 black = np.zeros((480, 640, 3), np.uint8)
 
                 for i in range(self.color_num):
@@ -127,14 +144,14 @@ class Imagenode(Node):
                     now.append(depth)
                     self.center[color] = now
 
-                self.data.append(self.center)
+                # self.data.append(self.center)
 
             except CvBridgeError:
                 self.get_logger().info('Error')
                 rclpy.shutdown()
             
-            self.signal = 2
-            # self.signal -= 1
+            # self.signal = 2
+            self.signal -= 1
 
 
 # --------------------------------------------------------------------------------

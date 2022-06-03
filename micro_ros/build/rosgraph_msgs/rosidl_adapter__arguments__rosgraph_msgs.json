@@ -1,6 +1,0 @@
-{
-  "package_name": "rosgraph_msgs",
-  "non_idl_tuples": [
-    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/rosgraph_msgs:msg/Clock.msg"
-  ]
-}

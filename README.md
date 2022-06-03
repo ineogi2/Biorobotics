@@ -8,14 +8,17 @@ Biorobotics Lab Intern 2021.08 ~
 ### 2021.12 ~ 2022.02
 
 ### 2022.03 ~ 
-* Ubuntu 초기화 후 재설치 (06/02)
+## 06/03 result
+* Distal / Middle / Proximal 손가락 마커 인식 -> Tension 데이터와 결합
+* 영상 참조
+* Future work : Green color 인식 개선 필요 + 마커 여러 개 사용
 
 ## Command 모음
 
 ### ROS2 Node 모음
 * **ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0** : host ~ teensy
-* **ros2 launch realsense2_camera rs_launch.py**  
-  or **ros2 run realsense2_camera realsense2_camera_node** : camera node
+* **ros2 launch realsense2_camera rs_launch.py**  or  
+  **ros2 run realsense2_camera realsense2_camera_node** : camera node
 * **ros2 run ros_image ros_image** : image_processing node
 
 ### Git  

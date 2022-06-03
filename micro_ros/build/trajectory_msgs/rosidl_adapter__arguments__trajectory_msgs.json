@@ -1,9 +1,0 @@
-{
-  "package_name": "trajectory_msgs",
-  "non_idl_tuples": [
-    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/trajectory_msgs:msg/JointTrajectory.msg",
-    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/trajectory_msgs:msg/JointTrajectoryPoint.msg",
-    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectory.msg",
-    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.msg"
-  ]
-}

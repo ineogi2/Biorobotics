@@ -1,4 +1,0 @@
-/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
-/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
-/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
-/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

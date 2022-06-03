@@ -5,6 +5,7 @@ resource/ros_image
 ros_image/__init__.py
 ros_image/ros_image_publisher.py
 ros_image/ros_image_publisher_0120.py
+ros_image/ros_image_publisher__.py
 ros_image.egg-info/PKG-INFO
 ros_image.egg-info/SOURCES.txt
 ros_image.egg-info/dependency_links.txt

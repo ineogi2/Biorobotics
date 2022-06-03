@@ -1,6 +1,0 @@
-Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr': /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr
-Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr' returned '0': /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr
-Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr': /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr -- -j12 -l12
-Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr -- -j12 -l12
-Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr': /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr
-Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr
