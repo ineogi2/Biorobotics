@@ -11,6 +11,13 @@ Biorobotics Lab Intern 2021.08 ~
 * Ubuntu 초기화 후 재설치 (06/02)
 
 ## Command 모음
+
+### ROS2 Node 모음
+* **ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0** : host ~ teensy
+* **ros2 launch realsense2_camera rs_launch.py**  
+  or **ros2 run realsense2_camera realsense2_camera_node** : camera node
+* **ros2 run ros_image ros_image** : image_processing node
+
 ### Git  
 * git init - 해당 폴더를 git 과 연동 or git clone "SSH 주소" 로 폴더 다운받고 시작해도 됨  
 * git add . - 현재 폴더 전부 등록  

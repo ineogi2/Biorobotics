@@ -1,0 +1,274 @@
+[0.041s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces
+[0.087s] -- The C compiler identification is GNU 9.4.0
+[0.143s] -- The CXX compiler identification is GNU 9.4.0
+[0.149s] -- Check for working C compiler: /usr/bin/cc
+[0.217s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.218s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.293s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++
+[0.378s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.379s] -- Detecting CXX compiler ABI info
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Detecting CXX compile features
+[0.503s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.518s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.518s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.760s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.778s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.071s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.221s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.357s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.506s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.516s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.533s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.533s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.533s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.533s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.563s] -- Found PythonExtra: .so  
+[1.622s] -- Configuring done
+[1.668s] -- Generating done
+[1.672s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces
+[1.682s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces
+[1.685s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces -- -j12 -l12
+[1.731s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.732s] [35m[1mScanning dependencies of target builtin_interfaces__cpp[0m
+[1.745s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.290s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_generator_c[0m
+[2.298s] [  4%] Built target builtin_interfaces__cpp
+[2.317s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.320s] [  8%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o[0m
+[2.337s] [ 10%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o[0m
+[2.345s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.348s] [ 14%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[2.360s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.451s] [ 18%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_c.so[0m
+[2.703s] [ 18%] Built target builtin_interfaces__rosidl_generator_c
+[2.761s] [ 20%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[2.766s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.778s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.040s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp[0m
+[3.067s] [ 26%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp.o[0m
+[3.097s] [ 28%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp.o[0m
+[3.199s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.263s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_cpp[0m
+[3.278s] [ 30%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o[0m
+[3.295s] [ 32%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o[0m
+[3.330s] [ 34%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[3.349s] [ 36%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[3.688s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.795s] [ 38%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o[0m
+[3.814s] [ 40%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[3.900s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_c[0m
+[3.994s] [ 42%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[4.004s] [ 44%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[4.181s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c[0m
+[4.216s] [ 46%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[4.261s] [ 48%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[4.318s] [ 51%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[4.349s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_c[0m
+[4.411s] [ 53%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[4.448s] [ 55%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_c.c.o[0m
+[4.451s] [ 57%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/time__type_support_c.c.o[0m
+[4.469s] [ 57%] Built target builtin_interfaces__rosidl_typesupport_c
+[4.527s] [ 59%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.618s] [ 61%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.642s] [ 63%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[4.696s] [ 63%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[4.712s] [ 63%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[4.841s] [ 63%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[4.858s] [ 63%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[4.872s] [ 65%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[5.001s] [ 65%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[5.326s] [ 67%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.599s] [ 67%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.631s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.074s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c[0m
+[6.121s] [ 71%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o[0m
+[6.131s] [ 73%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o[0m
+[6.734s] [ 75%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.990s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[7.037s] [35m[1mScanning dependencies of target builtin_interfaces[0m
+[7.101s] [ 75%] Built target builtin_interfaces
+[7.140s] [35m[1mScanning dependencies of target builtin_interfaces__py[0m
+[7.166s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.209s] [ 77%] Built target builtin_interfaces__py
+[8.229s] [35m[1mScanning dependencies of target builtin_interfaces__python[0m
+[8.270s] [ 79%] [32mBuilding C object CMakeFiles/builtin_interfaces__python.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[8.288s] [ 81%] [32mBuilding C object CMakeFiles/builtin_interfaces__python.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[8.438s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__python.so[0m
+[8.527s] [ 83%] Built target builtin_interfaces__python
+[8.548s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_c__pyext[0m
+[8.551s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[8.573s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.596s] [ 85%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.599s] [ 87%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.603s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext[0m
+[8.622s] [ 89%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.629s] [ 91%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[8.728s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.728s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.733s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.757s] [100%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.765s] [100%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.770s] [100%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[8.789s] [100%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[8.795s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.804s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces -- -j12 -l12
+[8.860s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces
+[8.869s] -- Install configuration: ""
+[8.869s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[8.869s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.869s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.869s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/duration.h
+[8.869s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/time.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__functions.c
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__functions.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__functions.c
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__functions.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__struct.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__struct.h
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[8.870s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[8.871s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+[8.871s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.871s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.872s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.874s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[8.874s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[8.874s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[8.874s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[8.874s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[8.874s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so" to ""
+[8.874s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.875s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.875s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.875s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.875s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[8.875s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[8.876s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.876s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.876s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.876s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.876s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.876s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.877s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[8.877s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/dds_fastrtps
+[8.877s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[8.878s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.879s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.879s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.880s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.881s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.881s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.c
+[8.881s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.c
+[8.882s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[8.882s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[8.882s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.882s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[8.882s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.882s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[8.882s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[8.883s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.883s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/duration.hpp
+[8.884s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__struct.hpp
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__builder.hpp
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__builder.hpp
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__traits.hpp
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__struct.hpp
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__traits.hpp
+[8.884s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/time.hpp
+[8.884s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.884s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.885s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[8.885s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.885s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.885s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.885s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[8.885s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[8.885s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[8.885s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[8.885s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[8.885s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces
+[8.885s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg
+[8.886s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[8.886s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[8.886s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[8.886s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.cpp
+[8.886s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.cpp
+[8.886s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.886s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.886s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[8.886s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.886s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[8.887s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[8.887s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/__init__.py
+[8.909s] Compiling '/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/__init__.py'...
+[8.913s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg
+[8.913s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_time.py
+[8.913s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/__init__.py
+[8.913s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_duration_s.c
+[8.913s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_duration.py
+[8.913s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_time_s.c
+[8.913s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[8.914s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.914s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.915s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.915s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.915s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.916s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.916s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.916s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__python.so
+[8.916s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/libbuiltin_interfaces__python.so" to ""
+[8.917s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[8.917s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[8.917s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[8.917s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[8.917s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[8.917s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[8.918s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[8.918s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[8.918s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[8.918s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[8.918s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[8.918s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[8.918s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[8.919s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[8.919s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[8.919s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[8.919s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport.cmake
+[8.919s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.919s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.920s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.920s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[8.920s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.920s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cppExport.cmake
+[8.920s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.921s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.921s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[8.921s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.921s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.921s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.922s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.922s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.922s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.922s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.922s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.922s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[8.922s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[8.923s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[8.925s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/builtin_interfaces

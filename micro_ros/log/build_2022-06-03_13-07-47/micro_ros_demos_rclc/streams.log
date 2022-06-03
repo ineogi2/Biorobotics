@@ -1,0 +1,1313 @@
+[0.048s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/build/ros_image:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.177s] -- The CXX compiler identification is GNU 9.4.0
+[0.184s] -- Check for working C compiler: /usr/bin/cc
+[0.254s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.255s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.323s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.390s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.468s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.498s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.498s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.013s] -- Configuring done
+[1.051s] -- Generating done
+[1.054s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc
+[1.060s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/build/ros_image:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc
+[1.062s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/build/ros_image:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc -- -j12 -l12
+[1.102s] [35m[1mScanning dependencies of target fibonacci_action_client[0m
+[1.102s] [35m[1mScanning dependencies of target fibonacci_action_server[0m
+[1.108s] [35m[1mScanning dependencies of target configured_subscriber[0m
+[1.111s] [35m[1mScanning dependencies of target graph_visualizer[0m
+[1.116s] [  1%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[1.116s] [35m[1mScanning dependencies of target configured_publisher[0m
+[1.119s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[1.120s] [  2%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[1.122s] [  2%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[1.123s] [35m[1mScanning dependencies of target subscription_count[0m
+[1.130s] [  3%] [34m[1mCreating directories for 'configured_publisher'[0m
+[1.133s] [  4%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[1.141s] [  4%] [34m[1mCreating directories for 'subscription_count'[0m
+[1.141s] [  4%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[1.238s] [  4%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[1.242s] [  5%] [34m[1mNo download step for 'subscription_count'[0m
+[1.254s] [  6%] [34m[1mNo download step for 'int32_subscriber'[0m
+[1.267s] [  6%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[1.272s] [  7%] [34m[1mNo download step for 'graph_visualizer'[0m
+[1.276s] [  8%] [34m[1mNo download step for 'configured_subscriber'[0m
+[1.282s] [  8%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[1.289s] [  8%] [34m[1mNo patch step for 'subscription_count'[0m
+[1.289s] [  9%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[1.305s] [ 10%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[1.307s] [ 10%] [34m[1mNo download step for 'configured_publisher'[0m
+[1.310s] [ 11%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[1.316s] [ 12%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[1.321s] [ 12%] [34m[1mNo update step for 'int32_subscriber'[0m
+[1.322s] [ 13%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[1.337s] [ 14%] [34m[1mNo update step for 'subscription_count'[0m
+[1.340s] [ 15%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[1.349s] [ 16%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[1.353s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[1.357s] [ 17%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[1.365s] [ 17%] [34m[1mNo update step for 'configured_subscriber'[0m
+[1.366s] [ 18%] [34m[1mNo patch step for 'configured_publisher'[0m
+[1.370s] [ 18%] [34m[1mNo update step for 'graph_visualizer'[0m
+[1.371s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[1.384s] [ 19%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[1.392s] [ 19%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[1.396s] [ 19%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[1.406s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[1.409s] [ 19%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[1.416s] [ 20%] [34m[1mNo update step for 'configured_publisher'[0m
+[1.421s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[1.421s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[1.434s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[1.442s] -- The C compiler identification is GNU 9.4.0
+[1.452s] -- Check for working C compiler: /usr/bin/cc
+[1.469s] [ 20%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[1.488s] -- The C compiler identification is GNU 9.4.0
+[1.490s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[1.492s] -- The C compiler identification is GNU 9.4.0
+[1.494s] -- The C compiler identification is GNU 9.4.0
+[1.497s] -- Check for working C compiler: /usr/bin/cc
+[1.502s] -- The C compiler identification is GNU 9.4.0
+[1.513s] -- Check for working C compiler: /usr/bin/cc
+[1.515s] -- Check for working C compiler: /usr/bin/cc
+[1.515s] -- Check for working C compiler: /usr/bin/cc
+[1.517s] -- The C compiler identification is GNU 9.4.0
+[1.537s] -- Check for working C compiler: /usr/bin/cc
+[1.556s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.557s] -- Detecting C compiler ABI info
+[1.568s] -- The C compiler identification is GNU 9.4.0
+[1.575s] -- Check for working C compiler: /usr/bin/cc
+[1.630s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.631s] -- Detecting C compiler ABI info
+[1.657s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.658s] -- Detecting C compiler ABI info
+[1.666s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.667s] -- Detecting C compiler ABI info
+[1.677s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.678s] -- Detecting C compiler ABI info
+[1.689s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.689s] -- Detecting C compiler ABI info
+[1.708s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.709s] -- Detecting C compiler ABI info
+[1.722s] -- Detecting C compiler ABI info - done
+[1.753s] -- Detecting C compile features
+[1.756s] -- Detecting C compile features - done
+[1.761s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.791s] -- Detecting C compiler ABI info - done
+[1.807s] -- Detecting C compiler ABI info - done
+[1.807s] -- Detecting C compile features
+[1.807s] -- Detecting C compile features - done
+[1.817s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.817s] -- Detecting C compiler ABI info - done
+[1.822s] -- Detecting C compile features
+[1.823s] -- Detecting C compile features - done
+[1.827s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.833s] -- Detecting C compiler ABI info - done
+[1.834s] -- Detecting C compile features
+[1.834s] -- Detecting C compile features - done
+[1.838s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.855s] -- Detecting C compile features
+[1.855s] -- Detecting C compile features - done
+[1.859s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.860s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.860s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.880s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.880s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.889s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.889s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.923s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.924s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.928s] -- Detecting C compiler ABI info - done
+[1.948s] -- Detecting C compiler ABI info - done
+[1.948s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.948s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.953s] -- Detecting C compile features
+[1.954s] -- Detecting C compile features - done
+[1.959s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.965s] -- Detecting C compile features
+[1.965s] -- Detecting C compile features - done
+[1.969s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.075s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.093s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.095s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.204s] [35m[1mScanning dependencies of target addtwoints_server[0m
+[2.204s] [35m[1mScanning dependencies of target fragmented_publication[0m
+[2.232s] [35m[1mScanning dependencies of target publisher_count[0m
+[2.265s] [35m[1mScanning dependencies of target int32_publisher[0m
+[2.277s] [ 20%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[2.295s] [ 20%] [34m[1mCreating directories for 'publisher_count'[0m
+[2.297s] [ 20%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[2.308s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[2.336s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[2.359s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[2.360s] [ 21%] [34m[1mCreating directories for 'int32_publisher'[0m
+[2.394s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[2.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.415s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.477s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.491s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.518s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.533s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[2.539s] [ 22%] [34m[1mNo download step for 'publisher_count'[0m
+[2.565s] [ 23%] [34m[1mNo download step for 'fragmented_publication'[0m
+[2.605s] [ 24%] [34m[1mNo download step for 'addtwoints_server'[0m
+[2.618s] [ 25%] [34m[1mNo patch step for 'publisher_count'[0m
+[2.640s] [ 26%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[2.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.664s] [ 26%] [34m[1mNo download step for 'int32_publisher'[0m
+[2.675s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.683s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[2.708s] [ 26%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[2.715s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[2.723s] [ 26%] [34m[1mNo update step for 'publisher_count'[0m
+[2.769s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.770s] [ 26%] [34m[1mNo patch step for 'int32_publisher'[0m
+[2.779s] [ 27%] [34m[1mNo update step for 'addtwoints_server'[0m
+[2.784s] [ 27%] [34m[1mNo update step for 'fragmented_publication'[0m
+[2.788s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.822s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.856s] [ 28%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[2.859s] [ 28%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[2.867s] [ 29%] [34m[1mNo update step for 'int32_publisher'[0m
+[2.883s] [ 30%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[2.890s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.898s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[2.899s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[2.900s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[2.946s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.952s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.968s] [ 31%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[2.970s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.016s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[3.016s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.056s] -- The C compiler identification is GNU 9.4.0
+[3.061s] -- Check for working C compiler: /usr/bin/cc
+[3.074s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.080s] -- The C compiler identification is GNU 9.4.0
+[3.085s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.091s] -- Check for working C compiler: /usr/bin/cc
+[3.097s] -- The C compiler identification is GNU 9.4.0
+[3.106s] -- Check for working C compiler: /usr/bin/cc
+[3.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.166s] -- The C compiler identification is GNU 9.4.0
+[3.175s] -- Check for working C compiler: /usr/bin/cc
+[3.189s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.253s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.260s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.264s] -- Looking for pthread.h
+[3.272s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.274s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.300s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.317s] -- Looking for pthread.h
+[3.340s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.345s] -- Looking for pthread.h
+[3.352s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.372s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.391s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.392s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.392s] -- Detecting C compiler ABI info
+[3.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.397s] -- Looking for pthread.h
+[3.419s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.420s] -- Detecting C compiler ABI info
+[3.463s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.464s] -- Detecting C compiler ABI info
+[3.473s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.474s] -- Detecting C compiler ABI info
+[3.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.554s] -- Looking for pthread.h - found
+[3.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.643s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.655s] -- Looking for pthread.h
+[3.659s] -- Looking for pthread.h - found
+[3.659s] -- Looking for pthread.h - found
+[3.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.663s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.684s] -- Looking for pthread.h - found
+[3.684s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.712s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.714s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.715s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.717s] -- Looking for pthread.h
+[3.732s] -- Detecting C compiler ABI info - done
+[3.732s] -- Detecting C compiler ABI info - done
+[3.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.733s] -- Looking for pthread.h
+[3.734s] -- Detecting C compiler ABI info - done
+[3.740s] -- Detecting C compile features
+[3.741s] -- Detecting C compile features - done
+[3.749s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.760s] -- Detecting C compile features
+[3.760s] -- Detecting C compile features
+[3.761s] -- Detecting C compile features - done
+[3.765s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.769s] -- Detecting C compile features - done
+[3.770s] -- Detecting C compiler ABI info - done
+[3.773s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.787s] -- Detecting C compile features
+[3.788s] -- Detecting C compile features - done
+[3.793s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.804s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.804s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.817s] -- Looking for pthread_create in pthreads
+[3.853s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.853s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.857s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.858s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.861s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.861s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.945s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.945s] -- Looking for pthread_create in pthreads
+[3.965s] -- Looking for pthread.h - found
+[3.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.981s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.981s] -- Looking for pthread_create in pthreads
+[4.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.012s] -- Looking for pthread_create in pthreads
+[4.061s] -- Looking for pthread.h - found
+[4.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.076s] -- Looking for pthread.h - found
+[4.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.079s] -- Looking for pthread_create in pthreads - not found
+[4.079s] -- Looking for pthread_create in pthread
+[4.240s] -- Looking for pthread_create in pthreads - not found
+[4.240s] -- Looking for pthread_create in pthread
+[4.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.248s] -- Looking for pthread_create in pthreads
+[4.261s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[4.276s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[4.278s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[4.298s] -- Looking for pthread_create in pthreads - not found
+[4.298s] -- Looking for pthread_create in pthread
+[4.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.339s] -- Looking for pthread_create in pthreads - not found
+[4.339s] -- Looking for pthread_create in pthread
+[4.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.346s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.354s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.360s] [35m[1mScanning dependencies of target addtwoints_client[0m
+[4.376s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[4.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.384s] -- Looking for pthread_create in pthreads
+[4.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.399s] -- Looking for pthread_create in pthreads
+[4.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.425s] [ 31%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[4.452s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.459s] -- Looking for pthread_create in pthread - found
+[4.460s] -- Found Threads: TRUE  
+[4.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.508s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.508s] -- Found rcl_action: 1.1.13 (/opt/ros/foxy/share/rcl_action/cmake)
+[4.511s] -- Looking for pthread_create in pthread - found
+[4.512s] -- Found Threads: TRUE  
+[4.555s] -- Looking for pthread_create in pthreads - not found
+[4.560s] -- Looking for pthread_create in pthread
+[4.564s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[4.578s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[4.602s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[4.607s] -- Looking for pthread_create in pthread - found
+[4.609s] -- Found Threads: TRUE  
+[4.631s] -- Found example_interfaces: 0.9.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[4.642s] -- Looking for pthread_create in pthread - found
+[4.645s] -- Looking for pthread_create in pthreads - not found
+[4.646s] -- Looking for pthread_create in pthread
+[4.647s] -- Found Threads: TRUE  
+[4.664s] [ 32%] [34m[1mNo download step for 'addtwoints_client'[0m
+[4.667s] -- Configuring done
+[4.679s] -- Generating done
+[4.680s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[4.683s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[4.687s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[4.698s] -- Found rcl_action: 1.1.13 (/opt/ros/foxy/share/rcl_action/cmake)
+[4.724s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[4.725s] -- Looking for pthread_create in pthreads - not found
+[4.725s] -- Looking for pthread_create in pthread
+[4.746s] -- Configuring done
+[4.771s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.781s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.783s] -- Generating done
+[4.788s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[4.792s] [ 33%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[4.795s] [ 34%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[4.817s] -- Looking for pthread_create in pthread - found
+[4.819s] -- Found Threads: TRUE  
+[4.851s] -- Configuring done
+[4.872s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.872s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[4.872s] -- Found example_interfaces: 0.9.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[4.872s] -- Generating done
+[4.877s] [ 34%] [34m[1mNo update step for 'addtwoints_client'[0m
+[4.884s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[4.896s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[4.902s] [ 34%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[4.907s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.953s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[4.957s] -- Looking for pthread_create in pthread - found
+[4.958s] -- Found Threads: TRUE  
+[4.975s] [ 34%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[4.976s] -- Configuring done
+[4.992s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.997s] -- Generating done
+[4.997s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[5.012s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[5.013s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[5.013s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.021s] [ 35%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[5.021s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[5.026s] [35m[1mScanning dependencies of target graph_visualizer[0m
+[5.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.055s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.063s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.074s] -- Configuring done
+[5.082s] -- Configuring done
+[5.083s] -- Generating done
+[5.085s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[5.091s] -- Generating done
+[5.097s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[5.097s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[5.097s] -- Looking for pthread_create in pthread - found
+[5.098s] -- Found Threads: TRUE  
+[5.105s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.141s] [ 36%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[5.149s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[5.159s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[5.193s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.217s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[5.222s] [ 37%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[5.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.264s] [ 37%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[5.265s] -- Configuring done
+[5.265s] [35m[1mScanning dependencies of target fibonacci_action_server[0m
+[5.265s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.270s] -- Looking for pthread.h
+[5.272s] -- Generating done
+[5.272s] [35m[1mScanning dependencies of target configured_subscriber[0m
+[5.274s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[5.276s] -- The C compiler identification is GNU 9.4.0
+[5.289s] -- Check for working C compiler: /usr/bin/cc
+[5.351s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[5.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.373s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[5.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.383s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[5.384s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[5.399s] [ 37%] [34m[1mPerforming build step for 'subscription_count'[0m
+[5.411s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.419s] -- Looking for pthread.h
+[5.438s] [35m[1mScanning dependencies of target configured_publisher[0m
+[5.448s] [35m[1mScanning dependencies of target fibonacci_action_client[0m
+[5.479s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[5.499s] [01m[K/home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[5.499s] [01m[K/home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:87:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[5.499s]    87 |     [01;35m[Krcl_wait(&wait_set, RCL_MS_TO_NS(200))[m[K;
+[5.499s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.553s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[5.578s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[5.597s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.597s] [35m[1mScanning dependencies of target subscription_count[0m
+[5.600s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.602s] -- Looking for pthread.h
+[5.606s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[5.658s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.658s] [100%] Built target graph_visualizer
+[5.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.678s] -- Looking for pthread.h
+[5.689s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[5.692s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.693s] -- Detecting C compiler ABI info
+[5.744s] -- Looking for pthread.h - found
+[5.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.773s] [ 37%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[5.781s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[5.802s] [100%] [32m[1mLinking C executable subscription_count[0m
+[5.821s] [100%] Built target int32_subscriber
+[5.827s] [100%] Built target configured_subscriber
+[5.860s] [ 38%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[5.865s] -- Looking for pthread.h - found
+[5.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.884s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[5.941s] [ 39%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[6.032s] -- Detecting C compiler ABI info - done
+[6.056s] -- Looking for pthread.h - found
+[6.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.063s] -- Detecting C compile features
+[6.069s] -- Detecting C compile features - done
+[6.069s] -- Looking for pthread.h - found
+[6.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.069s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.097s] [100%] Built target graph_visualizer
+[6.117s] [100%] Built target fibonacci_action_server
+[6.165s] [100%] Built target subscription_count
+[6.189s] [100%] Built target fibonacci_action_client
+[6.191s] [100%] Built target configured_subscriber
+[6.197s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.197s] -- Looking for pthread_create in pthreads
+[6.212s] [36mInstall the project...[0m
+[6.235s] [100%] Built target int32_subscriber
+[6.238s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.238s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.249s] [ 39%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[6.263s] [ 40%] [34m[1mPerforming install step for 'subscription_count'[0m
+[6.284s] -- Install configuration: ""
+[6.285s] [36mInstall the project...[0m
+[6.286s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[6.287s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[6.295s] [100%] Built target configured_publisher
+[6.311s] -- Install configuration: ""
+[6.311s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[6.311s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[6.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.337s] [ 41%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[6.337s] -- Looking for pthread_create in pthreads
+[6.339s] [36mInstall the project...[0m
+[6.356s] [ 41%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[6.370s] -- Install configuration: ""
+[6.370s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[6.371s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[6.419s] [ 42%] [34m[1mCompleted 'graph_visualizer'[0m
+[6.441s] [ 42%] [34m[1mCompleted 'configured_subscriber'[0m
+[6.447s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.448s] -- Looking for pthread_create in pthreads
+[6.459s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.460s] -- Looking for pthread_create in pthreads
+[6.487s] [ 42%] [34m[1mCompleted 'int32_subscriber'[0m
+[6.488s] [100%] Built target subscription_count
+[6.528s] [100%] Built target fibonacci_action_server
+[6.561s] -- Looking for pthread_create in pthreads - not found
+[6.561s] -- Looking for pthread_create in pthread
+[6.593s] [100%] Built target fibonacci_action_client
+[6.609s] [36mInstall the project...[0m
+[6.620s] [36mInstall the project...[0m
+[6.624s] [100%] Built target configured_publisher
+[6.644s] [ 42%] Built target configured_subscriber
+[6.649s] [ 42%] Built target graph_visualizer
+[6.649s] [ 42%] Built target int32_subscriber
+[6.672s] -- Install configuration: ""
+[6.672s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[6.673s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[6.675s] -- Install configuration: ""
+[6.675s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[6.676s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[6.685s] [36mInstall the project...[0m
+[6.725s] -- Install configuration: ""
+[6.725s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[6.725s] [35m[1mScanning dependencies of target timer[0m
+[6.726s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[6.729s] -- Looking for pthread_create in pthreads - not found
+[6.729s] -- Looking for pthread_create in pthread
+[6.733s] [35m[1mScanning dependencies of target int32_multinode[0m
+[6.741s] [ 42%] [34m[1mCompleted 'subscription_count'[0m
+[6.748s] [36mInstall the project...[0m
+[6.771s] -- Looking for pthread_create in pthreads - not found
+[6.771s] -- Looking for pthread_create in pthread
+[6.777s] -- Looking for pthread_create in pthreads - not found
+[6.777s] -- Looking for pthread_create in pthread
+[6.787s] [ 42%] [34m[1mCreating directories for 'int32_multinode'[0m
+[6.806s] -- Install configuration: ""
+[6.807s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[6.808s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[6.819s] [ 43%] [34m[1mCreating directories for 'timer'[0m
+[6.828s] [ 44%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[6.857s] [ 44%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[6.944s] -- Looking for pthread_create in pthread - found
+[6.944s] [ 44%] Built target fibonacci_action_server
+[6.945s] [ 44%] Built target subscription_count
+[6.946s] -- Found Threads: TRUE  
+[6.963s] [ 45%] [34m[1mCompleted 'configured_publisher'[0m
+[7.010s] [35m[1mScanning dependencies of target ping_uros_agent[0m
+[7.010s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[7.014s] [ 45%] Built target fibonacci_action_client
+[7.019s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[7.026s] [35m[1mScanning dependencies of target fragmented_subscription[0m
+[7.060s] -- Configuring done
+[7.061s] [ 46%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[7.071s] -- Generating done
+[7.073s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[7.086s] -- Looking for pthread_create in pthread - found
+[7.087s] [ 46%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[7.088s] -- Found Threads: TRUE  
+[7.103s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[7.111s] [ 46%] Built target configured_publisher
+[7.134s] [ 46%] [34m[1mNo download step for 'timer'[0m
+[7.135s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[7.138s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[7.149s] -- Looking for pthread_create in pthread - found
+[7.150s] -- Looking for pthread_create in pthread - found
+[7.150s] -- Found Threads: TRUE  
+[7.151s] -- Found Threads: TRUE  
+[7.154s] -- Found example_interfaces: 0.9.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[7.171s] [ 47%] [34m[1mNo download step for 'int32_multinode'[0m
+[7.195s] [ 47%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[7.195s] [35m[1mScanning dependencies of target ping_pong[0m
+[7.220s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[7.223s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[7.241s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[7.241s] [ 48%] [34m[1mCreating directories for 'ping_pong'[0m
+[7.241s] [ 48%] [34m[1mPerforming build step for 'publisher_count'[0m
+[7.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.247s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[7.264s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.273s] [ 48%] [34m[1mNo patch step for 'timer'[0m
+[7.274s] [ 49%] [34m[1mNo patch step for 'int32_multinode'[0m
+[7.291s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[7.299s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[7.331s] -- Configuring done
+[7.344s] -- Generating done
+[7.345s] -- Configuring done
+[7.349s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[7.378s] -- Generating done
+[7.381s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[7.391s] [ 49%] [34m[1mNo update step for 'int32_multinode'[0m
+[7.392s] [ 50%] [34m[1mNo update step for 'timer'[0m
+[7.397s] [35m[1mScanning dependencies of target publisher_count[0m
+[7.441s] -- Configuring done
+[7.451s] -- Generating done
+[7.454s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[7.467s] [ 50%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[7.474s] [ 50%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[7.485s] [ 50%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[7.486s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[7.486s] [ 51%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[7.491s] [ 52%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[7.511s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[7.543s] [ 53%] [34m[1mPerforming configure step for 'timer'[0m
+[7.562s] [ 53%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[7.568s] [ 54%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[7.575s] [ 54%] [34m[1mNo download step for 'ping_pong'[0m
+[7.576s] [ 55%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[7.579s] [ 55%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[7.609s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[7.622s] [35m[1mScanning dependencies of target int32_publisher[0m
+[7.646s] [35m[1mScanning dependencies of target fragmented_publication[0m
+[7.668s] [ 55%] [34m[1mNo patch step for 'ping_pong'[0m
+[7.669s] [ 56%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[7.672s] [ 57%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[7.679s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.718s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[7.721s] -- The C compiler identification is GNU 9.4.0
+[7.724s] [100%] [32m[1mLinking C executable publisher_count[0m
+[7.730s] -- Check for working C compiler: /usr/bin/cc
+[7.741s] [35m[1mScanning dependencies of target addtwoints_server[0m
+[7.741s] [ 57%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[7.741s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[7.761s] [ 58%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[7.772s] [ 59%] [34m[1mNo update step for 'ping_pong'[0m
+[7.775s] [ 59%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[7.794s] -- The C compiler identification is GNU 9.4.0
+[7.807s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.809s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[7.809s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[7.814s] -- Check for working C compiler: /usr/bin/cc
+[7.830s] [ 59%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[7.841s] [ 60%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[7.845s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[7.848s] [ 60%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[7.852s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[7.859s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[7.889s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[7.935s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[7.962s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[7.962s] [100%] Built target publisher_count
+[7.962s] -- The C compiler identification is GNU 9.4.0
+[7.974s] -- Check for working C compiler: /usr/bin/cc
+[7.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.980s] -- Check for working C compiler: /usr/bin/cc -- works
+[7.982s] -- Detecting C compiler ABI info
+[8.037s] -- The C compiler identification is GNU 9.4.0
+[8.043s] [100%] Built target int32_publisher
+[8.045s] [ 61%] [34m[1mPerforming install step for 'publisher_count'[0m
+[8.047s] -- Check for working C compiler: /usr/bin/cc
+[8.081s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.083s] -- Detecting C compiler ABI info
+[8.087s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.088s] -- The C compiler identification is GNU 9.4.0
+[8.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.094s] -- Looking for pthread.h
+[8.099s] -- Check for working C compiler: /usr/bin/cc
+[8.110s] -- The C compiler identification is GNU 9.4.0
+[8.117s] [ 61%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[8.122s] -- Check for working C compiler: /usr/bin/cc
+[8.166s] [100%] Built target fragmented_publication
+[8.170s] [100%] Built target addtwoints_server
+[8.205s] [ 62%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[8.219s] [ 63%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[8.225s] -- Detecting C compiler ABI info - done
+[8.238s] [100%] Built target publisher_count
+[8.249s] [100%] Built target int32_publisher
+[8.252s] -- Detecting C compile features
+[8.252s] -- Detecting C compile features - done
+[8.253s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.255s] -- Detecting C compiler ABI info
+[8.255s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.270s] -- Looking for pthread.h - found
+[8.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.286s] [36mInstall the project...[0m
+[8.296s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.298s] -- Detecting C compiler ABI info
+[8.300s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.309s] -- Detecting C compiler ABI info
+[8.309s] -- Detecting C compiler ABI info
+[8.309s] [36mInstall the project...[0m
+[8.311s] -- Install configuration: ""
+[8.314s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[8.314s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[8.326s] -- Install configuration: ""
+[8.326s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[8.326s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[8.327s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.327s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.360s] -- Detecting C compiler ABI info - done
+[8.378s] [100%] Built target fragmented_publication
+[8.379s] [ 64%] [34m[1mCompleted 'int32_publisher'[0m
+[8.380s] -- Detecting C compile features
+[8.381s] -- Detecting C compile features - done
+[8.385s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.394s] [ 64%] [34m[1mCompleted 'publisher_count'[0m
+[8.450s] [100%] Built target addtwoints_server
+[8.450s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.450s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.463s] -- Detecting C compiler ABI info - done
+[8.469s] [36mInstall the project...[0m
+[8.471s] -- Detecting C compiler ABI info - done
+[8.472s] -- Detecting C compiler ABI info - done
+[8.481s] -- Install configuration: ""
+[8.481s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[8.482s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[8.487s] -- Detecting C compile features
+[8.488s] -- Detecting C compile features - done
+[8.490s] -- Detecting C compile features
+[8.491s] -- Detecting C compile features - done
+[8.492s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.494s] [ 64%] Built target publisher_count
+[8.495s] -- Detecting C compile features
+[8.496s] -- Detecting C compile features - done
+[8.497s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.500s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.506s] -- Detecting C compiler ABI info - done
+[8.507s] [ 64%] Built target int32_publisher
+[8.509s] [36mInstall the project...[0m
+[8.522s] -- Detecting C compile features
+[8.522s] -- Detecting C compile features - done
+[8.523s] -- Install configuration: ""
+[8.523s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[8.524s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[8.533s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.553s] [ 64%] [34m[1mCompleted 'fragmented_publication'[0m
+[8.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.562s] -- Looking for pthread_create in pthreads
+[8.565s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.565s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.580s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.580s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.584s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.584s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.589s] [ 64%] [34m[1mCompleted 'addtwoints_server'[0m
+[8.645s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.646s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.659s] [ 64%] Built target addtwoints_server
+[8.674s] [ 64%] Built target fragmented_publication
+[8.769s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[8.791s] -- Looking for pthread_create in pthreads - not found
+[8.791s] -- Looking for pthread_create in pthread
+[8.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.875s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[8.889s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.905s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[8.929s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[8.931s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[8.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.960s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.979s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.982s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.995s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.001s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.030s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[9.047s] -- Looking for pthread_create in pthread - found
+[9.048s] -- Found Threads: TRUE  
+[9.075s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[9.084s] -- Found example_interfaces: 0.9.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[9.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.113s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.147s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.154s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.170s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.186s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.197s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.205s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.208s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.215s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.252s] -- Configuring done
+[9.260s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.262s] -- Generating done
+[9.264s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.266s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[9.331s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.357s] [ 65%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[9.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.398s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.428s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.433s] -- Looking for pthread.h
+[9.453s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.459s] -- Looking for pthread.h
+[9.466s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.468s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.471s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.473s] -- Looking for pthread.h
+[9.480s] [35m[1mScanning dependencies of target addtwoints_client[0m
+[9.485s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.490s] -- Looking for pthread.h
+[9.497s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.502s] -- Looking for pthread.h
+[9.510s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[9.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.589s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[9.619s] -- Looking for pthread.h - found
+[9.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.637s] -- Looking for pthread.h - found
+[9.638s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.652s] -- Looking for pthread.h - found
+[9.653s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.665s] -- Looking for pthread.h - found
+[9.666s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.667s] -- Looking for pthread.h - found
+[9.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.708s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.713s] -- Looking for pthread.h
+[9.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.775s] -- Looking for pthread_create in pthreads
+[9.799s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.801s] -- Looking for pthread_create in pthreads
+[9.804s] [100%] Built target addtwoints_client
+[9.810s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.810s] -- Looking for pthread_create in pthreads
+[9.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.823s] -- Looking for pthread_create in pthreads
+[9.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.831s] -- Looking for pthread_create in pthreads
+[9.842s] -- Looking for pthread.h - found
+[9.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.845s] [ 66%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[9.890s] -- Looking for pthread_create in pthreads - not found
+[9.890s] -- Looking for pthread_create in pthread
+[9.904s] -- Looking for pthread_create in pthreads - not found
+[9.907s] -- Looking for pthread_create in pthread
+[9.912s] -- Looking for pthread_create in pthreads - not found
+[9.912s] -- Looking for pthread_create in pthread
+[9.948s] -- Looking for pthread_create in pthreads - not found
+[9.949s] -- Looking for pthread_create in pthread
+[9.964s] -- Looking for pthread_create in pthreads - not found
+[9.966s] -- Looking for pthread_create in pthread
+[9.975s] [100%] Built target addtwoints_client
+[9.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.980s] -- Looking for pthread_create in pthreads
+[10.010s] [36mInstall the project...[0m
+[10.030s] -- Install configuration: ""
+[10.030s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[10.031s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[10.052s] -- Looking for pthread_create in pthread - found
+[10.053s] -- Found Threads: TRUE  
+[10.077s] -- Looking for pthread_create in pthread - found
+[10.078s] -- Found Threads: TRUE  
+[10.087s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[10.092s] [ 66%] [34m[1mCompleted 'addtwoints_client'[0m
+[10.097s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[10.097s] -- Looking for pthread_create in pthread - found
+[10.099s] -- Found Threads: TRUE  
+[10.105s] -- Looking for pthread_create in pthread - found
+[10.106s] -- Found Threads: TRUE  
+[10.117s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[10.128s] -- Configuring done
+[10.134s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[10.135s] -- Found complex_msgs: 1.0.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/share/complex_msgs/cmake)
+[10.137s] -- Generating done
+[10.139s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[10.139s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[10.141s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.146s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[10.149s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[10.150s] [ 66%] Built target addtwoints_client
+[10.152s] -- Looking for pthread_create in pthread - found
+[10.154s] -- Found Threads: TRUE  
+[10.172s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.174s] -- Looking for pthread_create in pthreads - not found
+[10.175s] -- Looking for pthread_create in pthread
+[10.176s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.183s] -- Configuring done
+[10.186s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[10.189s] -- Configuring done
+[10.192s] -- Generating done
+[10.193s] -- Configuring done
+[10.193s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[10.197s] -- Generating done
+[10.199s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/timer/src/timer-build
+[10.200s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[10.201s] -- Generating done
+[10.203s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[10.219s] [ 67%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[10.223s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.241s] -- Configuring done
+[10.241s] [ 68%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[10.241s] [ 69%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[10.243s] [ 70%] [34m[1mPerforming build step for 'timer'[0m
+[10.250s] -- Generating done
+[10.252s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[10.284s] -- Looking for pthread_create in pthread - found
+[10.285s] [35m[1mScanning dependencies of target int32_multinode[0m
+[10.286s] -- Found Threads: TRUE  
+[10.295s] [35m[1mScanning dependencies of target timer[0m
+[10.295s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[10.306s] [ 70%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[10.312s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[10.313s] [35m[1mScanning dependencies of target ping_uros_agent[0m
+[10.319s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[10.321s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[10.323s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[10.331s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[10.356s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[10.359s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.377s] [35m[1mScanning dependencies of target fragmented_subscription[0m
+[10.377s] -- Configuring done
+[10.387s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[10.387s] -- Generating done
+[10.389s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[10.397s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[10.413s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[10.424s] [100%] [32m[1mLinking C executable timer[0m
+[10.432s] [ 70%] [34m[1mPerforming build step for 'ping_pong'[0m
+[10.445s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[10.490s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[10.528s] [35m[1mScanning dependencies of target ping_pong[0m
+[10.534s] [100%] Built target int32_multinode
+[10.543s] [100%] Built target complex_msg_publisher
+[10.561s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[10.561s] [ 71%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[10.580s] [ 72%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[10.586s] [100%] Built target timer
+[10.607s] [100%] Built target ping_uros_agent
+[10.613s] [100%] Built target fragmented_subscription
+[10.615s] [01m[K/home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_timer_callback[m[K’:
+[10.616s] [01m[K/home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:48:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[10.616s]    48 |   [01;35m[Krcl_publish(&ping_publisher, (const void*)&outcoming_ping, NULL)[m[K;
+[10.616s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.616s] [01m[K/home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_subscription_callback[m[K’:
+[10.616s] [01m[K/home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:60:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[10.616s]    60 |   [01;35m[Krcl_publish(&pong_publisher, (const void*)msg, NULL)[m[K;
+[10.617s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.631s] [ 73%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[10.636s] [ 73%] [34m[1mPerforming install step for 'timer'[0m
+[10.640s] [100%] Built target int32_multinode
+[10.646s] [100%] [32m[1mLinking C executable ping_pong[0m
+[10.654s] [ 73%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[10.667s] [36mInstall the project...[0m
+[10.676s] [100%] Built target complex_msg_publisher
+[10.679s] -- Install configuration: ""
+[10.680s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[10.680s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[10.700s] [100%] Built target ping_uros_agent
+[10.708s] [ 73%] [34m[1mCompleted 'int32_multinode'[0m
+[10.709s] [36mInstall the project...[0m
+[10.725s] [36mInstall the project...[0m
+[10.731s] -- Install configuration: ""
+[10.731s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[10.732s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[10.739s] -- Install configuration: ""
+[10.740s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[10.741s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[10.742s] [100%] Built target fragmented_subscription
+[10.756s] [100%] Built target timer
+[10.756s] [ 73%] Built target int32_multinode
+[10.760s] [ 73%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[10.764s] [100%] Built target ping_pong
+[10.773s] [36mInstall the project...[0m
+[10.773s] [ 74%] [34m[1mCompleted 'ping_uros_agent'[0m
+[10.783s] -- Install configuration: ""
+[10.783s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[10.784s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[10.787s] [ 74%] [34m[1mPerforming install step for 'ping_pong'[0m
+[10.797s] [36mInstall the project...[0m
+[10.808s] [ 74%] Built target complex_msg_publisher
+[10.810s] [ 75%] [34m[1mCompleted 'fragmented_subscription'[0m
+[10.811s] -- Install configuration: ""
+[10.811s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/timer/timer
+[10.811s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[10.822s] [ 75%] Built target ping_uros_agent
+[10.846s] [ 76%] [34m[1mCompleted 'timer'[0m
+[10.858s] [100%] Built target ping_pong
+[10.859s] [ 76%] Built target fragmented_subscription
+[10.890s] [36mInstall the project...[0m
+[10.895s] [ 76%] Built target timer
+[10.906s] -- Install configuration: ""
+[10.906s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[10.906s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[10.932s] [ 77%] [34m[1mCompleted 'ping_pong'[0m
+[10.977s] [ 77%] Built target ping_pong
+[10.991s] [35m[1mScanning dependencies of target int32_publisher_subscriber[0m
+[11.005s] [ 78%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[11.101s] [ 79%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[11.133s] [ 80%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[11.167s] [ 80%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[11.192s] [ 80%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[11.200s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[11.256s] -- The C compiler identification is GNU 9.4.0
+[11.264s] -- Check for working C compiler: /usr/bin/cc
+[11.328s] -- Check for working C compiler: /usr/bin/cc -- works
+[11.329s] -- Detecting C compiler ABI info
+[11.400s] -- Detecting C compiler ABI info - done
+[11.409s] -- Detecting C compile features
+[11.409s] -- Detecting C compile features - done
+[11.412s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[11.443s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[11.443s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.634s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[11.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.679s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.838s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.025s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.029s] -- Looking for pthread.h
+[12.090s] -- Looking for pthread.h - found
+[12.090s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.155s] -- Looking for pthread_create in pthreads
+[12.210s] -- Looking for pthread_create in pthreads - not found
+[12.210s] -- Looking for pthread_create in pthread
+[12.282s] -- Looking for pthread_create in pthread - found
+[12.283s] -- Found Threads: TRUE  
+[12.314s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[12.323s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[12.348s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[12.365s] -- Configuring done
+[12.373s] -- Generating done
+[12.375s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[12.412s] [ 81%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[12.446s] [35m[1mScanning dependencies of target int32_publisher_subscriber[0m
+[12.466s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[12.510s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[12.582s] [100%] Built target int32_publisher_subscriber
+[12.600s] [ 81%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[12.645s] [100%] Built target int32_publisher_subscriber
+[12.663s] [36mInstall the project...[0m
+[12.671s] -- Install configuration: ""
+[12.671s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[12.671s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[12.689s] [ 82%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[12.722s] [ 82%] Built target int32_publisher_subscriber
+[12.732s] [35m[1mScanning dependencies of target autodiscover_agent[0m
+[12.742s] [ 83%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[12.815s] [ 83%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[12.847s] [ 83%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[12.880s] [ 84%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[12.909s] [ 85%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[12.917s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[12.961s] -- The C compiler identification is GNU 9.4.0
+[12.971s] -- Check for working C compiler: /usr/bin/cc
+[13.042s] -- Check for working C compiler: /usr/bin/cc -- works
+[13.043s] -- Detecting C compiler ABI info
+[13.127s] -- Detecting C compiler ABI info - done
+[13.142s] -- Detecting C compile features
+[13.142s] -- Detecting C compile features - done
+[13.146s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[13.193s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[13.193s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.483s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[13.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.529s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[13.646s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[13.681s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.809s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.812s] -- Looking for pthread.h
+[13.872s] -- Looking for pthread.h - found
+[13.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[13.935s] -- Looking for pthread_create in pthreads
+[13.985s] -- Looking for pthread_create in pthreads - not found
+[13.986s] -- Looking for pthread_create in pthread
+[14.047s] -- Looking for pthread_create in pthread - found
+[14.047s] -- Found Threads: TRUE  
+[14.067s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[14.072s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[14.086s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[14.098s] -- Configuring done
+[14.103s] -- Generating done
+[14.104s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[14.127s] [ 86%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[14.159s] [35m[1mScanning dependencies of target autodiscover_agent[0m
+[14.184s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[14.234s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[14.303s] [100%] Built target autodiscover_agent
+[14.319s] [ 86%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[14.364s] [100%] Built target autodiscover_agent
+[14.380s] [36mInstall the project...[0m
+[14.389s] -- Install configuration: ""
+[14.389s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[14.389s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[14.407s] [ 87%] [34m[1mCompleted 'autodiscover_agent'[0m
+[14.439s] [ 87%] Built target autodiscover_agent
+[14.449s] [35m[1mScanning dependencies of target string_subscriber[0m
+[14.458s] [ 87%] [34m[1mCreating directories for 'string_subscriber'[0m
+[14.529s] [ 88%] [34m[1mNo download step for 'string_subscriber'[0m
+[14.553s] [ 89%] [34m[1mNo patch step for 'string_subscriber'[0m
+[14.578s] [ 89%] [34m[1mNo update step for 'string_subscriber'[0m
+[14.602s] [ 89%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[14.611s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[14.648s] -- The C compiler identification is GNU 9.4.0
+[14.654s] -- Check for working C compiler: /usr/bin/cc
+[14.714s] -- Check for working C compiler: /usr/bin/cc -- works
+[14.715s] -- Detecting C compiler ABI info
+[14.777s] -- Detecting C compiler ABI info - done
+[14.793s] -- Detecting C compile features
+[14.794s] -- Detecting C compile features - done
+[14.798s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[14.832s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[14.833s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.044s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[15.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.111s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.221s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.263s] -- Found FastRTPS: /opt/ros/foxy/include  
+[15.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.467s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.471s] -- Looking for pthread.h
+[15.557s] -- Looking for pthread.h - found
+[15.558s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.624s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.624s] -- Looking for pthread_create in pthreads
+[15.680s] -- Looking for pthread_create in pthreads - not found
+[15.680s] -- Looking for pthread_create in pthread
+[15.749s] -- Looking for pthread_create in pthread - found
+[15.750s] -- Found Threads: TRUE  
+[15.770s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[15.775s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[15.789s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[15.799s] -- Configuring done
+[15.804s] -- Generating done
+[15.805s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[15.832s] [ 90%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[15.860s] [35m[1mScanning dependencies of target string_subscriber[0m
+[15.879s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[15.919s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[15.987s] [100%] Built target string_subscriber
+[16.004s] [ 91%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[16.047s] [100%] Built target string_subscriber
+[16.063s] [36mInstall the project...[0m
+[16.071s] -- Install configuration: ""
+[16.072s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[16.072s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[16.090s] [ 92%] [34m[1mCompleted 'string_subscriber'[0m
+[16.118s] [ 92%] Built target string_subscriber
+[16.128s] [35m[1mScanning dependencies of target string_publisher[0m
+[16.137s] [ 93%] [34m[1mCreating directories for 'string_publisher'[0m
+[16.204s] [ 93%] [34m[1mNo download step for 'string_publisher'[0m
+[16.226s] [ 93%] [34m[1mNo patch step for 'string_publisher'[0m
+[16.249s] [ 94%] [34m[1mNo update step for 'string_publisher'[0m
+[16.272s] [ 95%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[16.281s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[16.318s] -- The C compiler identification is GNU 9.4.0
+[16.325s] -- Check for working C compiler: /usr/bin/cc
+[16.382s] -- Check for working C compiler: /usr/bin/cc -- works
+[16.384s] -- Detecting C compiler ABI info
+[16.470s] -- Detecting C compiler ABI info - done
+[16.488s] -- Detecting C compile features
+[16.488s] -- Detecting C compile features - done
+[16.492s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[16.532s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[16.533s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.753s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[16.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.813s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[16.944s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[16.987s] -- Found FastRTPS: /opt/ros/foxy/include  
+[17.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.195s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[17.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.200s] -- Looking for pthread.h
+[17.268s] -- Looking for pthread.h - found
+[17.268s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[17.335s] -- Looking for pthread_create in pthreads
+[17.389s] -- Looking for pthread_create in pthreads - not found
+[17.390s] -- Looking for pthread_create in pthread
+[17.465s] -- Looking for pthread_create in pthread - found
+[17.466s] -- Found Threads: TRUE  
+[17.496s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[17.505s] -- Found std_msgs: 2.0.5 (/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[17.530s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[17.547s] -- Configuring done
+[17.555s] -- Generating done
+[17.557s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[17.591s] [ 95%] [34m[1mPerforming build step for 'string_publisher'[0m
+[17.636s] [35m[1mScanning dependencies of target string_publisher[0m
+[17.659s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[17.712s] [100%] [32m[1mLinking C executable string_publisher[0m
+[17.789s] [100%] Built target string_publisher
+[17.807s] [ 95%] [34m[1mPerforming install step for 'string_publisher'[0m
+[17.863s] [100%] Built target string_publisher
+[17.882s] [36mInstall the project...[0m
+[17.890s] -- Install configuration: ""
+[17.890s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[17.890s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[17.915s] [ 96%] [34m[1mCompleted 'string_publisher'[0m
+[17.964s] [ 96%] Built target string_publisher
+[17.979s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[17.993s] [ 97%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[18.074s] [ 97%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[18.097s] [ 97%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[18.125s] [ 98%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[18.152s] [ 99%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[18.161s] loading initial cache file /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[18.198s] -- The C compiler identification is GNU 9.4.0
+[18.205s] -- Check for working C compiler: /usr/bin/cc
+[18.264s] -- Check for working C compiler: /usr/bin/cc -- works
+[18.264s] -- Detecting C compiler ABI info
+[18.322s] -- Detecting C compiler ABI info - done
+[18.338s] -- Detecting C compile features
+[18.338s] -- Detecting C compile features - done
+[18.342s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[18.377s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[18.377s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.589s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[18.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.655s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[18.791s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[18.834s] -- Found FastRTPS: /opt/ros/foxy/include  
+[18.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.038s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[19.041s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.042s] -- Looking for pthread.h
+[19.106s] -- Looking for pthread.h - found
+[19.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[19.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[19.180s] -- Looking for pthread_create in pthreads
+[19.237s] -- Looking for pthread_create in pthreads - not found
+[19.238s] -- Looking for pthread_create in pthread
+[19.302s] -- Looking for pthread_create in pthread - found
+[19.304s] -- Found Threads: TRUE  
+[19.335s] -- Found rclc: 1.1.1 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/share/rclc/cmake)
+[19.344s] -- Found complex_msgs: 1.0.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/share/complex_msgs/cmake)
+[19.369s] -- Found rmw_microxrcedds: 1.1.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[19.385s] -- Configuring done
+[19.393s] -- Generating done
+[19.395s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[19.421s] [ 99%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[19.453s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[19.473s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[19.522s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[19.596s] [100%] Built target complex_msg_subscriber
+[19.612s] [100%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[19.659s] [100%] Built target complex_msg_subscriber
+[19.679s] [36mInstall the project...[0m
+[19.687s] -- Install configuration: ""
+[19.687s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[19.688s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[19.706s] [100%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[19.739s] [100%] Built target complex_msg_subscriber
+[19.751s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/build/ros_image:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc -- -j12 -l12
+[19.790s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/build/ros_image:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc
+[19.797s] -- Install configuration: ""
+[19.797s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[19.797s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[19.797s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[19.798s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[19.799s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[19.800s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[19.801s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[19.802s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[19.803s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[19.804s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[19.805s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[19.805s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[19.805s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[19.805s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[19.806s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[19.806s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[19.806s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[19.806s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[19.806s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[19.806s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[19.807s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[19.807s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[19.807s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[19.807s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[19.807s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[19.808s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rmw_microxrcedds/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rclc/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/build/ros_image:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_demos_rclc

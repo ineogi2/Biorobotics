@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/std_srvs/share/std_srvs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/std_msgs/share/std_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/actionlib_msgs/share/actionlib_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/geometry_msgs/share/geometry_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/diagnostic_msgs/share/diagnostic_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/nav_msgs/share/nav_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/sensor_msgs/share/sensor_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/shape_msgs/share/shape_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/trajectory_msgs/share/trajectory_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/visualization_msgs/share/visualization_msgs/package.sh"
+. "/home/ineogi2/ws/Biorobotics/micro_ros/install/stereo_msgs/share/stereo_msgs/package.sh"

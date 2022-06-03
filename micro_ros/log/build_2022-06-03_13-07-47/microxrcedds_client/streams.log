@@ -1,0 +1,145 @@
+[0.022s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client
+[0.087s] -- The C compiler identification is GNU 9.4.0
+[0.095s] -- Check for working C compiler: /usr/bin/cc
+[0.165s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.167s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.253s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.254s] -- Setting build type to 'Release' as none was specified.
+[0.257s] -- Looking for pthread.h
+[0.332s] -- Looking for pthread.h - found
+[0.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.400s] -- Looking for pthread_create in pthreads
+[0.442s] -- Looking for pthread_create in pthreads - not found
+[0.442s] -- Looking for pthread_create in pthread
+[0.497s] -- Looking for pthread_create in pthread - found
+[0.498s] -- Found Threads: TRUE  
+[0.501s] -- Configuring done
+[0.508s] -- Generating done
+[0.508s] CMake Warning:
+[0.508s]   Manually-specified variables were not used by the project:
+[0.508s] 
+[0.508s]     BUILD_TESTING
+[0.508s] 
+[0.509s] 
+[0.509s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client
+[0.510s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client
+[0.513s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client -- -j12 -l12
+[0.546s] [35m[1mScanning dependencies of target microxrcedds_client[0m
+[0.570s] [  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[0.570s] [  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[0.570s] [  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[0.570s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[0.571s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[0.572s] [ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[0.583s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[0.583s] [ 23%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[0.594s] [ 26%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[0.597s] [ 29%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[0.601s] [ 32%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[0.602s] [ 35%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[0.647s] [ 38%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[0.651s] [ 41%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[0.661s] [ 47%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[0.662s] [ 47%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[0.675s] [ 50%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[0.681s] [ 52%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[0.682s] [ 55%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[0.695s] [ 58%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[0.696s] [ 61%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[0.702s] [ 64%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[0.709s] [ 67%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[0.737s] [ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[0.748s] [ 73%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[0.761s] [ 76%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[0.764s] [ 79%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[0.777s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[0.810s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[0.810s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[0.824s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[0.825s] [ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[0.864s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[1.176s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[1.227s] [100%] Built target microxrcedds_client
+[1.238s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client -- -j12 -l12
+[1.297s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client
+[1.305s] -- Install configuration: "Release"
+[1.305s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.1.1
+[1.305s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.1
+[1.305s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.1.1" to ""
+[1.305s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/lib/libmicroxrcedds_client.so
+[1.305s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client
+[1.306s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/visibility.h
+[1.306s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile
+[1.306s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport
+[1.306s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip
+[1.306s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/ip.h
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[1.307s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp
+[1.308s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[1.308s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[1.308s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[1.309s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[1.309s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[1.309s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[1.309s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/custom
+[1.309s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/custom/custom_transport.h
+[1.309s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/serial
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport.h
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/can
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport.h
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport_posix.h
+[1.310s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing
+[1.311s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[1.311s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/discovery
+[1.311s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/discovery/discovery.h
+[1.311s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/multithread
+[1.311s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/profile/multithread/multithread.h
+[1.313s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/client.h
+[1.313s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/util
+[1.313s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/util/time.h
+[1.313s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/util/ping.h
+[1.314s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/defines.h
+[1.314s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/transport.h
+[1.315s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core
+[1.315s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session
+[1.315s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/session.h
+[1.315s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream
+[1.315s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/output_reliable_stream.h
+[1.316s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_id.h
+[1.316s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[1.316s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/input_reliable_stream.h
+[1.317s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[1.318s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_storage.h
+[1.318s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/reliable_stream.h
+[1.318s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/stream/seq_num.h
+[1.318s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/read_access.h
+[1.319s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/create_entities_ref.h
+[1.319s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/create_entities_bin.h
+[1.319s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/write_access.h
+[1.319s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/create_entities_xml.h
+[1.320s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/common_create_entities.h
+[1.320s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/time_sync.h
+[1.321s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/object_id.h
+[1.322s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/session/session_info.h
+[1.322s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/type
+[1.322s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/type/xrce_types.h
+[1.323s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/communication
+[1.323s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/core/communication/communication.h
+[1.323s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/include/uxr/client/config.h
+[1.324s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[1.324s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[1.324s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[1.325s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[1.325s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera/lib:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/microxrcedds_client

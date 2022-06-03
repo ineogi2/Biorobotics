@@ -1,0 +1,8 @@
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/install/local.dir
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/install.dir
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/list_install_components.dir
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/rebuild_cache.dir
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/edit_cache.dir
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/test.dir
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/common_interfaces_uninstall.dir
+/home/ineogi2/ws/Biorobotics/micro_ros/build/common_interfaces/CMakeFiles/uninstall.dir

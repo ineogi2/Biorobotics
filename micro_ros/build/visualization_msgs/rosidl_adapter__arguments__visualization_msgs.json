@@ -1,0 +1,16 @@
+{
+  "package_name": "visualization_msgs",
+  "non_idl_tuples": [
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/ImageMarker.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarker.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerControl.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerFeedback.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerInit.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerPose.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerUpdate.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/Marker.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/MarkerArray.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:msg/MenuEntry.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/visualization_msgs:srv/GetInteractiveMarkers.srv"
+  ]
+}

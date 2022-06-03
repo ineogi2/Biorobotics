@@ -1,0 +1,199 @@
+[0.015s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/micro_ros/install/sensor_msgs_py:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs
+[0.023s] Not searching for unused variables given on the command line.
+[0.027s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.058s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.217s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.397s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.521s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.653s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.654s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.685s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.685s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.685s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.714s] -- Configuring done
+[0.744s] -- Generating done
+[0.747s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs
+[0.755s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/micro_ros/install/sensor_msgs_py:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs
+[0.756s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/micro_ros/install/sensor_msgs_py:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs -- -j12 -l12
+[0.802s] [  1%] Built target micro_ros_msgs__cpp
+[0.803s] [ 10%] Built target micro_ros_msgs__rosidl_generator_c
+[0.837s] [ 20%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.837s] [ 27%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.841s] [ 35%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_cpp
+[0.846s] [ 69%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.846s] [ 69%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.846s] [ 69%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_c
+[0.846s] [ 69%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.869s] [ 77%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.888s] [ 77%] Built target micro_ros_msgs
+[0.906s] [ 79%] Built target micro_ros_msgs__py
+[0.930s] [ 86%] Built target micro_ros_msgs__python
+[0.957s] [ 89%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[0.961s] [ 93%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.962s] [ 96%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[0.963s] [100%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[0.975s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/micro_ros/install/sensor_msgs_py:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs -- -j12 -l12
+[1.084s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/micro_ros/install/sensor_msgs_py:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs
+[1.089s] -- Install configuration: ""
+[1.089s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[1.089s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.c
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.c
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.c
+[1.090s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[1.091s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_microxrcedds_c.h
+[1.091s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_microxrcedds_c.h
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_microxrcedds_c.h
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_microxrcedds_c.so
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[1.092s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/dds_fastrtps
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.c
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.c
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[1.093s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.c
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp
+[1.094s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/node__type_support_cpp.cpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/graph__type_support_cpp.cpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/entity__type_support_cpp.cpp
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[1.095s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.cpp
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[1.096s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[1.096s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[1.096s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py
+[1.133s] Compiling '/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py'...
+[1.136s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg
+[1.136s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py
+[1.136s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node_s.c
+[1.137s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py
+[1.137s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph_s.c
+[1.137s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py
+[1.137s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py
+[1.138s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity_s.c
+[1.138s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[1.138s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.138s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.139s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.139s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so
+[1.139s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[1.139s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[1.139s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[1.140s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[1.140s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[1.140s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[1.141s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[1.141s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[1.141s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[1.141s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[1.141s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[1.142s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[1.142s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[1.143s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[1.143s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[1.143s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[1.143s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[1.144s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[1.144s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake
+[1.144s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.144s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.144s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.145s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[1.145s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.145s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake
+[1.145s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.145s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.146s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[1.147s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.147s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[1.147s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.147s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.147s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.147s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.148s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.149s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.149s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[1.149s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[1.150s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[1.150s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ineogi2/ws/Biorobotics/micro_ros/install/sensor_msgs_py:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/micro_ros_msgs

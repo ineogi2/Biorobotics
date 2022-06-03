@@ -60,7 +60,7 @@ class Imagenode(Node):
         self.order = ['b','g','r']
         
         """Global 변수 설정"""
-        self.buffer_length = 100     # buffer 크기
+        self.buffer_length = 10000     # buffer 크기
         self.center = []    # marker center points
         self.count = 1      # 저장 주기
         self.signal = 2     # 통신 변수
@@ -80,12 +80,12 @@ class Imagenode(Node):
 
 
     def subscribe_pic(self, img):
-        # if len(self.data) == self.buffer_length:
-        #     data_list = np.reshape(np.array(self.data), (self.buffer_length,4))
-        #     self.get_logger().info('{0} file saved.'.format(self.count))
-        #     np.savetxt('data {0}.csv'.format(self.count), data_list, fmt='%f', delimiter=',')
-        #     self.data = []
-        #     self.count += 1
+        if len(self.data) == self.buffer_length:
+            data_list = np.reshape(np.array(self.data), (self.buffer_length,4))
+            self.get_logger().info('{0} file saved.'.format(self.count))
+            np.savetxt('data {0}.csv'.format(self.count), data_list, fmt='%f', delimiter=',')
+            self.data = []
+            self.count += 1
             
         if self.signal == 2:
             self.center = []
@@ -95,15 +95,15 @@ class Imagenode(Node):
                 cv.imshow("Original", cv_image)
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
-                black = np.zeros((360, 640, 3), np.uint8)
+                black = np.zeros((480, 640, 3), np.uint8)
 
                 for i in range(self.color_num):
                     contour = self.color_mask(img_,i)
                     center = self.moment(contour)
                     self.center.append(center)
                     if center != [0,0]:
-                        center = (center[0]//2, center[1]//2)
-                        cv.circle(black, center, 5, self.col[i], -1, cv.LINE_4)
+                        # center = (center[0]//2, center[1]//2)
+                        cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
 
                 cv.imshow("Image", black)
                 cv.waitKey(10)
@@ -120,7 +120,8 @@ class Imagenode(Node):
                 depth_array = np.array(cv_image, dtype=np.float32)
                 for color in range(self.color_num):           #b g r 순서
                     now = self.center[color]
-                    x,y = int(now[0]*848/1280), int(now[1]*480/720)  
+                    # x,y = int(now[0]*848/1280), int(now[1]*480/720)
+                    x,y = now[0],now[1]  
                     depth = depth_array[y][x]
 
                     now.append(depth)

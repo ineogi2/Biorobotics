@@ -1,0 +1,29 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c_tests
+-- Install configuration: ""
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.sh
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.dsv
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.sh
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.dsv
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.bash
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.sh
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.zsh
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.dsv
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.dsv
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig.cmake
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig-version.cmake
+-- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.xml

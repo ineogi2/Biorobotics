@@ -1,0 +1,13 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:msg/Path.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

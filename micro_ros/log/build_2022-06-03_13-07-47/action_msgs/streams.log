@@ -1,0 +1,363 @@
+[0.043s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/action_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.194s] -- The CXX compiler identification is GNU 9.4.0
+[0.201s] -- Check for working C compiler: /usr/bin/cc
+[0.303s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.304s] -- Detecting C compiler ABI info
+[0.382s] -- Detecting C compiler ABI info - done
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.487s] -- Detecting CXX compiler ABI info
+[0.575s] -- Detecting CXX compiler ABI info - done
+[0.585s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.587s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.622s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.622s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.857s] -- Found builtin_interfaces: 1.0.0 (/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.886s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.893s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.230s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.280s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.554s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.572s] -- Found unique_identifier_msgs: 2.1.3 (/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake)
+[1.638s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.852s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.070s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.072s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.118s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.118s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.118s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.118s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.148s] -- Found PythonExtra: .so  
+[2.227s] -- Configuring done
+[2.313s] -- Generating done
+[2.320s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs
+[2.336s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/action_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs
+[2.337s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs -- -j12 -l12
+[2.400s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.411s] [35m[1mScanning dependencies of target action_msgs__cpp[0m
+[2.425s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.561s] [35m[1mScanning dependencies of target action_msgs__rosidl_generator_c[0m
+[3.638s] [  4%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__functions.c.o[0m
+[3.646s] [  5%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__functions.c.o[0m
+[3.672s] [  7%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__functions.c.o[0m
+[3.673s] [  8%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__functions.c.o[0m
+[3.745s] [  8%] Built target action_msgs__cpp
+[3.811s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.815s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.815s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.841s] [ 14%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[3.890s] [ 15%] [32m[1mLinking C shared library libaction_msgs__rosidl_generator_c.so[0m
+[4.111s] [ 15%] Built target action_msgs__rosidl_generator_c
+[4.143s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.180s] [ 18%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[4.225s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.005s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_cpp[0m
+[5.117s] [ 21%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[5.155s] [ 23%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[5.156s] [ 24%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[5.156s] [ 26%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[5.297s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.437s] [ 27%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status_array__type_support.cpp.o[0m
+[5.453s] [ 28%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o[0m
+[5.456s] [ 30%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status__type_support.cpp.o[0m
+[5.755s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.809s] [ 31%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_info__type_support.cpp.o[0m
+[5.843s] [ 33%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/srv/detail/dds_fastrtps/cancel_goal__type_support.cpp.o[0m
+[5.957s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_introspection_c[0m
+[5.957s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_c[0m
+[6.033s] [ 34%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[6.065s] [ 36%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_info__type_support.c.o[0m
+[6.200s] [ 37%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status__type_support.c.o[0m
+[6.212s] [ 39%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[6.271s] [ 40%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[6.278s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_microxrcedds_c[0m
+[6.296s] [ 42%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[6.303s] [ 43%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/srv/detail/cancel_goal__type_support.c.o[0m
+[6.316s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[6.358s] [ 44%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/msg/detail/microxrcedds/goal_info__type_support_c.c.o[0m
+[6.387s] [ 46%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/msg/detail/microxrcedds/goal_info__type_support_cpp.cpp.o[0m
+[6.400s] [ 47%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp.o[0m
+[6.402s] [ 49%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[6.421s] [ 50%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_cpp.so[0m
+[6.429s] [ 52%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/msg/detail/microxrcedds/goal_status__type_support_c.c.o[0m
+[6.459s] [ 53%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp.o[0m
+[6.463s] [ 55%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/msg/detail/microxrcedds/goal_status_array__type_support_c.c.o[0m
+[6.470s] [ 56%] [32m[1mLinking C shared library libaction_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.477s] [ 57%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_c.so[0m
+[6.585s] [ 59%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status__type_support.cpp.o[0m
+[6.589s] [ 59%] Built target action_msgs__rosidl_typesupport_introspection_c
+[6.604s] [ 59%] Built target action_msgs__rosidl_typesupport_cpp
+[6.615s] [ 60%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/action_msgs/srv/detail/microxrcedds/cancel_goal__type_support_c.c.o[0m
+[6.642s] [ 62%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/action_msgs/srv/detail/microxrcedds/cancel_goal__type_support_cpp.cpp.o[0m
+[6.673s] [ 63%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status_array__type_support.cpp.o[0m
+[6.679s] [ 65%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/srv/detail/cancel_goal__type_support.cpp.o[0m
+[6.689s] [ 65%] Built target action_msgs__rosidl_typesupport_c
+[6.803s] [ 66%] [32m[1mLinking C shared library libaction_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[7.008s] [ 66%] Built target action_msgs__rosidl_typesupport_microxrcedds_c
+[7.102s] [ 68%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.445s] [ 68%] Built target action_msgs__rosidl_typesupport_fastrtps_cpp
+[7.474s] [ 69%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.491s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.539s] [ 72%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[7.689s] [ 72%] Built target action_msgs__rosidl_typesupport_introspection_cpp
+[7.747s] [ 72%] Built target action_msgs__rosidl_typesupport_microxrcedds_cpp
+[8.470s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_fastrtps_c[0m
+[8.527s] [ 73%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status_array__type_support_c.cpp.o[0m
+[8.551s] [ 75%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_info__type_support_c.cpp.o[0m
+[8.559s] [ 76%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status__type_support_c.cpp.o[0m
+[8.562s] [ 78%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/srv/detail/cancel_goal__type_support_c.cpp.o[0m
+[9.452s] [ 79%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.761s] [ 79%] Built target action_msgs__rosidl_typesupport_fastrtps_c
+[9.805s] [35m[1mScanning dependencies of target action_msgs[0m
+[9.861s] [ 79%] Built target action_msgs
+[9.921s] [35m[1mScanning dependencies of target action_msgs__py[0m
+[9.990s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.398s] [ 81%] Built target action_msgs__py
+[12.456s] [35m[1mScanning dependencies of target action_msgs__python[0m
+[12.562s] [ 84%] [32mBuilding C object CMakeFiles/action_msgs__python.dir/rosidl_generator_py/action_msgs/msg/_goal_status_s.c.o[0m
+[12.563s] [ 84%] [32mBuilding C object CMakeFiles/action_msgs__python.dir/rosidl_generator_py/action_msgs/msg/_goal_info_s.c.o[0m
+[12.594s] [ 85%] [32mBuilding C object CMakeFiles/action_msgs__python.dir/rosidl_generator_py/action_msgs/msg/_goal_status_array_s.c.o[0m
+[12.621s] [ 86%] [32mBuilding C object CMakeFiles/action_msgs__python.dir/rosidl_generator_py/action_msgs/srv/_cancel_goal_s.c.o[0m
+[13.104s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/libaction_msgs__python.so[0m
+[13.261s] [ 88%] Built target action_msgs__python
+[13.313s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[13.348s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[13.374s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_c__pyext[0m
+[13.377s] [35m[1mScanning dependencies of target action_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[13.384s] [ 89%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.453s] [ 91%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[13.466s] [ 92%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.472s] [ 94%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.747s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[13.777s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[13.839s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[13.881s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[13.919s] [100%] Built target action_msgs__rosidl_typesupport_introspection_c__pyext
+[13.998s] [100%] Built target action_msgs__rosidl_typesupport_c__pyext
+[14.053s] [100%] Built target action_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[14.159s] [100%] Built target action_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.192s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs -- -j12 -l12
+[16.374s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs
+[16.418s] -- Install configuration: ""
+[16.418s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/ament_index/resource_index/rosidl_interfaces/action_msgs
+[16.419s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.419s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.419s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__type_support.h
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__functions.h
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__struct.h
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__functions.c
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/cancel_goal.h
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/goal_info.h
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/goal_status.h
+[16.420s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.421s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/goal_status_array.h
+[16.421s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.421s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__functions.h
+[16.422s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__functions.c
+[16.422s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__struct.h
+[16.422s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__type_support.h
+[16.423s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__struct.h
+[16.423s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__struct.h
+[16.423s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__functions.c
+[16.423s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__functions.h
+[16.424s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__type_support.h
+[16.424s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__functions.c
+[16.424s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__type_support.h
+[16.425s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__functions.h
+[16.425s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/library_path.sh
+[16.426s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/library_path.dsv
+[16.426s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so
+[16.427s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so" to ""
+[16.427s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.427s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.427s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.428s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_microxrcedds_c.h
+[16.428s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/microxrcedds
+[16.428s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.429s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.429s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/microxrcedds
+[16.429s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_c.h
+[16.430s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_microxrcedds_c.h
+[16.430s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_c.h
+[16.430s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[16.431s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_c.so
+[16.431s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[16.432s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.432s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.432s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.432s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_c.h
+[16.433s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.433s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.433s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.433s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h
+[16.434s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_c.h
+[16.434s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_c.h
+[16.434s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+[16.435s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.435s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.436s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.436s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.436s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[16.437s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/dds_fastrtps
+[16.453s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.453s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.453s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.454s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_cpp.hpp
+[16.454s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/dds_fastrtps
+[16.454s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.455s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp
+[16.455s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.456s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.456s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.456s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.457s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.457s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_c.h
+[16.457s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__type_support.c
+[16.457s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.458s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.458s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_c.h
+[16.458s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__type_support.c
+[16.459s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_c.h
+[16.459s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__type_support.c
+[16.459s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_c.h
+[16.459s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__type_support.c
+[16.460s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.460s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+[16.461s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.461s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so
+[16.462s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so" to ""
+[16.462s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.463s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.463s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/cancel_goal.hpp
+[16.463s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.463s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__traits.hpp
+[16.464s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__builder.hpp
+[16.464s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__struct.hpp
+[16.464s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.464s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/goal_status.hpp
+[16.465s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/goal_info.hpp
+[16.465s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/goal_status_array.hpp
+[16.465s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.465s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__traits.hpp
+[16.466s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__builder.hpp
+[16.466s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__struct.hpp
+[16.466s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__struct.hpp
+[16.467s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__builder.hpp
+[16.467s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__traits.hpp
+[16.467s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__builder.hpp
+[16.468s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__traits.hpp
+[16.468s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__struct.hpp
+[16.468s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.469s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.469s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.469s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.469s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/microxrcedds
+[16.469s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/microxrcedds/cancel_goal__type_support_cpp.cpp
+[16.470s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.470s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[16.470s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.471s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.471s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.472s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.472s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/microxrcedds
+[16.473s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/microxrcedds/goal_info__type_support_cpp.cpp
+[16.474s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp
+[16.474s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp
+[16.474s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[16.478s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[16.478s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs
+[16.478s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv
+[16.478s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail
+[16.478s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_cpp.hpp
+[16.478s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/srv/detail/cancel_goal__type_support.cpp
+[16.479s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg
+[16.479s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail
+[16.479s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_cpp.hpp
+[16.479s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp
+[16.479s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status__type_support.cpp
+[16.479s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_info__type_support.cpp
+[16.479s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__type_support.cpp
+[16.479s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/include/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_cpp.hpp
+[16.480s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+[16.480s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.480s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so
+[16.480s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so" to ""
+[16.480s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/pythonpath.sh
+[16.480s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/pythonpath.dsv
+[16.480s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/__init__.py
+[16.601s] Compiling '/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/__init__.py'...
+[16.624s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg
+[16.624s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg/__init__.py
+[16.624s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg/_goal_status_array_s.c
+[16.625s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg/_goal_info_s.c
+[16.625s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg/_goal_status.py
+[16.625s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg/_goal_status_s.c
+[16.625s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg/_goal_info.py
+[16.625s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/msg/_goal_status_array.py
+[16.626s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/srv
+[16.626s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/srv/_cancel_goal.py
+[16.626s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/srv/__init__.py
+[16.627s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/srv/_cancel_goal_s.c
+[16.627s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[16.628s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.631s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[16.632s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.632s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[16.633s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.634s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[16.635s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/python3.8/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.635s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__python.so
+[16.636s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/lib/libaction_msgs__python.so" to ""
+[16.636s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
+[16.637s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
+[16.637s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
+[16.637s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
+[16.638s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/msg/GoalInfo.msg
+[16.638s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/msg/GoalStatus.msg
+[16.638s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/msg/GoalStatusArray.msg
+[16.639s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/srv/CancelGoal.srv
+[16.639s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/srv/CancelGoal_Request.msg
+[16.640s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/srv/CancelGoal_Response.msg
+[16.640s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/ament_index/resource_index/package_run_dependencies/action_msgs
+[16.641s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/ament_index/resource_index/parent_prefix_path/action_msgs
+[16.641s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/ament_prefix_path.sh
+[16.642s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/ament_prefix_path.dsv
+[16.642s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/path.sh
+[16.642s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/environment/path.dsv
+[16.643s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/local_setup.bash
+[16.643s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/local_setup.sh
+[16.644s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/local_setup.zsh
+[16.644s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/local_setup.dsv
+[16.644s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/package.dsv
+[16.645s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/ament_index/resource_index/packages/action_msgs
+[16.645s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_generator_cExport.cmake
+[16.645s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.646s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.646s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.647s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport.cmake
+[16.647s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.652s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_generator_cppExport.cmake
+[16.652s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.653s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.653s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport.cmake
+[16.655s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.655s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/rosidl_cmake-extras.cmake
+[16.655s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.655s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.655s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.655s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.656s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.657s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.657s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgsConfig.cmake
+[16.658s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/cmake/action_msgsConfig-version.cmake
+[16.658s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/action_msgs/share/action_msgs/package.xml
+[16.670s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ineogi2/ws/Biorobotics/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/action_msgs

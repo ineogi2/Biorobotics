@@ -1,0 +1,17 @@
+[0.008s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr': /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr -- -j12 -l12
+[0.043s] [100%] Built target microcdr
+[0.050s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr -- -j12 -l12
+[0.077s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr': /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr
+[0.084s] -- Install configuration: "Release"
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0.0
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib/libmicrocdr.so
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/include/ucdr
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/include/ucdr/visibility.h
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/include/ucdr/microcdr.h
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/include/ucdr/config.h
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.085s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[0.086s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.086s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/microcdr

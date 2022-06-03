@@ -1,0 +1,9 @@
+{
+  "package_name": "action_msgs",
+  "non_idl_tuples": [
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
+    "/home/ineogi2/ws/Biorobotics/micro_ros/src/ros2/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
+  ]
+}

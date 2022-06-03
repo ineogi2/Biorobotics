@@ -1,0 +1,75 @@
+[0.008s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c
+[0.044s] -- The C compiler identification is GNU 9.4.0
+[0.048s] -- Check for working C compiler: /usr/bin/cc
+[0.094s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.094s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.150s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.171s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.320s] -- Found rosidl_runtime_c: 1.2.1 (/opt/ros/foxy/share/rosidl_runtime_c/cmake)
+[0.401s] -- Configuring done
+[0.404s] -- Generating done
+[0.404s] -- Build files have been written to: /home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c
+[0.407s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ineogi2/ws/Biorobotics/micro_ros/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c
+[0.409s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c -- -j12 -l12
+[0.435s] [35m[1mScanning dependencies of target rosidl_typesupport_microxrcedds_c[0m
+[0.442s] [ 50%] [32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o[0m
+[0.457s] [100%] [32m[1mLinking C shared library librosidl_typesupport_microxrcedds_c.so[0m
+[0.480s] [100%] Built target rosidl_typesupport_microxrcedds_c
+[0.491s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c -- -j12 -l12
+[0.506s] Invoking command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c
+[0.512s] -- Install configuration: ""
+[0.512s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.sh
+[0.512s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.dsv
+[0.512s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c
+[0.513s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py
+[0.535s] Listing '/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c'...
+[0.535s] Compiling '/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py'...
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.sh
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.dsv
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_microxrcedds_c
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.sh
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.dsv
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.sh
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.dsv
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.bash
+[0.538s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.sh
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.zsh
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.dsv
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.dsv
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport.cmake
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport-noconfig.cmake
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c-extras.cmake
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.539s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_libraries-extras.cmake
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_targets-extras.cmake
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig-version.cmake
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.xml
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c
+[0.540s] -- Up-to-date: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em
+[0.540s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/rosidl_typesupport_microxrcedds_c__visibility_control.h.in
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/include
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/message_type_support.h
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/visibility_control.h
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/identifier.h
+[0.541s] -- Installing: /home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so
+[0.541s] -- Set runtime path of "/home/ineogi2/ws/Biorobotics/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so" to ""
+[0.544s] Invoked command in '/home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr:/home/ineogi2/ws/Biorobotics/micro_ros/install/micro_ros_setup:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/ws/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/ws/Biorobotics/micro_ros/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ineogi2/ws/Biorobotics/micro_ros/build/rosidl_typesupport_microxrcedds_c
