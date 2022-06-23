@@ -7,6 +7,7 @@
 ### 2021.08 ~ 2021.10 : < 준비 >
 * Realsense Camera ( D435i )를 통해 얻은 픽셀과 뎁스 값 -> user's intention 파악하고자 함
 * ROS1 사용 -> 여러 노드를 통합,관리하기 용이함
+
   ------ AAN을 위한 재활 대상자의 상태 파악을 주제로 연구 시작 ------
   * strain guage를 통해 tension과 joint angle 파악하려 시도
   * polymer부터 전도성 천, 3D 프린터 등의 방법등을 이용
