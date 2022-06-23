@@ -4,14 +4,22 @@ Biorobotics Lab Intern 2021.08 ~
 
 ## Biorobotics Lab Intern 2021.08 ~
 ### 2021.08 ~ 2021.11
+* 
 
 ### 2021.12 ~ 2022.02
 
 ### 2022.03 ~ 
+
+* ros-foxy-realsense2-camera
+ * realsense SDK 2.0과 충돌하는 것처럼 보임
+ * librealsense 를 git에서 바로 받지 않고 package 별로 따로 설치해야 충돌 x
+ * librealsense2-dkms 혹은 realsense2-camera pkg를 삭제 시 잘 동작하는 것을 확인할 수 있었음
+
 ## 06/03 result
 * Distal / Middle / Proximal 손가락 마커 인식 -> Tension 데이터와 결합
 * 영상 참조
-* Future work : Green color 인식 개선 필요 + 마커 여러 개 사용
+* Future work : Green color 인식 개선 필요 + 마커 여러 개 사용￼
+
 
 ## Command 모음
 

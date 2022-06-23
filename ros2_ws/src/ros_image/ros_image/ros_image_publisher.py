@@ -112,7 +112,7 @@ class Imagenode(Node):
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
                 # cv.imshow("HSV", img_)
-                black = np.zeros((480, 640, 3), np.uint8)
+                black = np.zeros((480, 848, 3), np.uint8)
 
                 for i in range(self.color_num):
                     contour = self.color_mask(img_,i)
@@ -137,8 +137,8 @@ class Imagenode(Node):
                 depth_array = np.array(cv_image, dtype=np.float32)
                 for color in range(self.color_num):           #b g r 순서
                     now = self.center[color]
-                    # x,y = int(now[0]*848/1280), int(now[1]*480/720)
-                    x,y = now[0],now[1]  
+                    x,y = int(now[0]*848/1280), int(now[1]*480/720)
+                    # x,y = now[0],now[1]  
                     depth = depth_array[y][x]
 
                     now.append(depth)
@@ -150,8 +150,8 @@ class Imagenode(Node):
                 self.get_logger().info('Error')
                 rclpy.shutdown()
             
-            # self.signal = 2
-            self.signal -= 1
+            self.signal = 2
+            # self.signal -= 1
 
 
 # --------------------------------------------------------------------------------

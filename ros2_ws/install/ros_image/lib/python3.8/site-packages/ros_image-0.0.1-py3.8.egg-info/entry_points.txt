@@ -1,3 +1,0 @@
-[console_scripts]
-ros_image = ros_image.ros_image_publisher:main
-
