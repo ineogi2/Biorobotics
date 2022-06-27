@@ -25,12 +25,10 @@
 
 ### etc
 * 사용한 tool
-  * ros2 / micro_ros / openCV / teensy / realsense tools / ...
+  * ros2-foxy / micro_ros / openCV 4.4.0 / teensy / realsense tools / ...
 
 * **ros-foxy-realsense2-camera**
   * realsense SDK 2.0과 충돌하는 것처럼 보임
-  * librealsense 를 git에서 바로 받지 않고 package 별로 따로 설치해야 충돌 x
-  * librealsense2-dkms 혹은 realsense2-camera pkg를 삭제 시 잘 동작하는 것을 확인할 수 있었음
 
 
 ## Command 모음
@@ -48,11 +46,14 @@
 * ros2 topic hz <> : 토픽 publish rate  
 
 ### Git  
-* git init - 해당 폴더를 git 과 연동 or git clone "SSH 주소" 로 폴더 다운받고 시작해도 됨  
+* git init
+* ssh-keygen - public / private key 생성
+* 해당 public key를 github ssh key 등록 칸에 등록해준다
+* git clone <ssh용>
+
 * git add . - 현재 폴더 전부 등록  
 * git status - 상태 확인  
 * git commit -m "commit message" - commit 등록  
-* git remote add origin "SSH주소" - git 주소 등록  
 * git push origin main - 업로드  
 
 ### Ubuntu  
