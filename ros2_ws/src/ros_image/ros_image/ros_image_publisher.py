@@ -49,29 +49,21 @@ class Imagenode(Node):
         self.lower_blue = np.array([100, 50, 70])
         self.upper_blue = np.array([128, 255, 255])
 
-        # self.lower_green = np.array([80, 90, 70])
-        # self.upper_green = np.array([95, 255, 255])
-
-        # original
         self.lower_green = np.array([25, 52, 50])
         self.upper_green = np.array([95, 255, 255])
 
         self.lower_red = np.array([155, 70, 70])
         self.upper_red = np.array([190, 255, 255])
 
-        self.lower = [self.lower_blue,self.lower_green,self.lower_red]
-        self.upper = [self.upper_blue,self.lower_green,self.upper_red]
         self.col = [(255,0,0),(0,255,0),(0,0,255)]
         self.order = ['b','g','r']
         
         """Global 변수 설정"""
-        self.buffer_length = 100     # buffer 크기
+        self.buffer_length = 500     # buffer size
         self.center = []    # marker center points
-        self.count = 1      # 저장 주기
-        self.signal = 2     # 통신 변수
+        self.count = 1
+        self.signal = 2     # communication
         self.data = []
-        # self.finger = []    # finger direction
-        # self.tension = []   # tension data
 
 
 # --------------------------------------------------------------------------------
@@ -80,8 +72,6 @@ class Imagenode(Node):
     def subscribe_tension(self, tension):
         if self.signal == 0:
             self.center = np.array(self.center).flatten().tolist()
-            # self.get_logger().info('{0}'.format(self.center))
-            # self.data[-1].append([round(tension.data,2)])
             self.center.append(round(tension.data, 2))
             self.data.append(self.center)
             self.signal = 2
@@ -91,8 +81,6 @@ class Imagenode(Node):
     def subscribe_pic(self, img):
         if len(self.data) == self.buffer_length:
             data_list = np.reshape(np.array(self.data), (self.buffer_length,10))
-            # self.get_logger().info('{0}'.format(np.shape(data_list)))
-            # self.get_logger().info('{0}'.format(data_list))
             self.get_logger().info('{0} file saved.'.format(self.count))
             while True:
                 try:
@@ -109,19 +97,16 @@ class Imagenode(Node):
             try:
                 cv_image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
                 cv.imshow("Original", cv_image)
-                # self.get_logger().info(f"{cv_image.shape}")
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
-                # cv.imshow("HSV", img_)
                 black = np.zeros((720, 1280, 3), np.uint8)
 
                 for i in range(self.color_num):
                     contour = self.color_mask(img_,i)
                     center = self.moment(contour)
                     self.center.append(center)
-                    # if center != [0,0]:
-                        # center = (center[0]//2, center[1]//2)
-                    cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
+                    if center != [0,0]:
+                        cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
 
                 cv.imshow("Image", black)
                 cv.waitKey(5)
@@ -139,20 +124,17 @@ class Imagenode(Node):
                 for color in range(self.color_num):           #b g r 순서
                     now = self.center[color]
                     x,y = int(now[0]*848/1280), int(now[1]*480/720)
-                    # x,y = now[0],now[1]  
                     depth = depth_array[y][x]
 
                     now.append(depth)
                     self.center[color] = now
 
-                # self.data.append(self.center)
-
             except CvBridgeError:
                 self.get_logger().info('Error')
                 rclpy.shutdown()
             
-            self.signal = 2
-            # self.signal -= 1
+            self.signal = 2         # for no Tension data
+            # self.signal -= 1      # with Tension data
 
 
 # --------------------------------------------------------------------------------
@@ -192,7 +174,7 @@ class Imagenode(Node):
             self.lower, self.upper = self.lower_green, self.upper_green
         else:
             self.lower, self.upper = self.lower_red, self.upper_red
-            
+
         mask = cv.inRange(img_, self.lower, self.upper)
         open = cv.morphologyEx(mask, cv.MORPH_OPEN, self.kernelopen)
         close = cv.morphologyEx(open, cv.MORPH_CLOSE, self.kernelclose)
