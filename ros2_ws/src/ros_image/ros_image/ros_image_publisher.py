@@ -1,6 +1,6 @@
 
 """
-05/09 newly fixed - vision + tension
+06/30 newly fixed - vision + tension
 MEAN OF THE COORDINATE
 """
 
@@ -46,10 +46,10 @@ class Imagenode(Node):
         self.kernelopen = np.ones((5,5))
         self.kernelclose = np.ones((5,5))
 
-        self.lower_blue = np.array([89, 100, 100])
+        self.lower_blue = np.array([93, 130, 130])
         self.upper_blue = np.array([128, 255, 255])
 
-        self.lower_green = np.array([50, 52, 130])
+        self.lower_green = np.array([60, 50, 70])
         self.upper_green = np.array([85, 255, 255])
 
         self.lower_red = np.array([155, 70, 70])
@@ -64,6 +64,7 @@ class Imagenode(Node):
         self.count = 1
         self.signal = 2     # communication
         self.data = []
+        self.data_save = 1  # if 1, data save On ; else, Off
 
 
 # --------------------------------------------------------------------------------
@@ -79,17 +80,18 @@ class Imagenode(Node):
 
 
     def subscribe_pic(self, img):
-        if len(self.data) == self.buffer_length:
-            data_list = np.reshape(np.array(self.data), (self.buffer_length,10))
-            self.get_logger().info('{0} file saved.'.format(self.count))
-            while True:
-                try:
-                    np.savetxt('data {0}.csv'.format(self.count), data_list, header=header_,fmt='%f', delimiter=',')
-                    break
-                except:
-                    self.count+=1
-            self.data = []
-            self.count += 1
+        # if self.data_save:
+        #     if len(self.data) == self.buffer_length:
+        #         data_list = np.reshape(np.array(self.data), (self.buffer_length,len(self.center)))
+        #         self.get_logger().info('{0} file saved.'.format(self.count))
+        #         while True:
+        #             try:
+        #                 np.savetxt('data {0}.csv'.format(self.count), data_list, header=header_,fmt='%f', delimiter=',')
+        #                 break
+        #             except:
+        #                 self.count+=1
+        #         self.data = []
+        #         self.count += 1
             
         if self.signal == 2:
             self.center = []
@@ -124,7 +126,7 @@ class Imagenode(Node):
                 for color in range(self.color_num):           #b g r 순서
                     now = self.center[color]
                     x,y = int(now[0]*848/1280), int(now[1]*480/720)
-                    depth = depth_array[y][x]
+                    depth = self.depth_preprocessing(depth_array, (x,y))
 
                     now.append(depth)
                     self.center[color] = now
@@ -133,6 +135,11 @@ class Imagenode(Node):
                 self.get_logger().info('Error')
                 rclpy.shutdown()
             
+            # when no Tension
+            if self.data_save:
+                self.center = np.array(self.center).flatten().tolist()
+                self.data.append(self.center)
+                
             self.signal = 2         # for no Tension data
             # self.signal -= 1      # with Tension data
 
@@ -186,6 +193,22 @@ class Imagenode(Node):
 
         return ctr
 
+    def depth_preprocessing(self, depth_array, pos):
+        depth = []; x,y = pos[0], pos[1]
+        for i in range(-3,4):
+            for j in range(-3,4):
+                try:
+                    d = depth_array[y+j][x+i]
+                    if d != 0:
+                        depth.append(d)
+                except:
+                    continue
+
+        if depth == []:
+            return 0
+        depth = np.mean(depth)
+        return int(depth)
+
 
 # --------------------------------------------------------------------------------
 # main
@@ -196,6 +219,10 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
+        if node.data_save:
+                data_list = np.reshape(np.array(node.data), (len(node.data),len(node.data[0])))
+                node.get_logger().info('file saved.')
+                np.savetxt('data.csv', data_list, header=header_,fmt='%f', delimiter=',')
         node.get_logger().info('Keyboard Interrupt (SIGINT)')
     finally:
         node.destroy_node()
