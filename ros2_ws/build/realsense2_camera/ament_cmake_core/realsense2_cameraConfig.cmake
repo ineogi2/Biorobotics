@@ -16,7 +16,7 @@ set(_realsense2_camera_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT realsense2_camera_FIND_QUIETLY)
-  message(STATUS "Found realsense2_camera: 3.2.3 (${realsense2_camera_DIR})")
+  message(STATUS "Found realsense2_camera: 4.0.4 (${realsense2_camera_DIR})")
 endif()
 
 # warn when using a deprecated package

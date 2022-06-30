@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera
+CMAKE_SOURCE_DIR = /home/ineogi2/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera
+CMAKE_BINARY_DIR = /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -300,6 +300,114 @@ src/dynamic_params.cpp.s:
 	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.s
 .PHONY : src/dynamic_params.cpp.s
 
+src/image_publisher.o: src/image_publisher.cpp.o
+
+.PHONY : src/image_publisher.o
+
+# target to build an object file
+src/image_publisher.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o
+.PHONY : src/image_publisher.cpp.o
+
+src/image_publisher.i: src/image_publisher.cpp.i
+
+.PHONY : src/image_publisher.i
+
+# target to preprocess a source file
+src/image_publisher.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.i
+.PHONY : src/image_publisher.cpp.i
+
+src/image_publisher.s: src/image_publisher.cpp.s
+
+.PHONY : src/image_publisher.s
+
+# target to generate assembly for a file
+src/image_publisher.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.s
+.PHONY : src/image_publisher.cpp.s
+
+src/named_filter.o: src/named_filter.cpp.o
+
+.PHONY : src/named_filter.o
+
+# target to build an object file
+src/named_filter.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o
+.PHONY : src/named_filter.cpp.o
+
+src/named_filter.i: src/named_filter.cpp.i
+
+.PHONY : src/named_filter.i
+
+# target to preprocess a source file
+src/named_filter.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.i
+.PHONY : src/named_filter.cpp.i
+
+src/named_filter.s: src/named_filter.cpp.s
+
+.PHONY : src/named_filter.s
+
+# target to generate assembly for a file
+src/named_filter.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.s
+.PHONY : src/named_filter.cpp.s
+
+src/parameters.o: src/parameters.cpp.o
+
+.PHONY : src/parameters.o
+
+# target to build an object file
+src/parameters.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o
+.PHONY : src/parameters.cpp.o
+
+src/parameters.i: src/parameters.cpp.i
+
+.PHONY : src/parameters.i
+
+# target to preprocess a source file
+src/parameters.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/parameters.cpp.i
+.PHONY : src/parameters.cpp.i
+
+src/parameters.s: src/parameters.cpp.s
+
+.PHONY : src/parameters.s
+
+# target to generate assembly for a file
+src/parameters.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/parameters.cpp.s
+.PHONY : src/parameters.cpp.s
+
+src/profile_manager.o: src/profile_manager.cpp.o
+
+.PHONY : src/profile_manager.o
+
+# target to build an object file
+src/profile_manager.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o
+.PHONY : src/profile_manager.cpp.o
+
+src/profile_manager.i: src/profile_manager.cpp.i
+
+.PHONY : src/profile_manager.i
+
+# target to preprocess a source file
+src/profile_manager.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.i
+.PHONY : src/profile_manager.cpp.i
+
+src/profile_manager.s: src/profile_manager.cpp.s
+
+.PHONY : src/profile_manager.s
+
+# target to generate assembly for a file
+src/profile_manager.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.s
+.PHONY : src/profile_manager.cpp.s
+
 src/realsense_node_factory.o: src/realsense_node_factory.cpp.o
 
 .PHONY : src/realsense_node_factory.o
@@ -354,6 +462,114 @@ src/ros_param_backend_foxy.cpp.s:
 	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.s
 .PHONY : src/ros_param_backend_foxy.cpp.s
 
+src/ros_sensor.o: src/ros_sensor.cpp.o
+
+.PHONY : src/ros_sensor.o
+
+# target to build an object file
+src/ros_sensor.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o
+.PHONY : src/ros_sensor.cpp.o
+
+src/ros_sensor.i: src/ros_sensor.cpp.i
+
+.PHONY : src/ros_sensor.i
+
+# target to preprocess a source file
+src/ros_sensor.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.i
+.PHONY : src/ros_sensor.cpp.i
+
+src/ros_sensor.s: src/ros_sensor.cpp.s
+
+.PHONY : src/ros_sensor.s
+
+# target to generate assembly for a file
+src/ros_sensor.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.s
+.PHONY : src/ros_sensor.cpp.s
+
+src/ros_utils.o: src/ros_utils.cpp.o
+
+.PHONY : src/ros_utils.o
+
+# target to build an object file
+src/ros_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o
+.PHONY : src/ros_utils.cpp.o
+
+src/ros_utils.i: src/ros_utils.cpp.i
+
+.PHONY : src/ros_utils.i
+
+# target to preprocess a source file
+src/ros_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.i
+.PHONY : src/ros_utils.cpp.i
+
+src/ros_utils.s: src/ros_utils.cpp.s
+
+.PHONY : src/ros_utils.s
+
+# target to generate assembly for a file
+src/ros_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.s
+.PHONY : src/ros_utils.cpp.s
+
+src/rs_node_setup.o: src/rs_node_setup.cpp.o
+
+.PHONY : src/rs_node_setup.o
+
+# target to build an object file
+src/rs_node_setup.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o
+.PHONY : src/rs_node_setup.cpp.o
+
+src/rs_node_setup.i: src/rs_node_setup.cpp.i
+
+.PHONY : src/rs_node_setup.i
+
+# target to preprocess a source file
+src/rs_node_setup.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.i
+.PHONY : src/rs_node_setup.cpp.i
+
+src/rs_node_setup.s: src/rs_node_setup.cpp.s
+
+.PHONY : src/rs_node_setup.s
+
+# target to generate assembly for a file
+src/rs_node_setup.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.s
+.PHONY : src/rs_node_setup.cpp.s
+
+src/sensor_params.o: src/sensor_params.cpp.o
+
+.PHONY : src/sensor_params.o
+
+# target to build an object file
+src/sensor_params.cpp.o:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o
+.PHONY : src/sensor_params.cpp.o
+
+src/sensor_params.i: src/sensor_params.cpp.i
+
+.PHONY : src/sensor_params.i
+
+# target to preprocess a source file
+src/sensor_params.cpp.i:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.i
+.PHONY : src/sensor_params.cpp.i
+
+src/sensor_params.s: src/sensor_params.cpp.s
+
+.PHONY : src/sensor_params.s
+
+# target to generate assembly for a file
+src/sensor_params.cpp.s:
+	$(MAKE) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.s
+.PHONY : src/sensor_params.cpp.s
+
 src/t265_realsense_node.o: src/t265_realsense_node.cpp.o
 
 .PHONY : src/t265_realsense_node.o
@@ -407,12 +623,36 @@ help:
 	@echo "... src/dynamic_params.o"
 	@echo "... src/dynamic_params.i"
 	@echo "... src/dynamic_params.s"
+	@echo "... src/image_publisher.o"
+	@echo "... src/image_publisher.i"
+	@echo "... src/image_publisher.s"
+	@echo "... src/named_filter.o"
+	@echo "... src/named_filter.i"
+	@echo "... src/named_filter.s"
+	@echo "... src/parameters.o"
+	@echo "... src/parameters.i"
+	@echo "... src/parameters.s"
+	@echo "... src/profile_manager.o"
+	@echo "... src/profile_manager.i"
+	@echo "... src/profile_manager.s"
 	@echo "... src/realsense_node_factory.o"
 	@echo "... src/realsense_node_factory.i"
 	@echo "... src/realsense_node_factory.s"
 	@echo "... src/ros_param_backend_foxy.o"
 	@echo "... src/ros_param_backend_foxy.i"
 	@echo "... src/ros_param_backend_foxy.s"
+	@echo "... src/ros_sensor.o"
+	@echo "... src/ros_sensor.i"
+	@echo "... src/ros_sensor.s"
+	@echo "... src/ros_utils.o"
+	@echo "... src/ros_utils.i"
+	@echo "... src/ros_utils.s"
+	@echo "... src/rs_node_setup.o"
+	@echo "... src/rs_node_setup.i"
+	@echo "... src/rs_node_setup.s"
+	@echo "... src/sensor_params.o"
+	@echo "... src/sensor_params.i"
+	@echo "... src/sensor_params.s"
 	@echo "... src/t265_realsense_node.o"
 	@echo "... src/t265_realsense_node.i"
 	@echo "... src/t265_realsense_node.s"

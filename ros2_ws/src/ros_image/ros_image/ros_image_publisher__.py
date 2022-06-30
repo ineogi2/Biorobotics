@@ -31,7 +31,7 @@ class Imagenode(Node):
         self.encoder = []
 
         """realsense 통신 subscriber"""
-        self.image_subscriber = self.create_subscription(Image, '/color/image_raw', self.subscribe_pic, qos_profile)
+        self.image_subscriber = self.create_subscription(Image, '/camera/color/image_raw', self.subscribe_pic, qos_profile)
         self.cv_bridge = CvBridge()
 
         # self.depth_subscriber = self.create_subscription(Image, '/depth/image_rect_raw', self.subscribe_depth, qos_profile)

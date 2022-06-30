@@ -17,14 +17,9 @@ extern "C"
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'header'
-#include "std_msgs/msg/detail/header__struct.h"
-
 // Struct defined in msg/Extrinsics in the package realsense2_camera_msgs.
 typedef struct realsense2_camera_msgs__msg__Extrinsics
 {
-  std_msgs__msg__Header header;
   double rotation[9];
   double translation[3];
 } realsense2_camera_msgs__msg__Extrinsics;

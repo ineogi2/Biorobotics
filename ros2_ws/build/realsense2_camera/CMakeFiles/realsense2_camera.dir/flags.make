@@ -6,5 +6,5 @@ CXX_FLAGS = -O2  -fPIE -fstack-protector-strong -fPIC -fno-operator-names -Wform
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Drealsense2_camera_EXPORTS
 
-CXX_INCLUDES = -I/home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/include -isystem /home/ineogi2/ws/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include -isystem /opt/ros/foxy/include -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I/home/ineogi2/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera/include -isystem /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/include -isystem /opt/ros/foxy/include -isystem /usr/local/include/opencv4 
 

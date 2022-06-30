@@ -1,0 +1,24 @@
+[0.441s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/build/ros_image': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build
+[0.602s] running develop
+[0.713s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/build/ros_image' returned '0': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build
+[0.715s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/src/ros_image': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_image build --build-base /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build install --record /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/install.log --single-version-externally-managed
+[0.865s] running egg_info
+[0.865s] writing ../../build/ros_image/ros_image.egg-info/PKG-INFO
+[0.865s] writing dependency_links to ../../build/ros_image/ros_image.egg-info/dependency_links.txt
+[0.866s] writing entry points to ../../build/ros_image/ros_image.egg-info/entry_points.txt
+[0.866s] writing requirements to ../../build/ros_image/ros_image.egg-info/requires.txt
+[0.866s] writing top-level names to ../../build/ros_image/ros_image.egg-info/top_level.txt
+[0.890s] reading manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+[0.891s] writing manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+[0.891s] running build
+[0.891s] running build_py
+[0.891s] running install
+[0.892s] running install_lib
+[0.893s] running install_data
+[0.893s] running install_egg_info
+[0.894s] removing '/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image-0.0.1-py3.8.egg-info' (and everything under it)
+[0.895s] Copying ../../build/ros_image/ros_image.egg-info to /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image-0.0.1-py3.8.egg-info
+[0.895s] running install_scripts
+[0.907s] Installing ros_image script to /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/bin
+[0.907s] writing list of installed files to '/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/install.log'
+[0.921s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/src/ros_image' returned '0': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_image build --build-base /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build install --record /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/install.log --single-version-externally-managed

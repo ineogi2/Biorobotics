@@ -14,10 +14,6 @@
 #include <vector>
 
 
-// Include directives for member types
-// Member 'header'
-#include "std_msgs/msg/detail/header__struct.hpp"
-
 #ifndef _WIN32
 # define DEPRECATED__realsense2_camera_msgs__msg__Extrinsics __attribute__((deprecated))
 #else
@@ -37,7 +33,6 @@ struct Extrinsics_
   using Type = Extrinsics_<ContainerAllocator>;
 
   explicit Extrinsics_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : header(_init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -48,8 +43,7 @@ struct Extrinsics_
   }
 
   explicit Extrinsics_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : header(_alloc, _init),
-    rotation(_alloc),
+  : rotation(_alloc),
     translation(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
@@ -61,9 +55,6 @@ struct Extrinsics_
   }
 
   // field types and members
-  using _header_type =
-    std_msgs::msg::Header_<ContainerAllocator>;
-  _header_type header;
   using _rotation_type =
     std::array<double, 9>;
   _rotation_type rotation;
@@ -72,12 +63,6 @@ struct Extrinsics_
   _translation_type translation;
 
   // setters for named parameter idiom
-  Type & set__header(
-    const std_msgs::msg::Header_<ContainerAllocator> & _arg)
-  {
-    this->header = _arg;
-    return *this;
-  }
   Type & set__rotation(
     const std::array<double, 9> & _arg)
   {
@@ -133,9 +118,6 @@ struct Extrinsics_
   // comparison operators
   bool operator==(const Extrinsics_ & other) const
   {
-    if (this->header != other.header) {
-      return false;
-    }
     if (this->rotation != other.rotation) {
       return false;
     }

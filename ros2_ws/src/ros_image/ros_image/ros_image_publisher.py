@@ -27,7 +27,7 @@ class Imagenode(Node):
         super().__init__('image_node')           ### 노드 이름
         qos_profile = QoSProfile(depth=1)       ### 버퍼 설정
 
-        text_path = '/home/pyeon/Documents/ros_data'
+        text_path = '/home/ineogi2/Biorobotics/Documents/Data'
         os.chdir(text_path)
 
         """teensy 통신 subscriber"""
@@ -46,11 +46,11 @@ class Imagenode(Node):
         self.kernelopen = np.ones((5,5))
         self.kernelclose = np.ones((5,5))
 
-        self.lower_blue = np.array([100, 50, 70])
+        self.lower_blue = np.array([89, 100, 100])
         self.upper_blue = np.array([128, 255, 255])
 
-        self.lower_green = np.array([25, 52, 50])
-        self.upper_green = np.array([95, 255, 255])
+        self.lower_green = np.array([50, 52, 130])
+        self.upper_green = np.array([85, 255, 255])
 
         self.lower_red = np.array([155, 70, 70])
         self.upper_red = np.array([190, 255, 255])
@@ -96,7 +96,7 @@ class Imagenode(Node):
 
             try:
                 cv_image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
-                cv.imshow("Original", cv_image)
+                # cv.imshow("Original", cv_image)
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
                 black = np.zeros((720, 1280, 3), np.uint8)
@@ -181,7 +181,7 @@ class Imagenode(Node):
 
         contours, _ = cv.findContours(close, cv.RETR_LIST, cv.CHAIN_APPROX_NONE)
         for cnt in contours:
-            if cv.contourArea(cnt) > 600:
+            if cv.contourArea(cnt) > 700:
                 ctr.append(cnt)
 
         return ctr

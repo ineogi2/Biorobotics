@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera
+CMAKE_SOURCE_DIR = /home/ineogi2/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera
+CMAKE_BINARY_DIR = /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera
 
 # Utility rule file for realsense2_camera_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera
 include CMakeFiles/realsense2_camera_uninstall.dir/progress.make
 
 CMakeFiles/realsense2_camera_uninstall:
-	/usr/bin/cmake -P /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 realsense2_camera_uninstall: CMakeFiles/realsense2_camera_uninstall
 realsense2_camera_uninstall: CMakeFiles/realsense2_camera_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/realsense2_camera_uninstall.dir/clean:
 .PHONY : CMakeFiles/realsense2_camera_uninstall.dir/clean
 
 CMakeFiles/realsense2_camera_uninstall.dir/depend:
-	cd /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera /home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/realsense2_camera_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ineogi2/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera/CMakeFiles/realsense2_camera_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/realsense2_camera_uninstall.dir/depend
 

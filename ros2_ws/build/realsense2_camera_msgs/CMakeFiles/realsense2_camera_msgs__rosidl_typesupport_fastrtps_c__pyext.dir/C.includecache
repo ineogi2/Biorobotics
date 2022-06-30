@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 Python.h
 -
 stdbool.h
@@ -14,37 +14,37 @@ stdbool.h
 stdint.h
 -
 rosidl_runtime_c/visibility_control.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/visibility_control.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/visibility_control.h
 rosidl_runtime_c/message_type_support_struct.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/message_type_support_struct.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/service_type_support_struct.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/action_type_support_struct.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/action_type_support_struct.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/rosidl_runtime_c/action_type_support_struct.h
 realsense2_camera_msgs/msg/detail/imu_info__type_support.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
 realsense2_camera_msgs/msg/detail/imu_info__struct.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
 realsense2_camera_msgs/msg/detail/imu_info__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
 realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
 realsense2_camera_msgs/msg/detail/extrinsics__struct.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
 realsense2_camera_msgs/msg/detail/extrinsics__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
 realsense2_camera_msgs/msg/detail/metadata__type_support.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
 realsense2_camera_msgs/msg/detail/metadata__struct.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
 realsense2_camera_msgs/msg/detail/metadata__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
 realsense2_camera_msgs/srv/detail/device_info__type_support.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
 realsense2_camera_msgs/srv/detail/device_info__struct.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
 realsense2_camera_msgs/srv/detail/device_info__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h
@@ -627,8 +627,6 @@ stddef.h
 -
 stdint.h
 -
-std_msgs/msg/detail/header__struct.h
-rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__struct.h
 
 rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
 rosidl_typesupport_interface/macros.h

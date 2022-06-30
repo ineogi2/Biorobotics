@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
 realsense2_camera_msgs/msg/detail/extrinsics__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
 assert.h
 -
 stdbool.h
@@ -17,12 +17,10 @@ stdlib.h
 -
 string.h
 -
-std_msgs/msg/detail/header__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__functions.h
 
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c
 realsense2_camera_msgs/msg/detail/imu_info__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/realsense2_camera_msgs/msg/detail/imu_info__functions.h
 assert.h
 -
 stdbool.h
@@ -32,11 +30,11 @@ stdlib.h
 string.h
 -
 std_msgs/msg/detail/header__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__functions.h
 
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c
 realsense2_camera_msgs/msg/detail/metadata__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/realsense2_camera_msgs/msg/detail/metadata__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/realsense2_camera_msgs/msg/detail/metadata__functions.h
 assert.h
 -
 stdbool.h
@@ -46,13 +44,13 @@ stdlib.h
 string.h
 -
 std_msgs/msg/detail/header__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__functions.h
 rosidl_runtime_c/string_functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rosidl_runtime_c/string_functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rosidl_runtime_c/string_functions.h
 
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c
 realsense2_camera_msgs/srv/detail/device_info__functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/realsense2_camera_msgs/srv/detail/device_info__functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/realsense2_camera_msgs/srv/detail/device_info__functions.h
 assert.h
 -
 stdbool.h
@@ -62,7 +60,7 @@ stdlib.h
 string.h
 -
 rosidl_runtime_c/string_functions.h
-/home/ineogi2/ws/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/rosidl_runtime_c/string_functions.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/rosidl_runtime_c/string_functions.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h
@@ -141,8 +139,6 @@ stddef.h
 -
 stdint.h
 -
-std_msgs/msg/detail/header__struct.h
-rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__struct.h
 
 rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.h
 stdbool.h

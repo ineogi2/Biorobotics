@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "realsense2_camera_msgs")
-set(realsense2_camera_msgs_VERSION "3.2.3")
-set(realsense2_camera_msgs_MAINTAINER "Doron Hirshberg <doron.hirshberg@intel.com>")
+set(realsense2_camera_msgs_VERSION "4.0.4")
+set(realsense2_camera_msgs_MAINTAINER "LibRealSense ROS Team <librs.ros@intel.com>")
 set(realsense2_camera_msgs_BUILD_DEPENDS "builtin_interfaces" "std_msgs")
 set(realsense2_camera_msgs_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(realsense2_camera_msgs_BUILD_EXPORT_DEPENDS )

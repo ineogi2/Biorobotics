@@ -39,29 +39,13 @@ private:
 class Init_Extrinsics_rotation
 {
 public:
-  explicit Init_Extrinsics_rotation(::realsense2_camera_msgs::msg::Extrinsics & msg)
-  : msg_(msg)
+  Init_Extrinsics_rotation()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
   Init_Extrinsics_translation rotation(::realsense2_camera_msgs::msg::Extrinsics::_rotation_type arg)
   {
     msg_.rotation = std::move(arg);
     return Init_Extrinsics_translation(msg_);
-  }
-
-private:
-  ::realsense2_camera_msgs::msg::Extrinsics msg_;
-};
-
-class Init_Extrinsics_header
-{
-public:
-  Init_Extrinsics_header()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
-  {}
-  Init_Extrinsics_rotation header(::realsense2_camera_msgs::msg::Extrinsics::_header_type arg)
-  {
-    msg_.header = std::move(arg);
-    return Init_Extrinsics_rotation(msg_);
   }
 
 private:
@@ -79,7 +63,7 @@ template<>
 inline
 auto build<::realsense2_camera_msgs::msg::Extrinsics>()
 {
-  return realsense2_camera_msgs::msg::builder::Init_Extrinsics_header();
+  return realsense2_camera_msgs::msg::builder::Init_Extrinsics_rotation();
 }
 
 }  // namespace realsense2_camera_msgs

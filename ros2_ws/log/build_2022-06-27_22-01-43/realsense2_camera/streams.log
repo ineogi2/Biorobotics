@@ -1,0 +1,117 @@
+[0.010s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ineogi2/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera
+[0.045s] -- The C compiler identification is GNU 9.4.0
+[0.081s] -- The CXX compiler identification is GNU 9.4.0
+[0.085s] -- Check for working C compiler: /usr/bin/cc
+[0.130s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.130s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.185s] -- Check for working CXX compiler: /usr/bin/c++
+[0.237s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.238s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.302s] -- Create Release Build.
+[0.303s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.323s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.463s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.486s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.534s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.554s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.644s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.685s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.687s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.688s] -- Looking for pthread.h
+[0.733s] -- Looking for pthread.h - found
+[0.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.790s] -- Looking for pthread_create in pthreads
+[0.841s] -- Looking for pthread_create in pthreads - not found
+[0.841s] -- Looking for pthread_create in pthread
+[0.899s] -- Looking for pthread_create in pthread - found
+[0.900s] -- Found Threads: TRUE  
+[1.144s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.182s] -- Found realsense2_camera_msgs: 4.0.4 (/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[1.210s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.263s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.474s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.522s] -- Build for ROS2 Foxy
+[1.611s] -- Configuring done
+[1.638s] -- Generating done
+[1.639s] -- Build files have been written to: /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera
+[1.646s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ineogi2/Biorobotics/ros2_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera
+[1.647s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera -- -j12 -l12
+[1.673s] [35m[1mScanning dependencies of target realsense2_camera_node[0m
+[1.673s] [35m[1mScanning dependencies of target realsense2_camera[0m
+[1.711s] [  6%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[1.757s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[1.757s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[1.758s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o[0m
+[1.759s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[1.760s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[1.760s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[1.760s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[1.760s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[1.760s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[1.762s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[1.764s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[5.737s] [ 81%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[5.932s] [ 81%] Built target realsense2_camera_node
+[5.945s] [ 87%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[6.267s] [ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o[0m
+[17.757s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[20.218s] [100%] Built target realsense2_camera
+[20.225s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera -- -j12 -l12
+[20.254s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera
+[20.260s] -- Install configuration: "Release"
+[20.261s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[20.261s] -- Set runtime path of "/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[20.261s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[20.264s] -- Set runtime path of "/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/profile_manager.h
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/base_realsense_node.h
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/ros_utils.h
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/dynamic_params.h
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/ros_sensor.h
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/named_filter.h
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h
+[20.264s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/t265_realsense_node.h
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/constants.h
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/ros_param_backend.h
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/sensor_params.h
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/include/image_publisher.h
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[20.265s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[20.266s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[20.267s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[20.268s] -- Installing: /home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[20.270s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy LD_LIBRARY_PATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera

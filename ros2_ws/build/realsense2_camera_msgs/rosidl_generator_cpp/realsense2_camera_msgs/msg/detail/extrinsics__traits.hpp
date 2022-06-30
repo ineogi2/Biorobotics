@@ -10,10 +10,6 @@
 #include <stdint.h>
 #include <type_traits>
 
-// Include directives for member types
-// Member 'header'
-#include "std_msgs/msg/detail/header__traits.hpp"
-
 namespace rosidl_generator_traits
 {
 
@@ -31,11 +27,11 @@ inline const char * name<realsense2_camera_msgs::msg::Extrinsics>()
 
 template<>
 struct has_fixed_size<realsense2_camera_msgs::msg::Extrinsics>
-  : std::integral_constant<bool, has_fixed_size<std_msgs::msg::Header>::value> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct has_bounded_size<realsense2_camera_msgs::msg::Extrinsics>
-  : std::integral_constant<bool, has_bounded_size<std_msgs::msg::Header>::value> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct is_message<realsense2_camera_msgs::msg::Extrinsics>

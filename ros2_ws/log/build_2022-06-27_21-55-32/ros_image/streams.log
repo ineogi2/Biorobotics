@@ -1,0 +1,33 @@
+[0.648s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/build/ros_image': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build
+[0.875s] running develop
+[1.004s] Removing /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros-image.egg-link (link to .)
+[1.028s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/build/ros_image' returned '0': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build
+[1.030s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/src/ros_image': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_image build --build-base /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build install --record /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/install.log --single-version-externally-managed
+[1.236s] running egg_info
+[1.237s] writing ../../build/ros_image/ros_image.egg-info/PKG-INFO
+[1.237s] writing dependency_links to ../../build/ros_image/ros_image.egg-info/dependency_links.txt
+[1.237s] writing entry points to ../../build/ros_image/ros_image.egg-info/entry_points.txt
+[1.237s] writing requirements to ../../build/ros_image/ros_image.egg-info/requires.txt
+[1.237s] writing top-level names to ../../build/ros_image/ros_image.egg-info/top_level.txt
+[1.275s] reading manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+[1.276s] writing manifest file '../../build/ros_image/ros_image.egg-info/SOURCES.txt'
+[1.276s] running build
+[1.276s] running build_py
+[1.277s] running install
+[1.277s] running install_lib
+[1.278s] creating /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.278s] copying /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build/lib/ros_image/ros_image_publisher__.py -> /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.279s] copying /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build/lib/ros_image/ros_image_publisher.py -> /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.279s] copying /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build/lib/ros_image/__init__.py -> /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.279s] copying /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build/lib/ros_image/ros_image_publisher_0120.py -> /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image
+[1.279s] byte-compiling /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/ros_image_publisher__.py to ros_image_publisher__.cpython-38.pyc
+[1.283s] byte-compiling /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/ros_image_publisher.py to ros_image_publisher.cpython-38.pyc
+[1.284s] byte-compiling /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/__init__.py to __init__.cpython-38.pyc
+[1.284s] byte-compiling /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image/ros_image_publisher_0120.py to ros_image_publisher_0120.cpython-38.pyc
+[1.285s] running install_data
+[1.286s] running install_egg_info
+[1.287s] Copying ../../build/ros_image/ros_image.egg-info to /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages/ros_image-0.0.1-py3.8.egg-info
+[1.288s] running install_scripts
+[1.308s] Installing ros_image script to /home/ineogi2/Biorobotics/ros2_ws/install/ros_image/bin
+[1.308s] writing list of installed files to '/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/install.log'
+[1.337s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/src/ros_image' returned '0': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/build/ros_image/prefix_override:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_image build --build-base /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/build install --record /home/ineogi2/Biorobotics/ros2_ws/build/ros_image/install.log --single-version-externally-managed
