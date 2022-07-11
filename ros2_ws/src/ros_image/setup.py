@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ros_image = ros_image.ros_image_publisher:main'
+            'image_node = ros_image.image_node:main',
+            'control_node = ros_image.control_node:main'
         ],
     },
 )

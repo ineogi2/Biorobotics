@@ -1,0 +1,26 @@
+[0.753s] Invoking command in '/home/ineogi2/Biorobotics/ros2_ws/src/build/ros_image': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image --editable --build-directory /home/ineogi2/Biorobotics/ros2_ws/src/build/ros_image/build --no-deps install_data --install-dir /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image
+[1.025s] running develop
+[1.186s] running egg_info
+[1.186s] creating ros_image.egg-info
+[1.186s] writing ros_image.egg-info/PKG-INFO
+[1.186s] writing dependency_links to ros_image.egg-info/dependency_links.txt
+[1.187s] writing entry points to ros_image.egg-info/entry_points.txt
+[1.187s] writing requirements to ros_image.egg-info/requires.txt
+[1.187s] writing top-level names to ros_image.egg-info/top_level.txt
+[1.188s] writing manifest file 'ros_image.egg-info/SOURCES.txt'
+[1.226s] reading manifest file 'ros_image.egg-info/SOURCES.txt'
+[1.226s] writing manifest file 'ros_image.egg-info/SOURCES.txt'
+[1.267s] running build_ext
+[1.267s] Creating /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/lib/python3.8/site-packages/site.py
+[1.269s] Creating /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/lib/python3.8/site-packages/ros-image.egg-link (link to .)
+[1.270s] Installing control_node script to /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/lib/ros_image
+[1.270s] Installing image_node script to /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/lib/ros_image
+[1.270s] 
+[1.270s] Installed /home/ineogi2/Biorobotics/ros2_ws/src/build/ros_image
+[1.271s] running install_data
+[1.271s] creating /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/share/ament_index
+[1.271s] creating /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/share/ament_index/resource_index
+[1.271s] creating /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/share/ament_index/resource_index/packages
+[1.271s] copying resource/ros_image -> /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/share/ament_index/resource_index/packages
+[1.271s] copying package.xml -> /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/share/ros_image
+[1.300s] Invoked command in '/home/ineogi2/Biorobotics/ros2_ws/src/build/ros_image' returned '0': PYTHONPATH=/home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image --editable --build-directory /home/ineogi2/Biorobotics/ros2_ws/src/build/ros_image/build --no-deps install_data --install-dir /home/ineogi2/Biorobotics/ros2_ws/src/install/ros_image
