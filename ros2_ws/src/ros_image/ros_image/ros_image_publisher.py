@@ -64,7 +64,7 @@ class Imagenode(Node):
         self.count = 1
         self.signal = 2     # communication
         self.data = []
-        self.data_save = 1  # if 1, data save On ; else, Off
+        self.data_save = True  # 1 - On ; else - Off
 
 
 # --------------------------------------------------------------------------------
