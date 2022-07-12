@@ -64,7 +64,7 @@ class Imagenode(Node):
         self.count = 1
         self.signal = 2                 # 2 : image topic / 1 : depth topic / 0 : tension topic
         self.data = []
-        self.data_save = True 
+        self.data_save = False
         self.image_save = False
 
 
@@ -78,8 +78,6 @@ class Imagenode(Node):
             self.data.append(self.center)
             self.signal = 2
 
-
-
     def subscribe_pic(self, img):            
         if self.signal == 2:
             self.center = []
@@ -87,12 +85,15 @@ class Imagenode(Node):
             try:
                 cv_image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
                 # cv.imshow("Original", cv_image)
+                
+                gray = cv.cvtColor(cv_image, cv.COLOR_BGR2GRAY)
+                cv.imshow("Worked", self.get_line(gray))
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
                 black = np.zeros((720, 1280, 3), np.uint8)
 
                 if self.image_save:
-                    cv.imwrite(f'{self.count}.png',img_)
+                    cv.imwrite(f'{self.count}.png',cv_image)
                     self.count += 1
 
                 for i in range(self.color_num):
@@ -102,8 +103,8 @@ class Imagenode(Node):
                     if center != [0,0]:
                         cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
 
-                cv.imshow("Image", black)
-                cv.waitKey(5)
+                # cv.imshow("Image", black)
+                cv.waitKey(10)
 
             except CvBridgeError:
                 self.get_logger().info('No.{0} error'.format(self.count))
@@ -199,6 +200,19 @@ class Imagenode(Node):
             return 0
         depth = np.mean(depth)
         return int(depth)
+
+    def get_line(self, img):
+        edges = cv.Canny(img, 100, 150)
+        lines = cv.HoughLinesP(edges, 1, np.pi/180., 120, minLineLength=10, maxLineGap=2)
+        dst = cv.cvtColor(edges, cv.COLOR_GRAY2BGR)
+
+        if lines is not None:
+            for i in range(lines.shape[0]):
+                pt1 = (lines[i][0][0], lines[i][0][1])
+                pt2 = (lines[i][0][2], lines[i][0][3])
+                cv.line(dst, pt1, pt2, (0,0,255), 2, cv.LINE_AA)
+        
+        return dst
 
 
 # --------------------------------------------------------------------------------
