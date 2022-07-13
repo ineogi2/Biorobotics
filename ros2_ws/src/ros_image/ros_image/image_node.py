@@ -62,7 +62,7 @@ class Imagenode(Node):
         self.buffer_length = 500        # buffer size
         self.center = []                # marker center points
         self.count = 1
-        self.signal = 2                 # 2 : image topic / 1 : depth topic / 0 : tension topic
+        self.signal = 2
         self.data = []
         self.data_save = False
         self.image_save = False

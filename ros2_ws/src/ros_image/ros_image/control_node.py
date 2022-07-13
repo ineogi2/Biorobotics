@@ -20,12 +20,14 @@ class Imagenode(Node):
 
         # mode 1 : hsv / mode 2 : canny
         self.mode = mode
+        self.val = []
 
 
     # ------callback------
     def subscribe_pic(self, img):
 
         image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
+        cv.imshow('original', image)
         cv.namedWindow('image')
 
         if self.mode == 1:
@@ -56,6 +58,7 @@ class Imagenode(Node):
 
         # Initialize HSV min/max values
         hMin = sMin = vMin = hMax = sMax = vMax = 0
+        self.val = [hMin, hMax, sMin, sMax, vMin, vMax]
 
         while(1):
             # Get current positions of all trackbars
@@ -65,6 +68,7 @@ class Imagenode(Node):
             hMax = cv.getTrackbarPos('HMax', 'image')
             sMax = cv.getTrackbarPos('SMax', 'image')
             vMax = cv.getTrackbarPos('VMax', 'image')
+            self.val = [hMin, hMax, sMin, sMax, vMin, vMax]
 
             # Set minimum and maximum HSV values to display
             lower = np.array([hMin, sMin, vMin])
@@ -94,12 +98,15 @@ class Imagenode(Node):
         cv.setTrackbarPos('MinLineLength', 'image', 50)
         cv.setTrackbarPos('MaxLineGap', 'image', 2)
 
+        self.val = [50, 150, 50, 2]
+
         while(1):
             # Get current positions of all trackbars
             low = cv.getTrackbarPos('Low', 'image')
             high = cv.getTrackbarPos('High', 'image')
             length = cv.getTrackbarPos('MinLineLength', 'image')
             gap = cv.getTrackbarPos('MaxLineGap', 'image')
+            self.val = [low, high, length, gap]
 
             # Do canny function
             img_canny = cv.Canny(image, low, high)
@@ -115,16 +122,21 @@ class Imagenode(Node):
             # Display result image
             cv.imshow('image', dst)
             if cv.waitKey(10) & 0xFF == ord('q'):
-                self.get_logger().info(f'Low : {low} / High : {high}')
+                self.get_logger().info(f'Low : {low} / High : {high} / MinLineLength : {length} / MaxLineGap : {gap}')
                 break
 
 # ------main function------
 def main():
+    mode = int(input("Choose mode : 1 -> HSV control / 2 -> Canny control"))
     rclpy.init()
-    node = Imagenode(sys.argv[1])
+    node = Imagenode(mode)
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
+        if node.mode == 1:
+            node.get_logger().info(f'\n\nhue : ({node.val[0]}, {node.val[1]}) / sat ({node.val[2]}, {node.val[3]}) / val ({node.val[4]}, {node.val[5]})\n')
+        elif node.mode == 2:
+            node.get_logger().info(f'\n\nLow : {node.val[0]} / High : {node.val[1]} / MinLineLength : {node.val[2]} / MaxLineGap : {node.val[3]}\n')
         node.get_logger().info('Keyboard Interrupt (SIGINT)')
     finally:
         node.destroy_node()
