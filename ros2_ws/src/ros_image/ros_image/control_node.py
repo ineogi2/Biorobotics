@@ -89,28 +89,31 @@ class Imagenode(Node):
         # Create trackbars for change canny threshold
         cv.createTrackbar('Low', 'image', 0, 1000, self.nothing)
         cv.createTrackbar('High', 'image', 0, 1000, self.nothing)
+        cv.createTrackbar('Threshold', 'image', 0, 500, self.nothing)
         cv.createTrackbar('MinLineLength', 'image', 0, 300, self.nothing)
         cv.createTrackbar('MaxLineGap', 'image', 0, 10, self.nothing)
 
         # Set default threshold for canny trackbars
         cv.setTrackbarPos('Low', 'image', 50)
         cv.setTrackbarPos('High', 'image', 150)
+        cv.setTrackbarPos('Threshold', 'image', 50)
         cv.setTrackbarPos('MinLineLength', 'image', 50)
         cv.setTrackbarPos('MaxLineGap', 'image', 2)
 
-        self.val = [50, 150, 50, 2]
+        self.val = [50, 150, 50, 50, 2]
 
         while(1):
             # Get current positions of all trackbars
             low = cv.getTrackbarPos('Low', 'image')
             high = cv.getTrackbarPos('High', 'image')
+            th = cv.getTrackbarPos('Threshold', 'image')
             length = cv.getTrackbarPos('MinLineLength', 'image')
             gap = cv.getTrackbarPos('MaxLineGap', 'image')
-            self.val = [low, high, length, gap]
+            self.val = [low, high, th, length, gap]
 
             # Do canny function
             img_canny = cv.Canny(image, low, high)
-            lines = cv.HoughLinesP(img_canny, 1, np.pi/180., 120, minLineLength=length, maxLineGap=gap)
+            lines = cv.HoughLinesP(img_canny, 1, np.pi/180., threshold=th, minLineLength=length, maxLineGap=gap)
             dst = cv.cvtColor(img_canny, cv.COLOR_GRAY2BGR)
 
             if lines is not None:
@@ -122,12 +125,12 @@ class Imagenode(Node):
             # Display result image
             cv.imshow('image', dst)
             if cv.waitKey(10) & 0xFF == ord('q'):
-                self.get_logger().info(f'Low : {low} / High : {high} / MinLineLength : {length} / MaxLineGap : {gap}')
+                self.get_logger().info(f'Low : {low} / High : {high} / Threshold : {th} / MinLineLength : {length} / MaxLineGap : {gap}')
                 break
 
 # ------main function------
 def main():
-    mode = int(input("Choose mode : 1 -> HSV control / 2 -> Canny control"))
+    mode = int(input("Choose mode : 1 -> HSV control / 2 -> Canny control:\t"))
     rclpy.init()
     node = Imagenode(mode)
     try:
@@ -136,7 +139,7 @@ def main():
         if node.mode == 1:
             node.get_logger().info(f'\n\nhue : ({node.val[0]}, {node.val[1]}) / sat ({node.val[2]}, {node.val[3]}) / val ({node.val[4]}, {node.val[5]})\n')
         elif node.mode == 2:
-            node.get_logger().info(f'\n\nLow : {node.val[0]} / High : {node.val[1]} / MinLineLength : {node.val[2]} / MaxLineGap : {node.val[3]}\n')
+            node.get_logger().info(f'\n\nLow : {node.val[0]} / High : {node.val[1]} / Threshold : {node.val[2]} / MinLineLength : {node.val[3]} / MaxLineGap : {node.val[4]}\n')
         node.get_logger().info('Keyboard Interrupt (SIGINT)')
     finally:
         node.destroy_node()

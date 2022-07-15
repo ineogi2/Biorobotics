@@ -42,6 +42,48 @@ def angle_detect(center_point):
 
     return angles
 
+def nothing(x):
+        pass
+
+def change_canny(image):
+        # Create trackbars for change canny threshold
+        cv.createTrackbar('Low', 'image', 0, 1000, nothing)
+        cv.createTrackbar('High', 'image', 0, 1000, nothing)
+        cv.createTrackbar('Threshold', 'image', 0, 500, nothing)
+        cv.createTrackbar('MinLineLength', 'image', 0, 300, nothing)
+        cv.createTrackbar('MaxLineGap', 'image', 0, 10, nothing)
+
+        # Set default threshold for canny trackbars
+        cv.setTrackbarPos('Low', 'image', 50)
+        cv.setTrackbarPos('High', 'image', 150)
+        cv.setTrackbarPos('Threshold', 'image', 50)
+        cv.setTrackbarPos('MinLineLength', 'image', 50)
+        cv.setTrackbarPos('MaxLineGap', 'image', 2)
+
+        while(1):
+            # Get current positions of all trackbars
+            low = cv.getTrackbarPos('Low', 'image')
+            high = cv.getTrackbarPos('High', 'image')
+            th = cv.getTrackbarPos('Threshold', 'image')
+            length = cv.getTrackbarPos('MinLineLength', 'image')
+            gap = cv.getTrackbarPos('MaxLineGap', 'image')
+
+            # Do canny function
+            img_canny = cv.Canny(image, low, high)
+            lines = cv.HoughLinesP(img_canny, 1, np.pi/180., threshold=th, minLineLength=length, maxLineGap=gap)
+            dst = cv.cvtColor(img_canny, cv.COLOR_GRAY2BGR)
+
+            if lines is not None:
+                for i in range(lines.shape[0]):
+                    pt1 = (lines[i][0][0], lines[i][0][1])
+                    pt2 = (lines[i][0][2], lines[i][0][3])
+                    cv.line(dst, pt1, pt2, (0,0,255), 2, cv.LINE_AA)
+
+            # Display result image
+            cv.imshow('image', dst)
+            if cv.waitKey(10) & 0xFF == ord('q'):
+                print(f'Low : {low} / High : {high} / Threshold : {th} / MinLineLength : {length} / MaxLineGap : {gap}')
+                break
 
 
 
@@ -56,8 +98,13 @@ if __name__ == "__main__":
     print('\nImage processing start\n')
     while os.path.isfile(workpic):
         workpic_ = cv.imread(workpic, cv.IMREAD_GRAYSCALE)
-        cv.imshow("Original", workpic_)
-        get_line(workpic_, count)
+        # cv.imshow('original',workpic_)
+        workpic_ = cv.rotate(workpic_, cv.ROTATE_90_CLOCKWISE)
+        workpic_ = (cv.resize(workpic_,(1440, 848)))[300:700, 500:800]
+        cv.imshow('original', workpic_)
+        cv.imshow("image", workpic_)
+        change_canny(workpic_)
+        # get_line(workpic_, count)
 
         # 작업내용
         
