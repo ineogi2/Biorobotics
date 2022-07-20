@@ -27,7 +27,7 @@ class Imagenode(Node):
         super().__init__('image_node')           ### 노드 이름
         qos_profile = QoSProfile(depth=1)       ### 버퍼 설정
 
-        text_path = '/home/ineogi2/Biorobotics/Documents/Data/Pics'
+        text_path = '/home/ineogi2/Biorobotics/Data/Pics'
         os.chdir(text_path)
 
         """teensy 통신 subscriber"""
