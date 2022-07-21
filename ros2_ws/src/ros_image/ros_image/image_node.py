@@ -4,31 +4,38 @@
 MEAN OF THE COORDINATE
 """
 
+from platform import node
 import cv2 as cv
 from cv_bridge.core import CvBridgeError
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
-from rclpy.qos import QoSHistoryPolicy
 from sensor_msgs.msg import Image
 from std_msgs.msg import Float32
+from std_msgs.msg import Int32
 from cv_bridge import CvBridge, CvBridgeError
 import numpy as np
 import os
+import serial
+
+text_path = '/home/ineogi2/Biorobotics/Data/Pics'
+header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
+port = '/dev/ttyACM0'
 
 # --------------------------------------------------------------------------------
 # Node
-
-header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
 
 class Imagenode(Node):
 
     def __init__(self):
         super().__init__('image_node')           ### 노드 이름
-        qos_profile = QoSProfile(depth=1)       ### 버퍼 설정
+        qos_profile = QoSProfile(depth=10)       ### 버퍼 설정
 
-        text_path = '/home/ineogi2/Biorobotics/Data/Pics'
         os.chdir(text_path)
+
+        """initializing 통신 subscriber"""
+        self.tension_subscriber = self.create_subscription(Int32, '/init', self.subscribe_init, qos_profile)
+        self.ser = serial.Serial(port=port, baudrate=9600)
 
         """teensy 통신 subscriber"""
         self.tension_subscriber = self.create_subscription(Float32, '/tension', self.subscribe_tension, qos_profile)
@@ -62,14 +69,22 @@ class Imagenode(Node):
         self.buffer_length = 500        # buffer size
         self.center = []                # marker center points
         self.count = 1
-        self.signal = 2
+        self.signal = 3
         self.data = []
         self.data_save = False
-        self.image_save = False
+        self.image_save = False         # don't change
 
 
-# --------------------------------------------------------------------------------
-# callback funtion
+    # --------------------------------------------------------------------------------
+    # callback funtion
+
+    def subscribe_init(self, init_msg):
+        if init_msg.data == 1:          # start
+            self.signal = 2
+            self.get_logger().info('Start.')
+
+        elif init_msg.data == 0:        # end
+            self.signal = -1
 
     def subscribe_tension(self, tension):
         if self.signal == 0:
@@ -103,7 +118,7 @@ class Imagenode(Node):
                     if center != [0,0]:
                         cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
 
-                # cv.imshow("Image", black)
+                cv.imshow("Image", black)
                 cv.waitKey(10)
 
             except CvBridgeError:
@@ -136,8 +151,8 @@ class Imagenode(Node):
             self.signal = 2
 
 
-# --------------------------------------------------------------------------------
-# vision function
+    # --------------------------------------------------------------------------------
+    # vision function
 
     def moment(self, contours):
         center = [[0, 0]]
@@ -224,11 +239,12 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
+        node.get_logger().info('\nEnd.')
         if node.data_save:
                 data_list = np.reshape(np.array(node.data), (len(node.data),len(node.data[0])))
                 node.get_logger().info('file saved.\n')
                 np.savetxt('data.csv', data_list, header=header_,fmt='%f', delimiter=',')
-        node.get_logger().info('Keyboard Interrupt (SIGINT)')
+        # node.get_logger().info('Keyboard Interrupt (SIGINT)')
     finally:
         node.destroy_node()
         rclpy.shutdown()
