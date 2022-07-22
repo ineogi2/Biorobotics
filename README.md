@@ -42,7 +42,7 @@
 * ros2 topic echo <> : 토픽 내용  
 * ros2 topic info <> : 토픽의 Publisher + subscriber  
 * ros2 interface show <sensors.msg/msg/Image> : 토픽 형식  
-* ros2 topic pub <topic name> <msg_type> "args" : 토픽 publishing  
+* ros2 topic pub --once /init std_msgs/msg/Int32 '{data : '1'}' : 토픽 publishing  
 * ros2 topic hz <> : 토픽 publish rate  
 
 ### Git  
