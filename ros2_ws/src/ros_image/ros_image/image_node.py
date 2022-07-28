@@ -16,11 +16,9 @@ from std_msgs.msg import Int32
 from cv_bridge import CvBridge, CvBridgeError
 import numpy as np
 import os
-import serial
 
-text_path = '/home/ineogi2/Biorobotics/Data/Pics'
+text_path = '/home/ineogi2/Biorobotics/Data'
 header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
-port = '/dev/ttyACM0'
 
 # --------------------------------------------------------------------------------
 # Node
@@ -35,7 +33,6 @@ class Imagenode(Node):
 
         """initializing 통신 subscriber"""
         self.tension_subscriber = self.create_subscription(Int32, '/init', self.subscribe_init, qos_profile)
-        self.ser = serial.Serial(port=port, baudrate=9600)
 
         """teensy 통신 subscriber"""
         self.tension_subscriber = self.create_subscription(Float32, '/tension', self.subscribe_tension, qos_profile)
@@ -53,13 +50,13 @@ class Imagenode(Node):
         self.kernelopen = np.ones((5,5))
         self.kernelclose = np.ones((5,5))
 
-        self.lower_blue = np.array([93, 130, 130])
+        self.lower_blue = np.array([93, 180, 130])
         self.upper_blue = np.array([128, 255, 255])
 
-        self.lower_green = np.array([60, 50, 70])
-        self.upper_green = np.array([85, 255, 255])
+        self.lower_green = np.array([60, 85, 70])
+        self.upper_green = np.array([93, 255, 255])
 
-        self.lower_red = np.array([155, 70, 70])
+        self.lower_red = np.array([155, 100, 70])
         self.upper_red = np.array([190, 255, 255])
 
         self.col = [(255,0,0),(0,255,0),(0,0,255)]
@@ -71,7 +68,7 @@ class Imagenode(Node):
         self.count = 1
         self.signal = 3
         self.data = []
-        self.data_save = False
+        self.data_save = True
         self.image_save = False         # don't change
 
 
@@ -100,9 +97,6 @@ class Imagenode(Node):
             try:
                 cv_image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
                 # cv.imshow("Original", cv_image)
-                
-                gray = cv.cvtColor(cv_image, cv.COLOR_BGR2GRAY)
-                cv.imshow("Worked", self.get_line(gray))
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
                 black = np.zeros((720, 1280, 3), np.uint8)
@@ -143,12 +137,12 @@ class Imagenode(Node):
                 self.get_logger().info('Error')
                 rclpy.shutdown()
             
-            # when no Tension
-            if self.data_save:
-                self.center = np.array(self.center).flatten().tolist()
-                self.data.append(self.center)
+            # # when no Tension
+            # if self.data_save:
+            #     self.center = np.array(self.center).flatten().tolist()
+            #     self.data.append(self.center)
                 
-            self.signal = 2
+            self.signal = 0
 
 
     # --------------------------------------------------------------------------------
@@ -195,7 +189,7 @@ class Imagenode(Node):
 
         contours, _ = cv.findContours(close, cv.RETR_LIST, cv.CHAIN_APPROX_NONE)
         for cnt in contours:
-            if cv.contourArea(cnt) > 700:
+            if cv.contourArea(cnt) > 200:
                 ctr.append(cnt)
 
         return ctr
@@ -216,19 +210,6 @@ class Imagenode(Node):
         depth = np.mean(depth)
         return int(depth)
 
-    def get_line(self, img):
-        edges = cv.Canny(img, 100, 150)
-        lines = cv.HoughLinesP(edges, 1, np.pi/180., 120, minLineLength=10, maxLineGap=2)
-        dst = cv.cvtColor(edges, cv.COLOR_GRAY2BGR)
-
-        if lines is not None:
-            for i in range(lines.shape[0]):
-                pt1 = (lines[i][0][0], lines[i][0][1])
-                pt2 = (lines[i][0][2], lines[i][0][3])
-                cv.line(dst, pt1, pt2, (0,0,255), 2, cv.LINE_AA)
-        
-        return dst
-
 
 # --------------------------------------------------------------------------------
 # main
@@ -244,7 +225,8 @@ def main(args=None):
                 data_list = np.reshape(np.array(node.data), (len(node.data),len(node.data[0])))
                 node.get_logger().info('file saved.\n')
                 np.savetxt('data.csv', data_list, header=header_,fmt='%f', delimiter=',')
-        # node.get_logger().info('Keyboard Interrupt (SIGINT)')
+        else:
+            node.get_logger().info('Keyboard Interrupt (SIGINT)')
     finally:
         node.destroy_node()
         rclpy.shutdown()

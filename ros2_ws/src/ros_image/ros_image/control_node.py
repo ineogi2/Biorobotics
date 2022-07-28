@@ -130,7 +130,7 @@ class Imagenode(Node):
 
 # ------main function------
 def main():
-    mode = int(input("Choose mode : 1 -> HSV control / 2 -> Canny control:\t"))
+    mode = int(input("Choose mode : 1 -> HSV control / 2 -> Canny control: "))
     rclpy.init()
     node = Imagenode(mode)
     try:
