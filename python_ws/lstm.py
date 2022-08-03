@@ -6,22 +6,23 @@ from keras.callbacks import EarlyStopping
 
 # data preprocessing
 def data_sync(idx, time_step=5):
-    vicon = pandas.read_csv(vicon_file[idx]).values
+    vicon = pandas.read_csv(vicon_file[idx], header=None).values
     exp = pandas.read_csv(exp_file[idx]).values
 
-    # --data period synchronization
     vicon_num = vicon.shape[0]; exp_num = exp.shape[0]
-    q = vicon_num // exp_num
-    new_vicon = []
-    for i in range(exp_num):
-        new_vicon.append(vicon[q*i])
-    new_vicon = np.array(new_vicon)
+    if vicon_num != exp_num: 
+        print('Sync error!')
+        print(vicon_num, exp_num)
+        return
 
+    vicon = vicon.reshape(vicon_num, -1)
+    exp = exp.reshape(exp_num, -1)
+    
     # --make data sequence
     x_train = []; y_train = []
     for index in range(exp_num-time_step):
         x_train.append(np.array(exp[index:index+time_step]))
-        y_train.append(np.array(new_vicon[index+time_step]))
+        y_train.append(np.array(vicon[index+time_step]))
     return (x_train, y_train)
 
 def data_concatenate(file_num, time_step):
@@ -45,12 +46,12 @@ def model(x_train, y_train, time_step):
     model.add(Dense(8))
     model.add(Dense(2))
 
-    model.compile(loss='mae', optimizer='adam', metrics=['mae'])
+    model.compile(loss='mse', optimizer='adam', metrics=['mae'])
     early_stopping = EarlyStopping(monitor='loss', patience=10, mode='auto')
     print(model.summary())
 
     model.fit(x_train, y_train, 
-            epochs=30, batch_size=64, verbose=1,
+            epochs=50, batch_size=32, verbose=1,
             validation_split=0.3,
             callbacks=[early_stopping])
 
@@ -66,12 +67,15 @@ if __name__ == "__main__":
 
     vicon_file = []; exp_file = []
     for f_name in os.listdir(date):
-        if f_name.startswith('angle'):
+        if f_name.startswith('angle_sync'):
             vicon_file.append(f_name)
         if f_name.startswith('try'):
             exp_file.append(f_name)
+    if len(vicon_file) != len(exp_file):
+        print("File extraction error!")
+        print(len(vicon_file), len(exp_file))
+    exp_file.sort(); vicon_file.sort()
     file_num = len(vicon_file)  # file 개수
-    # print(file_num)
     os.chdir(date)
 
     (x_train, y_train) = data_concatenate(file_num, time_step)
