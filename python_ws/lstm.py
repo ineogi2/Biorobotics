@@ -3,9 +3,10 @@ import numpy as np
 from keras.models import Sequential, load_model
 from keras.layers import Dense, LSTM
 from keras.callbacks import EarlyStopping
+from sklearn.preprocessing import MinMaxScaler, RobustScaler
 
 # data preprocessing
-def data_sync(idx, time_step=5):
+def data_sync(idx, time_step):
     vicon = pandas.read_csv(vicon_file[idx], header=None).values
     exp = pandas.read_csv(exp_file[idx]).values
 
@@ -18,21 +19,22 @@ def data_sync(idx, time_step=5):
     vicon = vicon.reshape(vicon_num, -1)
     exp = exp.reshape(exp_num, -1)
     
-    # --make data sequence
-    x_train = []; y_train = []
-    for index in range(exp_num-time_step):
-        x_train.append(np.array(exp[index:index+time_step]))
-        y_train.append(np.array(vicon[index+time_step]))
-    return (x_train, y_train)
+    # # --make data sequence
+    # x_train = []; y_train = []
+    # for index in range(exp_num-time_step):
+    #     x_train.append(np.array(exp[index:index+time_step]))
+    #     y_train.append(np.array(vicon[index+time_step]))
+
+    return (np.array(exp), np.array(vicon))
 
 def data_concatenate(file_num, time_step):
     (x_train, y_train) = data_sync(idx=0, time_step=time_step)
 
-    m = np.mean(x_train,0); s = np.std(x_train,0)
-    x_train = (x_train-m)
+    # m = np.mean(x_train,0); s = np.std(x_train,0)
+    # x_train = (x_train-m)
     for i in range(1,file_num):
         (x_t, y_t) = data_sync(idx=i, time_step=time_step)
-        x_t= (x_t-m)
+        # x_t= (x_t-m)
         x_train = np.concatenate([x_train,x_t])
         y_train = np.concatenate([y_train,y_t])
     x_train, y_train = np.array(x_train), np.array(y_train)
@@ -40,20 +42,14 @@ def data_concatenate(file_num, time_step):
     return (x_train, y_train)
 
 # data training
-def model(x_train, y_train, time_step):
+def model(time_step):
     model = Sequential()
     model.add( LSTM(units=16, activation='relu', input_shape=(time_step,10)) )
     model.add(Dense(8))
     model.add(Dense(2))
 
     model.compile(loss='mse', optimizer='adam', metrics=['mae'])
-    early_stopping = EarlyStopping(monitor='loss', patience=10, mode='auto')
     print(model.summary())
-
-    model.fit(x_train, y_train, 
-            epochs=50, batch_size=32, verbose=1,
-            validation_split=0.3,
-            callbacks=[early_stopping])
 
     return model
 
@@ -62,7 +58,7 @@ if __name__ == "__main__":
     # hyperparameters
     path = '/home/ineogi2/Biorobotics/Data'
     date = '0726'
-    time_step = 30
+    time_step = 1
     os.chdir(path)
 
     vicon_file = []; exp_file = []
@@ -78,8 +74,18 @@ if __name__ == "__main__":
     file_num = len(vicon_file)  # file 개수
     os.chdir(date)
 
+    scaler = RobustScaler()
     (x_train, y_train) = data_concatenate(file_num, time_step)
+    x_train = scaler.fit_transform(x_train)
+    x_train = x_train.reshape(-1, time_step, 10)
     print(x_train.shape, y_train.shape)
-    model = model(x_train, y_train, time_step)
+
+    model = model(time_step)
+    early_stopping = EarlyStopping(monitor='loss', patience=10, mode='auto')
+    model.fit(x_train, y_train, 
+            epochs=50, batch_size=1, verbose=1,
+            validation_split=0.3,
+            callbacks=[early_stopping])
+
     model.save('lstm.h5')
     # model.evaluate(x_train, y_train)
