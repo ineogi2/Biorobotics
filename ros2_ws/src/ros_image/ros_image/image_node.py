@@ -18,7 +18,8 @@ import numpy as np
 import os
 
 text_path = '/home/ineogi2/Biorobotics/Data'
-header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
+# header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
+header_ = 'Tension'
 
 # --------------------------------------------------------------------------------
 # Node
@@ -32,7 +33,7 @@ class Imagenode(Node):
         os.chdir(text_path)
 
         """initializing 통신 subscriber"""
-        self.tension_subscriber = self.create_subscription(Int32, '/init', self.subscribe_init, qos_profile)
+        self.init_subscriber = self.create_subscription(Int32, '/init', self.subscribe_init, qos_profile)
 
         """teensy 통신 subscriber"""
         self.tension_subscriber = self.create_subscription(Float32, '/tension', self.subscribe_tension, qos_profile)
@@ -67,9 +68,10 @@ class Imagenode(Node):
         self.center = []                # marker center points
         self.count = 1
         self.signal = 3
-        self.data = []
         self.data_save = True
         self.image_save = False         # don't change
+        self.image_ = np.array([]); self.tension = 0
+        self.image = []; self.depth = []; self.data = []    # data array
 
 
     # --------------------------------------------------------------------------------
@@ -77,7 +79,8 @@ class Imagenode(Node):
 
     def subscribe_init(self, init_msg):
         if init_msg.data == 1:          # start
-            self.signal = 2
+            # self.signal = 2
+            self.signal = 0
             self.get_logger().info('Start.')
 
         elif init_msg.data == 0:        # end
@@ -85,64 +88,70 @@ class Imagenode(Node):
 
     def subscribe_tension(self, tension):
         if self.signal == 0:
-            self.center = np.array(self.center).flatten().tolist()
-            self.center.append(round(tension.data, 2))
-            self.data.append(self.center)
-            self.signal = 2
+            # self.center = np.array(self.center).flatten().tolist()
+            # self.center.append(round(tension.data, 2))
+            # self.data.append(self.center)
+            # self.signal = 2
+            # self.data.append(round(tension.data, 2))
+            self.tension = round(tension.data, 2)
 
     def subscribe_pic(self, img):            
-        if self.signal == 2:
+        if self.signal == 0:
             self.center = []
 
             try:
                 cv_image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
-                # cv.imshow("Original", cv_image)
+                    # cv.imshow("Original", cv_image)
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
-                black = np.zeros((720, 1280, 3), np.uint8)
+                self.image_ = np.array(img_)
+                    # black = np.zeros((720, 1280, 3), np.uint8)
 
-                if self.image_save:
-                    cv.imwrite(f'{self.count}.png',cv_image)
-                    self.count += 1
+                    # if self.image_save:
+                    #     cv.imwrite(f'{self.count}.png',cv_image)
+                    #     self.count += 1
 
-                for i in range(self.color_num):
-                    contour = self.color_mask(img_,i)
-                    center = self.moment(contour)
-                    self.center.append(center)
-                    if center != [0,0]:
-                        cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
+                    # for i in range(self.color_num):
+                    #     contour = self.color_mask(img_,i)
+                    #     center = self.moment(contour)
+                    #     self.center.append(center)
+                    #     if center != [0,0]:
+                    #         cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
 
-                cv.imshow("Image", black)
-                cv.waitKey(10)
+                    # cv.imshow("Image", black)
+                    # cv.waitKey(10)
 
             except CvBridgeError:
                 self.get_logger().info('No.{0} error'.format(self.count))
 
-            self.signal = 1
+        # self.signal = 1
 
     def subscribe_depth(self, depth_img):
-        if self.signal == 1:
+        if self.signal == 0:
             try:
                 cv_image = self.depth_bridge.imgmsg_to_cv2(depth_img, desired_encoding="passthrough")
                 depth_array = np.array(cv_image, dtype=np.float32)
-                for color in range(self.color_num):           #b g r 순서
-                    now = self.center[color]
-                    x,y = int(now[0]*848/1280), int(now[1]*480/720)
-                    depth = self.depth_preprocessing(depth_array, (x,y))
+                self.depth.append(depth_array)
+                self.image.append(self.image_)
+                self.data.append(self.tension)
+                # for color in range(self.color_num):           #b g r 순서
+                #     now = self.center[color]
+                #     x,y = int(now[0]*848/1280), int(now[1]*480/720)
+                #     depth = self.depth_preprocessing(depth_array, (x,y))
 
-                    now.append(depth)
-                    self.center[color] = now
+                #     now.append(depth)
+                #     self.center[color] = now
 
             except CvBridgeError:
                 self.get_logger().info('Error')
                 rclpy.shutdown()
-            
-            # # when no Tension
-            # if self.data_save:
-            #     self.center = np.array(self.center).flatten().tolist()
-            #     self.data.append(self.center)
                 
-            self.signal = 0
+                # # when no Tension
+                # if self.data_save:
+                #     self.center = np.array(self.center).flatten().tolist()
+                #     self.data.append(self.center)
+                    
+                # self.signal = 0
 
 
     # --------------------------------------------------------------------------------
@@ -222,9 +231,18 @@ def main(args=None):
     except KeyboardInterrupt:
         node.get_logger().info('\nEnd.')
         if node.data_save:
-                data_list = np.reshape(np.array(node.data), (len(node.data),len(node.data[0])))
-                node.get_logger().info('file saved.\n')
-                np.savetxt('data.csv', data_list, header=header_,fmt='%f', delimiter=',')
+            node.get_logger().info(f'{len(node.data)}')
+            os.chdir(text_path+'/png')
+            for i in range(len(node.data)):
+                cv.imwrite(f'{i}.png',node.image[i])
+            os.chdir(text_path+'/depth')
+            for i in range(len(node.data)):
+                np.savetxt(f'depth {i}.csv', node.depth[i],fmt='%f', delimiter=',')
+            # data_list = np.reshape(np.array(node.data), (len(node.data),len(node.data[0])))
+            data_list = np.array(node.data)
+            node.get_logger().info('file saved.\n')
+            os.chdir(text_path)
+            np.savetxt('tension.csv', data_list, header=header_,fmt='%f', delimiter=',')
         else:
             node.get_logger().info('Keyboard Interrupt (SIGINT)')
     finally:
