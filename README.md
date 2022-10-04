@@ -45,4 +45,5 @@
 * ros2 topic pub --once /init std_msgs/msg/Int32 '{data : '1'}' : 토픽 publishing  
 * ros2 topic hz <> : 토픽 publish rate  
 
-
+### 실험 세팅 단축키
+* 'cam' -> 'teensy' -> 'record' -> 'ss' or 'qq'
