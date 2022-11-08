@@ -1,0 +1,3 @@
+# Data trial ignore
+Data/*
+!Data/video
