@@ -66,6 +66,32 @@ ROSIDL_GENERATOR_C_PUBLIC_realsense2_camera_msgs
 void
 realsense2_camera_msgs__msg__Metadata__destroy(realsense2_camera_msgs__msg__Metadata * msg);
 
+/// Check for msg/Metadata message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_realsense2_camera_msgs
+bool
+realsense2_camera_msgs__msg__Metadata__are_equal(const realsense2_camera_msgs__msg__Metadata * lhs, const realsense2_camera_msgs__msg__Metadata * rhs);
+
+/// Copy a msg/Metadata message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_realsense2_camera_msgs
+bool
+realsense2_camera_msgs__msg__Metadata__copy(
+  const realsense2_camera_msgs__msg__Metadata * input,
+  realsense2_camera_msgs__msg__Metadata * output);
 
 /// Initialize array of msg/Metadata messages.
 /**
@@ -116,6 +142,33 @@ realsense2_camera_msgs__msg__Metadata__Sequence__create(size_t size);
 ROSIDL_GENERATOR_C_PUBLIC_realsense2_camera_msgs
 void
 realsense2_camera_msgs__msg__Metadata__Sequence__destroy(realsense2_camera_msgs__msg__Metadata__Sequence * array);
+
+/// Check for msg/Metadata message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_realsense2_camera_msgs
+bool
+realsense2_camera_msgs__msg__Metadata__Sequence__are_equal(const realsense2_camera_msgs__msg__Metadata__Sequence * lhs, const realsense2_camera_msgs__msg__Metadata__Sequence * rhs);
+
+/// Copy an array of msg/Metadata messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_realsense2_camera_msgs
+bool
+realsense2_camera_msgs__msg__Metadata__Sequence__copy(
+  const realsense2_camera_msgs__msg__Metadata__Sequence * input,
+  realsense2_camera_msgs__msg__Metadata__Sequence * output);
 
 #ifdef __cplusplus
 }

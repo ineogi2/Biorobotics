@@ -17,6 +17,8 @@ stdlib.h
 -
 string.h
 -
+rcutils/allocator.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rcutils/allocator.h
 
 /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c
 realsense2_camera_msgs/msg/detail/imu_info__functions.h
@@ -29,6 +31,8 @@ stdlib.h
 -
 string.h
 -
+rcutils/allocator.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rcutils/allocator.h
 std_msgs/msg/detail/header__functions.h
 /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__functions.h
 
@@ -43,6 +47,8 @@ stdlib.h
 -
 string.h
 -
+rcutils/allocator.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rcutils/allocator.h
 std_msgs/msg/detail/header__functions.h
 /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/std_msgs/msg/detail/header__functions.h
 rosidl_runtime_c/string_functions.h
@@ -59,6 +65,8 @@ stdlib.h
 -
 string.h
 -
+rcutils/allocator.h
+/home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/rcutils/allocator.h
 rosidl_runtime_c/string_functions.h
 /home/ineogi2/Biorobotics/ros2_ws/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/rosidl_runtime_c/string_functions.h
 
@@ -69,6 +77,46 @@ stddef.h
 -
 stdint.h
 -
+
+/opt/ros/foxy/include/rcutils/allocator.h
+stdbool.h
+-
+stddef.h
+-
+rcutils/macros.h
+/opt/ros/foxy/include/rcutils/rcutils/macros.h
+rcutils/types/rcutils_ret.h
+/opt/ros/foxy/include/rcutils/rcutils/types/rcutils_ret.h
+rcutils/visibility_control.h
+/opt/ros/foxy/include/rcutils/rcutils/visibility_control.h
+
+/opt/ros/foxy/include/rcutils/macros.h
+TargetConditionals.h
+-
+Availability.h
+-
+rcutils/testing/fault_injection.h
+/opt/ros/foxy/include/rcutils/rcutils/testing/fault_injection.h
+
+/opt/ros/foxy/include/rcutils/testing/fault_injection.h
+stdbool.h
+-
+stdio.h
+-
+stdint.h
+-
+rcutils/macros.h
+/opt/ros/foxy/include/rcutils/testing/rcutils/macros.h
+rcutils/visibility_control.h
+/opt/ros/foxy/include/rcutils/testing/rcutils/visibility_control.h
+
+/opt/ros/foxy/include/rcutils/types/rcutils_ret.h
+
+/opt/ros/foxy/include/rcutils/visibility_control.h
+rcutils/visibility_control_macros.h
+/opt/ros/foxy/include/rcutils/rcutils/visibility_control_macros.h
+
+/opt/ros/foxy/include/rcutils/visibility_control_macros.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 stdbool.h

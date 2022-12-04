@@ -4,7 +4,6 @@
 MEAN OF THE COORDINATE
 """
 
-from platform import node
 import cv2 as cv
 from cv_bridge.core import CvBridgeError
 import rclpy
@@ -18,8 +17,8 @@ import numpy as np
 import os
 
 text_path = '/home/ineogi2/Biorobotics/Data'
-header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
-# header_ = 'Tension'
+# header_ = 'Distal,-,-,Middle,-,-,Proximal,-,-,Tension'
+header_ = 'Distal_x,y,Middle_x,y,Proximal_x,y'
 
 # --------------------------------------------------------------------------------
 # Node
@@ -66,56 +65,51 @@ class Imagenode(Node):
         """Global 변수 설정"""
         self.buffer_length = 500        # buffer size
         self.center = []                # marker center points
-        self.count = 1
-        self.signal = 3
+        self.count = 0
+        self.signal = 0                 # 1 : Depth / 2 : rbg / 3 : Tension
         self.data_save = True
-        self.image_save = False         # don't change
-        self.image_ = np.array([]); self.tension = 0
-        self.image = []; self.depth = []; self.data = []    # data array
-
-
+        self.tension = 0
+        self.data = []    # data array
+        self.data_type = ['_Depth', '_RGB', '_Tension']
+        self.data_mode = 0
+        self.data_name = None
+        self.trial = None
+        self.rgb_data = None
+        
     # --------------------------------------------------------------------------------
     # callback funtion
 
     def subscribe_init(self, init_msg):
-        if init_msg.data == 1:          # start
-            self.signal = 2
-            # self.signal = 0
-            self.get_logger().info('Start.')
+        if init_msg.data == 1:              # start
+            self.signal = self.data_mode    # 1 : Depth / 2 : rbg / 3 : Tension
+            # self.get_logger().info('Start.')
+            self.data_name = self.trial+self.data_type[self.signal-1]
+            if self.signal == 1:
+                self.rgb_data = np.loadtxt(self.trial+self.data_type[1]+'.csv', delimiter=',')
+
+            self.get_logger().info(self.data_name+' start.')
 
         elif init_msg.data == 0:        # end
-            self.signal = -1
+            self.signal *= (-1)
+            raise Exception('All Data received completely. \nEnd')
 
     def subscribe_tension(self, tension):
-        if self.signal == 0:
-            self.center = np.array(self.center).flatten().tolist()
-            self.center.append(round(tension.data, 2))
-            self.data.append(self.center)
-            # self.data.append(round(tension.data, 2))
-            # self.tension = round(tension.data, 2)
+        if self.signal == 3:
+            # self.center = np.array(self.center).flatten().tolist()
+            self.data.append(round(tension.data, 2))
+            # self.data.append(self.center)
             self.count += 1
-            self.signal = 2
+            # self.signal = 2
 
 
     def subscribe_pic(self, img):            
         if self.signal == 2:
-            if self.count%100 == 0:
-                self.get_logger().info(f'working {self.count}')
-
             self.center = []
-
             try:
                 cv_image = self.cv_bridge.imgmsg_to_cv2(img, desired_encoding="bgr8")
-                # cv.imshow("Original", cv_image)
-                # cv.imwrite(f'png/{self.count}.png',cv_image)
 
                 img_ = cv.cvtColor(cv_image, cv.COLOR_BGR2HSV)
-                # self.image_ = np.array(img_)
                 black = np.zeros((720, 1280, 3), np.uint8)
-
-                # if self.image_save:
-                #     cv.imwrite(f'{self.count}.png',cv_image)
-                #     self.count += 1
 
                 for i in range(self.color_num):
                     contour = self.color_mask(img_,i)
@@ -123,42 +117,39 @@ class Imagenode(Node):
                     self.center.append(center)
                     if center != [0,0]:
                         cv.circle(black, tuple(center), 5, self.col[i], -1, cv.LINE_4)
+                self.center = np.array(self.center).flatten().tolist()
+                self.data.append(self.center)
                 cv.imshow("Image", black)
-                cv.waitKey(10)
+                cv.waitKey(5)
 
             except CvBridgeError:
                 self.get_logger().info('No.{0} error'.format(self.count))
 
-            self.signal = 1
+            self.count += 1
+            if self.count % 1000 == 0:
+                self.get_logger().info(f'Working on {self.count}')
+
 
     def subscribe_depth(self, depth_img):
         if self.signal == 1:
             try:
                 cv_image = self.depth_bridge.imgmsg_to_cv2(depth_img, desired_encoding="passthrough")
                 depth_array = np.array(cv_image, dtype=np.float32)
-                # np.savetxt(f'depth/{self.count}.csv', depth_array,fmt='%f', delimiter=',')
-                # self.depth.append(depth_array)
-                # self.image.append(self.image_)
-                # self.data.append(self.tension)
+                now_rgb = self.rgb_data[self.count]
+                now_depth = []
                 for color in range(self.color_num):           #b g r 순서
-                    now = self.center[color]
-                    # self.get_logger().info(f'{now}')
+                    now = now_rgb[color:color+2]
                     x,y = int(now[0]*848/1280), int(now[1]*480/720)
                     depth = self.depth_preprocessing(depth_array, (x,y))
-
-                    now.append(depth)
-                    self.center[color] = now
+                    now_depth.append(depth)
+                self.data.append(now_depth)
 
             except CvBridgeError:
                 self.get_logger().info('Error')
                 rclpy.shutdown()
-                
-                # # when no Tension
-                # if self.data_save:
-                #     self.center = np.array(self.center).flatten().tolist()
-                #     self.data.append(self.center)
-                    
-            self.signal = 0
+
+            self.count += 1
+            if self.count > len(self.rgb_data): raise Exception
 
 
     # --------------------------------------------------------------------------------
@@ -205,7 +196,7 @@ class Imagenode(Node):
 
         contours, _ = cv.findContours(close, cv.RETR_LIST, cv.CHAIN_APPROX_NONE)
         for cnt in contours:
-            if cv.contourArea(cnt) > 200:
+            if cv.contourArea(cnt) > 100:
                 ctr.append(cnt)
 
         return ctr
@@ -230,32 +221,47 @@ class Imagenode(Node):
 # --------------------------------------------------------------------------------
 # main
 
-def main(args=None):
-    rclpy.init(args=args)
+def main():
+    global header_
+    trial = int(input("Trial Number : "))
+    # mode = int(input("Choose type : 1->Depth / 2->RGB / 3->Tension : "))
+    rclpy.init(args=None)
     node = Imagenode()
+    node.trial = 'Trial_'+str(trial)
+    if not os.path.isfile(node.trial+'_RGB.csv'):
+        mode = 2
+    else:
+        if not os.path.isfile(node.trial+'_Depth.csv'):
+            mode = 1
+            header_ = 'Distal_z, Middle_z, Proximal_z'
+        else:
+            mode = 3
+            header_ = 'Tension'
+    node.data_mode = mode
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
         node.get_logger().info('\nEnd.')
+        
         if node.data_save:
             node.get_logger().info(f'{len(node.data)}')
-            # os.chdir(text_path+'/png')
-            # for i in range(len(node.data)):
-            #     cv.imwrite(f'{i}.png',node.image[i])
-            # node.get_logger().info("Picture saved.")
-            # os.chdir(text_path+'/depth')
-            # for i in range(len(node.data)):
-            #     np.savetxt(f'depth {i}.csv', node.depth[i],fmt='%f', delimiter=',')
             data_list = np.reshape(np.array(node.data), (len(node.data),len(node.data[0])))
-            # node.get_logger().info("Depth saved.")
-            data_list = np.array(node.data)
-            # node.get_logger().info('file saved.\n')
-            # os.chdir(text_path)
-            np.savetxt('tension.csv', data_list, header=header_,fmt='%f', delimiter=',')
+            np.savetxt(f'{node.data_name}.csv', data_list, header=header_,fmt='%f', delimiter=',')
             node.get_logger().info("All saved.")
-
         else:
             node.get_logger().info('Keyboard Interrupt (SIGINT)')
+
+    except Exception:
+        node.get_logger().info('/nEnd.')
+        
+        if node.data_save:
+            node.get_logger().info(f'{len(node.data)}')
+            data_list = np.reshape(np.array(node.data), (len(node.data), 1 if node.data_mode == 3 else len(node.data[0])))
+            np.savetxt(f'{node.data_name}.csv', data_list, header=header_,fmt='%f', delimiter=',')
+            node.get_logger().info("All saved.")
+        else:
+            node.get_logger().info('Keyboard Interrupt (SIGINT)')
+        
     finally:
         node.destroy_node()
         rclpy.shutdown()

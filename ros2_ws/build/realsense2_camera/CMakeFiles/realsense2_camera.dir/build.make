@@ -306,6 +306,11 @@ librealsense2_camera.so: /usr/local/lib/libopencv_viz.so.4.4.0
 librealsense2_camera.so: /usr/local/lib/libopencv_xfeatures2d.so.4.4.0
 librealsense2_camera.so: /usr/local/lib/libopencv_xobjdetect.so.4.4.0
 librealsense2_camera.so: /usr/local/lib/libopencv_xphoto.so.4.4.0
+librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libcv_bridge.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libimage_transport.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libmessage_filters.so
@@ -321,11 +326,6 @@ librealsense2_camera.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesuppor
 librealsense2_camera.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libtracetools.so
-librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
-librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-librealsense2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 librealsense2_camera.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so

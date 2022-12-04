@@ -44,15 +44,15 @@ class Imagenode(Node):
 
     def change_hsv(self, image):
         # Create trackbars for color change
-        cv.createTrackbar('HMin', 'image', 0, 179, self.nothing)
+        cv.createTrackbar('HMin', 'image', 0, 255, self.nothing)
         cv.createTrackbar('SMin', 'image', 0, 255, self.nothing)
         cv.createTrackbar('VMin', 'image', 0, 255, self.nothing)
-        cv.createTrackbar('HMax', 'image', 0, 179, self.nothing)
+        cv.createTrackbar('HMax', 'image', 0, 255, self.nothing)
         cv.createTrackbar('SMax', 'image', 0, 255, self.nothing)
         cv.createTrackbar('VMax', 'image', 0, 255, self.nothing)
 
         # Set default value for Max HSV trackbars
-        cv.setTrackbarPos('HMax', 'image', 179)
+        cv.setTrackbarPos('HMax', 'image', 190)
         cv.setTrackbarPos('SMax', 'image', 255)
         cv.setTrackbarPos('VMax', 'image', 255)
 

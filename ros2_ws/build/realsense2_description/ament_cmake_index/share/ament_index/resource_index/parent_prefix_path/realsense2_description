@@ -1,1 +1,1 @@
-/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/opt/ros/foxy
+/home/ineogi2/micro_ws/install/micro_ros_setup:/home/ineogi2/micro_ws/install/micro_ros_agent:/home/ineogi2/micro_ws/install/micro_ros_msgs:/home/ineogi2/Biorobotics/ros2_ws/install/ros_image:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_description:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera:/home/ineogi2/Biorobotics/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy

@@ -689,13 +689,15 @@ opencv2/imgproc/imgproc.hpp
 -
 opencv2/imgproc/types_c.h
 -
-stdexcept
--
-string
+cv_bridge/cv_bridge_export.h
 -
 memory
 -
-cv_bridge/cv_bridge_export.h
+ostream
+-
+stdexcept
+-
+string
 -
 
 /opt/ros/foxy/include/cv_bridge/cv_bridge_export.h

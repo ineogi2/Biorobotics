@@ -8,6 +8,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "rcutils/allocator.h"
+
 
 // Include directives for member types
 // Member `header`
@@ -46,17 +48,62 @@ realsense2_camera_msgs__msg__Metadata__fini(realsense2_camera_msgs__msg__Metadat
   rosidl_runtime_c__String__fini(&msg->json_data);
 }
 
+bool
+realsense2_camera_msgs__msg__Metadata__are_equal(const realsense2_camera_msgs__msg__Metadata * lhs, const realsense2_camera_msgs__msg__Metadata * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__are_equal(
+      &(lhs->header), &(rhs->header)))
+  {
+    return false;
+  }
+  // json_data
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->json_data), &(rhs->json_data)))
+  {
+    return false;
+  }
+  return true;
+}
+
+bool
+realsense2_camera_msgs__msg__Metadata__copy(
+  const realsense2_camera_msgs__msg__Metadata * input,
+  realsense2_camera_msgs__msg__Metadata * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__copy(
+      &(input->header), &(output->header)))
+  {
+    return false;
+  }
+  // json_data
+  if (!rosidl_runtime_c__String__copy(
+      &(input->json_data), &(output->json_data)))
+  {
+    return false;
+  }
+  return true;
+}
+
 realsense2_camera_msgs__msg__Metadata *
 realsense2_camera_msgs__msg__Metadata__create()
 {
-  realsense2_camera_msgs__msg__Metadata * msg = (realsense2_camera_msgs__msg__Metadata *)malloc(sizeof(realsense2_camera_msgs__msg__Metadata));
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  realsense2_camera_msgs__msg__Metadata * msg = (realsense2_camera_msgs__msg__Metadata *)allocator.allocate(sizeof(realsense2_camera_msgs__msg__Metadata), allocator.state);
   if (!msg) {
     return NULL;
   }
   memset(msg, 0, sizeof(realsense2_camera_msgs__msg__Metadata));
   bool success = realsense2_camera_msgs__msg__Metadata__init(msg);
   if (!success) {
-    free(msg);
+    allocator.deallocate(msg, allocator.state);
     return NULL;
   }
   return msg;
@@ -65,10 +112,11 @@ realsense2_camera_msgs__msg__Metadata__create()
 void
 realsense2_camera_msgs__msg__Metadata__destroy(realsense2_camera_msgs__msg__Metadata * msg)
 {
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (msg) {
     realsense2_camera_msgs__msg__Metadata__fini(msg);
   }
-  free(msg);
+  allocator.deallocate(msg, allocator.state);
 }
 
 
@@ -78,9 +126,11 @@ realsense2_camera_msgs__msg__Metadata__Sequence__init(realsense2_camera_msgs__ms
   if (!array) {
     return false;
   }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   realsense2_camera_msgs__msg__Metadata * data = NULL;
+
   if (size) {
-    data = (realsense2_camera_msgs__msg__Metadata *)calloc(size, sizeof(realsense2_camera_msgs__msg__Metadata));
+    data = (realsense2_camera_msgs__msg__Metadata *)allocator.zero_allocate(size, sizeof(realsense2_camera_msgs__msg__Metadata), allocator.state);
     if (!data) {
       return false;
     }
@@ -97,7 +147,7 @@ realsense2_camera_msgs__msg__Metadata__Sequence__init(realsense2_camera_msgs__ms
       for (; i > 0; --i) {
         realsense2_camera_msgs__msg__Metadata__fini(&data[i - 1]);
       }
-      free(data);
+      allocator.deallocate(data, allocator.state);
       return false;
     }
   }
@@ -113,6 +163,8 @@ realsense2_camera_msgs__msg__Metadata__Sequence__fini(realsense2_camera_msgs__ms
   if (!array) {
     return;
   }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
   if (array->data) {
     // ensure that data and capacity values are consistent
     assert(array->capacity > 0);
@@ -120,7 +172,7 @@ realsense2_camera_msgs__msg__Metadata__Sequence__fini(realsense2_camera_msgs__ms
     for (size_t i = 0; i < array->capacity; ++i) {
       realsense2_camera_msgs__msg__Metadata__fini(&array->data[i]);
     }
-    free(array->data);
+    allocator.deallocate(array->data, allocator.state);
     array->data = NULL;
     array->size = 0;
     array->capacity = 0;
@@ -134,13 +186,14 @@ realsense2_camera_msgs__msg__Metadata__Sequence__fini(realsense2_camera_msgs__ms
 realsense2_camera_msgs__msg__Metadata__Sequence *
 realsense2_camera_msgs__msg__Metadata__Sequence__create(size_t size)
 {
-  realsense2_camera_msgs__msg__Metadata__Sequence * array = (realsense2_camera_msgs__msg__Metadata__Sequence *)malloc(sizeof(realsense2_camera_msgs__msg__Metadata__Sequence));
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  realsense2_camera_msgs__msg__Metadata__Sequence * array = (realsense2_camera_msgs__msg__Metadata__Sequence *)allocator.allocate(sizeof(realsense2_camera_msgs__msg__Metadata__Sequence), allocator.state);
   if (!array) {
     return NULL;
   }
   bool success = realsense2_camera_msgs__msg__Metadata__Sequence__init(array, size);
   if (!success) {
-    free(array);
+    allocator.deallocate(array, allocator.state);
     return NULL;
   }
   return array;
@@ -149,8 +202,66 @@ realsense2_camera_msgs__msg__Metadata__Sequence__create(size_t size)
 void
 realsense2_camera_msgs__msg__Metadata__Sequence__destroy(realsense2_camera_msgs__msg__Metadata__Sequence * array)
 {
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (array) {
     realsense2_camera_msgs__msg__Metadata__Sequence__fini(array);
   }
-  free(array);
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+realsense2_camera_msgs__msg__Metadata__Sequence__are_equal(const realsense2_camera_msgs__msg__Metadata__Sequence * lhs, const realsense2_camera_msgs__msg__Metadata__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!realsense2_camera_msgs__msg__Metadata__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+realsense2_camera_msgs__msg__Metadata__Sequence__copy(
+  const realsense2_camera_msgs__msg__Metadata__Sequence * input,
+  realsense2_camera_msgs__msg__Metadata__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(realsense2_camera_msgs__msg__Metadata);
+    realsense2_camera_msgs__msg__Metadata * data =
+      (realsense2_camera_msgs__msg__Metadata *)realloc(output->data, allocation_size);
+    if (!data) {
+      return false;
+    }
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!realsense2_camera_msgs__msg__Metadata__init(&data[i])) {
+        /* free currently allocated and return false */
+        for (; i-- > output->capacity; ) {
+          realsense2_camera_msgs__msg__Metadata__fini(&data[i]);
+        }
+        free(data);
+        return false;
+      }
+    }
+    output->data = data;
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!realsense2_camera_msgs__msg__Metadata__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
 }

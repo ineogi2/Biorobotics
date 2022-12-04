@@ -12,6 +12,7 @@ resource/ros_image
 ros_image/__init__.py
 ros_image/control_node.py
 ros_image/image_node.py
+ros_image/image_node_original.py
 ros_image.egg-info/PKG-INFO
 ros_image.egg-info/SOURCES.txt
 ros_image.egg-info/dependency_links.txt
